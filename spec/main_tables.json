@@ -1,0 +1,2989 @@
+[
+ {
+  "caption": "Table 1. Sample construction, characteristics, and covariate balance",
+  "panel": "Panel A. Sample",
+  "rows": [
+   [
+    {
+     "text": "Private equity investments identified"
+    },
+    {
+     "text": "752",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelA_sample_flow.canonical_treated_file"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "no pension record"
+    },
+    {
+     "text": "168",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C91",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "incomplete pre-deal window"
+    },
+    {
+     "text": "120",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C91a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "fewer than five insured employees"
+    },
+    {
+     "text": "75",
+     "tokens": [
+      {
+       "span": [
+        0,
+        2
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C91b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "no eligible control cell"
+    },
+    {
+     "text": "10",
+     "tokens": [
+      {
+       "span": [
+        0,
+        2
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C91c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Baseline matched design"
+    },
+    {
+     "text": "379",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C97",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "with  6 observed months in each window, target and a control (Table 2)"
+    },
+    {
+     "text": "367",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "memo: conventional heterogeneity design, no state in the cell"
+    },
+    {
+     "text": "301",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelC_exclusions.baseline.n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "with state-balanced controls (primary gradient)"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D01",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "with all deal characteristics observed"
+    },
+    {
+     "text": "180",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "with audited financial statements"
+    },
+    {
+     "text": "147",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "with complete pre-deal covariates (Panel D)"
+    },
+    {
+     "text": "366",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Matched control firms (5 per target, never treated)"
+    },
+    {
+     "text": "1,895",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "const",
+        "value": 1895
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Firm-months in the hazard sample"
+    },
+    {
+     "text": "48,853",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.n_firm_months"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Two-digit industries represented"
+    },
+    {
+     "text": "44",
+     "tokens": [
+      {
+       "span": [
+        0,
+        2
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.n_industries"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 1. Sample construction, characteristics, and covariate balance",
+  "panel": "Panel B. Targets at the deal",
+  "rows": [
+   [
+    {
+     "text": "Median employees"
+    },
+    {
+     "text": "79",
+     "tokens": [
+      {
+       "span": [
+        0,
+        2
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I04",
+        "path": "estimates.panelB_by_inertia.T3 고관성.h2.log_wage.n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Mean employees"
+    },
+    {
+     "text": "218.2",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.0.treated"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Median deal year"
+    },
+    {
+     "text": "2021",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "const",
+        "value": 2021
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Share of firm-months with no hiring, pre-deal"
+    },
+    {
+     "text": "0.269",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.treated_sd"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Mean intensity within active months (hires / employees)"
+    },
+    {
+     "text": "0.055",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C81b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 1. Sample construction, characteristics, and covariate balance",
+  "panel": "Panel C. The pre-deal hiring state",
+  "rows": [
+   [
+    {
+     "text": "Pre-deal hiring state: , months −24 to −13"
+    },
+    {
+     "text": "Pre-deal hiring state: , months −24 to −13"
+    }
+   ],
+   [
+    {
+     "text": "Normalized difference, treated versus controls, previous design"
+    },
+    {
+     "text": "-0.0362",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D06",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Normalized difference, state-balanced design"
+    },
+    {
+     "text": "-0.0078",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D06a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Correlation of treated and control state, previous / balanced"
+    },
+    {
+     "text": "0.3659 / 0.7614",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D05d",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D05e",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Auxiliary: share of no-hire months, tercile cut points"
+    },
+    {
+     "text": "0.083 / 0.333",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I35",
+        "path": "estimates.tercile_cuts.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.tercile_cut_inaction"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 1. Sample construction, characteristics, and covariate balance",
+  "panel": "Panel D. Covariate balance",
+  "rows": [
+   [
+    {
+     "text": ""
+    },
+    {
+     "text": "Treated"
+    },
+    {
+     "text": "Matched controls"
+    },
+    {
+     "text": "ND"
+    },
+    {
+     "text": "Unmatched pool"
+    },
+    {
+     "text": "ND"
+    }
+   ],
+   [
+    {
+     "text": "Employees"
+    },
+    {
+     "text": "218.2",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.0.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "228.1",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.0.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.012",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.0.nd_matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "97.2",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.0.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.175",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.0.nd_pool"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log employees"
+    },
+    {
+     "text": "4.420",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.1.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "4.421",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.1.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.000",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.1.nd_matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.531",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.1.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.753",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.1.nd_pool"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Pre-deal employment growth"
+    },
+    {
+     "text": "0.142",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.2.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.130",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.2.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.032",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.2.nd_matched"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "0.063",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.2.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.116",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.2.nd_pool"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Firm age (years)"
+    },
+    {
+     "text": "15.5",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.3.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "16.4",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.3.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.091",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.3.nd_matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "17.7",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.3.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.229",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.3.nd_pool"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Hiring rate, prior 12 months"
+    },
+    {
+     "text": "0.444",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.4.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.428",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.4.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.051",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.4.nd_matched"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "0.379",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.4.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.184",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.4.nd_pool"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Separation rate, prior 12 months"
+    },
+    {
+     "text": "0.358",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.367",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.037",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.nd_matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.371",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.041",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.nd_pool"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Share of no-hire months, 12 to 1"
+    },
+    {
+     "text": "0.269",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.5.treated_sd"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.288",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.6.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.076",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.6.nd_matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.500",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.6.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.786",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.6.nd_pool"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Share of no-hire months, 24 to 13"
+    },
+    {
+     "text": "0.282",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.7.treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.306",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.7.matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.095",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.7.nd_matched"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.496",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.7.pool"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-0.724",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I37",
+        "path": "estimates.rows.7.nd_pool"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 2. Average post-investment employment and hiring responses",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": ""
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% Interval"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Employment, 12 months after ( log)"
+    },
+    {
+     "text": "0.0878",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C52",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.0462, 0.1300]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C52",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C52",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "367",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "12-month hiring rate"
+    },
+    {
+     "text": "0.0485",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.0163, 0.0814]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "367",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Separation rate"
+    },
+    {
+     "text": "0.0007",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C4",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[-0.0353, 0.0398]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C4",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C4",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "367",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C2",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 3. Hiring responses by pre-deal hiring intensity",
+  "panel": "Panel A. Primary gradient",
+  "rows": [
+   [
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "Value"
+    }
+   ],
+   [
+    {
+     "text": "Gradient in log hiring rate"
+    },
+    {
+     "text": "0.7101 [0.3187, 1.1254]",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        14
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        16,
+        22
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Placebo null, mean (SD)"
+    },
+    {
+     "text": "0.101 (0.1538)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01a",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        13
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Excess over placebo mean"
+    },
+    {
+     "text": "0.6091",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01e",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Upper-tail placebo"
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Effect of an interquartile move"
+    },
+    {
+     "text": "0.2005 [0.0900, 0.3177]",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01k",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        14
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01k",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        16,
+        22
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01k",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 3. Hiring responses by pre-deal hiring intensity",
+  "panel": "Panel B. Effect of matching on the hiring state",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Gradient"
+    }
+   ],
+   [
+    {
+     "text": "Previous matching, common sample"
+    },
+    {
+     "text": "0.4698",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D03",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "State-balanced matching, common sample"
+    },
+    {
+     "text": "0.7101",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Treated-firm gradient, previous / state-balanced"
+    },
+    {
+     "text": "0.8425 / 0.8425",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D04",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D04",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Control-group gradient, previous / state-balanced"
+    },
+    {
+     "text": "0.2950 / 0.0056",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D04b",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D04c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 3. Hiring responses by pre-deal hiring intensity",
+  "panel": "Panel C. Hiring counts and employment",
+  "rows": [
+   [
+    {
+     "text": "Outcome/specification"
+    },
+    {
+     "text": "Gradient"
+    },
+    {
+     "text": "Placebo benchmark"
+    }
+   ],
+   [
+    {
+     "text": "Log count of hires"
+    },
+    {
+     "text": "0.6315",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D07",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.1795",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D07a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log hires, controlling for change in log employment"
+    },
+    {
+     "text": "0.6957",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D08",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0363",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D08a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log employment"
+    },
+    {
+     "text": "−0.0580",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I59",
+        "path": "estimates.lE.observed"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0796",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09e",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 4. Worker-flow responses by pre-deal hiring state",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": ""
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Panel A. State gradient by outcome"
+    },
+    {
+     "text": "Panel A. State gradient by outcome"
+    },
+    {
+     "text": "Panel A. State gradient by outcome"
+    },
+    {
+     "text": "Panel A. State gradient by outcome"
+    }
+   ],
+   [
+    {
+     "text": "Log hiring rate"
+    },
+    {
+     "text": "0.7101",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log churn, (hires + separations) / employment"
+    },
+    {
+     "text": "0.3816",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "z = 3.08",
+     "tokens": [
+      {
+       "span": [
+        4,
+        8
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "288",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09a",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log separation rate"
+    },
+    {
+     "text": "0.1788",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09h",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "z = 1.17, p = 0.2349",
+     "tokens": [
+      {
+       "span": [
+        4,
+        8
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09i",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        14,
+        20
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09j",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "281",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09h",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log employment"
+    },
+    {
+     "text": "-0.0580",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "z = -2.6, p = 0.007",
+     "tokens": [
+      {
+       "span": [
+        4,
+        8
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09f",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        14,
+        19
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09g",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "289",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09d",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Panel B. Within-event contrasts (same events)"
+    },
+    {
+     "text": "Panel B. Within-event contrasts (same events)"
+    },
+    {
+     "text": "Panel B. Within-event contrasts (same events)"
+    },
+    {
+     "text": "Panel B. Within-event contrasts (same events)"
+    }
+   ],
+   [
+    {
+     "text": "Hiring  employment"
+    },
+    {
+     "text": "0.7536",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D10",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "null 0.0232, z = 4.56",
+     "tokens": [
+      {
+       "span": [
+        5,
+        11
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D10a",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        17,
+        21
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "D10b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D09",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Churn  employment"
+    },
+    {
+     "text": "0.4539",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D10c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "z = 4.19",
+     "tokens": [
+      {
+       "span": [
+        4,
+        8
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "D10d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 5. Pre-deal dynamics of the hiring-state gradient",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": ""
+    },
+    {
+     "text": "Value"
+    },
+    {
+     "text": "95% Interval"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Pre-deal excess gradient, non-overlapping state window"
+    },
+    {
+     "text": "−0.0777",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H06",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.4394, 0.0854]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H06b",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H06b",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "250",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "H06",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Pre-deal gradient, usual state window"
+    },
+    {
+     "text": "0.1068",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H01",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.1955, 0.4351]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H01",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H01",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "283",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "H01",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Post-deal gradient, same events"
+    },
+    {
+     "text": "0.7250",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H02",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.3259, 1.1081]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H02",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "H02",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "283",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "H01",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Relative-magnitude breakdown, gradient"
+    },
+    {
+     "text": "3.126",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "H04",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table 6. Monthly hiring patterns relative to a volume benchmark",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": ""
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Share of no-hire months: actual change"
+    },
+    {
+     "text": "-0.0466",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[-0.0675, -0.0270",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "346",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Change implied by the volume increase alone"
+    },
+    {
+     "text": "-0.0518",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[-0.0699, -0.0326]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41a",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41a",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "-"
+    }
+   ],
+   [
+    {
+     "text": "Excess, over and above the benchmark"
+    },
+    {
+     "text": "0.0052",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[-0.0082, 0.0189]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "346",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ }
+]

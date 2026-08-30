@@ -1,0 +1,115 @@
+{
+  "id": "I-05",
+  "title": "exit 가역성 (PE 이탈 후 관성 복귀)",
+  "status": "PARTIAL",
+  "n": 13,
+  "estimates": {
+    "panelA_by_timing": {
+      "stated": {
+        "label": "명시월 우선(주)",
+        "n_events_built": 13,
+        "hire_DiD": 0.0374,
+        "hire_ci": [
+          -0.0944,
+          0.1878
+        ],
+        "hire_n": 13,
+        "zero_DiD": -0.0077,
+        "zero_ci": [
+          -0.1154,
+          0.0897
+        ],
+        "zero_n": 13,
+        "zero_sig": false,
+        "inference_valid": false
+      },
+      "mid": {
+        "label": "연중반 일괄",
+        "n_events_built": 13,
+        "hire_DiD": 0.0409,
+        "hire_ci": [
+          -0.0807,
+          0.182
+        ],
+        "hire_n": 13,
+        "zero_DiD": 0.0311,
+        "zero_ci": [
+          -0.0462,
+          0.1042
+        ],
+        "zero_n": 13,
+        "zero_sig": false,
+        "inference_valid": false
+      },
+      "end": {
+        "label": "연말 일괄",
+        "n_events_built": 13,
+        "hire_DiD": -0.1311,
+        "hire_ci": [
+          -0.3581,
+          0.0762
+        ],
+        "hire_n": 13,
+        "zero_DiD": -0.0205,
+        "zero_ci": [
+          -0.1372,
+          0.0885
+        ],
+        "zero_n": 13,
+        "zero_sig": false,
+        "inference_valid": false
+      }
+    },
+    "panelB_entry_exit_pairs": {
+      "n_pairs": 13,
+      "entry": {
+        "mean": -0.0715,
+        "ci": [
+          -0.1328,
+          -0.0093
+        ],
+        "sig": true
+      },
+      "exit": {
+        "mean": -0.0077,
+        "ci": [
+          -0.1192,
+          0.0859
+        ],
+        "sig": false
+      },
+      "sum": {
+        "mean": -0.0792,
+        "ci": [
+          -0.2122,
+          0.0338
+        ],
+        "sig": false
+      }
+    },
+    "MDE_at_n": 0.194,
+    "discrimination": {
+      "sum_ci": [
+        -0.2122,
+        0.0338
+      ],
+      "entry_mean": -0.0715,
+      "contains_full_reversal_H0": true,
+      "contains_no_reversal_H0": true,
+      "discriminates": false
+    }
+  },
+  "prediction": "PE 스폰서 이탈 후 무채용비중이 다시 올라가면(DiD > 0) 관성 제거가 소유주에 의한 것임을 기업내에서 확인",
+  "verdict": "처치군 13건(수동 EXIT 8 + 자동확정 5) · 설계 진입 13 | 무채용비중 DiD -0.0077[-0.1154, 0.0897] ✗ (반전이면 +) | 채용률 DiD NoneNone | MDE=0.194 vs 진입효과 0.046 | **설계가 완전가역(sum=0)과 비가역(sum=-0.0715)을 구별하지 못한다** — sum CI [-0.2122, 0.0338] 가 두 값을 모두 포함. n=13 의 구조적 한계이며 §34-9에 결과 확인 전 기록된 검정력 계산과 일치한다. 참고: 이 13개 기업의 진입효과는 -0.0715 [-0.1328, -0.0093] 로 유의해 부분표본 자체는 정상이다. 시점 사양별 부호도 불안정(명시월 -0.0077 / 연중반 0.0311 / 연말 -0.0205).",
+  "kill_met": false,
+  "code": "P014_upgrade_package/harness30/i05_exit_reversal.py",
+  "sha256_16": "362c2a095c239941",
+  "seed": 42,
+  "runtime_s": 23.3,
+  "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
+  "date": "2026-08-24",
+  "conclusion": "**설계가 완전가역(sum=0)과 비가역(sum=-0.0715)을 구별하지 못한다** — sum CI [-0.2122, 0.0338] 가 두 값을 모두 포함. n=13 의 구조적 한계이며 §34-9에 결과 확인 전 기록된 검정력 계산과 일치한다. 참고: 이 13개 기업의 진입효과는 -0.0715 [-0.1328, -0.0093] 로 유의해 부분표본 자체는 정상이다. 시점 사양별 부호도 불안정(명시월 -0.0077 / 연중반 0.0311 / 연말 -0.0205).",
+  "power_note": "§34-9에 결과 확인 전 기록된 검정력 한계. 무유의는 '반전 없음'의 증거가 아니다.",
+  "adjudication_source": "work/I05_EXIT_ADJUDICATION complete.csv (사용자 수동판정)",
+  "note": "public copy: firm identifiers removed; aggregate estimates unchanged"
+}

@@ -1,0 +1,6845 @@
+[
+ {
+  "caption": "Table A1. Monthly hiring measures and the volume benchmark",
+  "panel": "Panel A. Twelve-month window",
+  "rows": [
+   [
+    {
+     "text": "Measure"
+    },
+    {
+     "text": "Observed change"
+    },
+    {
+     "text": "Volume-only benchmark"
+    },
+    {
+     "text": "Excess"
+    },
+    {
+     "text": "95% CI for excess"
+    },
+    {
+     "text": "Equivalence range"
+    },
+    {
+     "text": "Equivalent?"
+    }
+   ],
+   [
+    {
+     "text": "Share of no-hire months"
+    },
+    {
+     "text": "−0.0466",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.0518",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0052",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.0082, +0.0189]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.046",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.excess_uniform.equiv.SESOI"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Yes"
+    }
+   ],
+   [
+    {
+     "text": "Share of no-hire months, employment-weighted benchmark"
+    },
+    {
+     "text": "−0.0466",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C41",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.0508",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.expected_wgt.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0042",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.excess_wgt.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.0088, +0.0180]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.excess_wgt.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.excess_wgt.ci.1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.046",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.excess_uniform.equiv.SESOI"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Yes"
+    }
+   ],
+   [
+    {
+     "text": "Number of no-hire months"
+    },
+    {
+     "text": "−0.5594",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.zero.actual.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.6182",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.zero.expected.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0587",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.zero.excess.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.1097, +0.2086]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.zero.excess.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.zero.excess.ci.1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.55",
+     "tokens": [
+      {
+       "span": [
+        1,
+        5
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.zero.excess.equiv.SESOI"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Yes"
+    }
+   ],
+   [
+    {
+     "text": "Longest no-hire spell, months"
+    },
+    {
+     "text": "−0.3566",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelB_spell_concentration.maxspell.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.3688",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.ms.expected.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0122",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C43",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.1330, +0.1608]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C43",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C43",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.36",
+     "tokens": [
+      {
+       "span": [
+        1,
+        5
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.ms.excess.equiv.SESOI"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Yes"
+    }
+   ],
+   [
+    {
+     "text": "Herfindahl index of hires across months"
+    },
+    {
+     "text": "−0.0248",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelB_spell_concentration.hhi.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.0309",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.hhi.expected.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0061",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.0064, +0.0190]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.025",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44a",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Yes"
+    }
+   ],
+   [
+    {
+     "text": "Share of hires in the two busiest months"
+    },
+    {
+     "text": "−0.0249",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelB_spell_concentration.top2.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.0335",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.t2.expected.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0086",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44a",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.0082, +0.0250]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C42",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44a",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.025",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44a",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "No"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table A1. Monthly hiring measures and the volume benchmark",
+  "panel": "Panel B. Thirty-six-month window",
+  "rows": [
+   [
+    {
+     "text": "Measure"
+    },
+    {
+     "text": "Observed change"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Excess"
+    },
+    {
+     "text": "95% CI for excess"
+    },
+    {
+     "text": "Equivalence range"
+    }
+   ],
+   [
+    {
+     "text": "Share of no-hire months"
+    },
+    {
+     "text": "−0.055",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I40",
+        "path": "estimates.panelB_36m_clustering.z.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.086, −0.025]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I40",
+        "path": "estimates.panelB_36m_clustering.z.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelB_spell_concentration.hhi.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.0088",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.0058, +0.0220]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±0.046",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I38",
+        "path": "estimates.panelA_excess.excess_uniform.equiv.SESOI"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Longest no-hire spell, months"
+    },
+    {
+     "text": "−0.756",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I40",
+        "path": "estimates.panelB_36m_clustering.ms.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−1.335, −0.161]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I40",
+        "path": "estimates.panelB_36m_clustering.ms.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I39",
+        "path": "estimates.ms.actual.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.297",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45a",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.117, +0.727]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45a",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C45a",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "±1.0",
+     "tokens": [
+      {
+       "span": [
+        1,
+        4
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I40",
+        "path": "estimates.panelB_36m_clustering.xms.equiv.SESOI"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table A2. Decomposition of the average increase in hiring",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Component"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Change in active-month share,"
+    },
+    {
+     "text": "+0.0443",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I35",
+        "path": "estimates.canonical.B1_dp.est"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[+0.0247, +0.0645]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I35",
+        "path": "estimates.canonical.B1_dp.ci.0"
+       },
+       "plus": true
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I35",
+        "path": "estimates.canonical.B1_dp.ci.1"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Change in active-month hiring intensity,"
+    },
+    {
+     "text": "+0.0048",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5c",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[−0.0001, +0.0102]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5c",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5c",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Change in log active-month share,"
+    },
+    {
+     "text": "+0.1011",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5a",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[+0.0544, +0.1496]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5a",
+        "field": "ci0"
+       },
+       "plus": true
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5a",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Change in log active-month intensity,"
+    },
+    {
+     "text": "+0.0652",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5b",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "[+0.0074, +0.1242]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5b",
+        "field": "ci0"
+       },
+       "plus": true
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C5b",
+        "field": "ci1"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table B1. Alternative measures of pre-deal hiring activity",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "State measure"
+    },
+    {
+     "text": "Unadjusted slope"
+    },
+    {
+     "text": "Adjusted slope, 95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Hiring rate"
+    },
+    {
+     "text": "0.4964",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I47",
+        "path": "estimates.panelA_fwl_adjusted.neg_log_rate.slope_raw.slope"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.5650 [0.210, 0.968]",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C84",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C84",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        15,
+        20
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C84",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Hiring volume"
+    },
+    {
+     "text": "0.1275",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I47",
+        "path": "estimates.panelA_fwl_adjusted.neg_log_volume.slope_raw.slope"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.1578 [0.020, 0.291]",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I47",
+        "path": "estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.slope"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I47",
+        "path": "estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        15,
+        20
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I47",
+        "path": "estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Share of months with no hiring"
+    },
+    {
+     "text": "0.5259",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I47",
+        "path": "estimates.panelA_fwl_adjusted.dormancy.slope_raw.slope"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.3522 [−0.079, 0.829]",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C86",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C86",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        16,
+        21
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C86",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table B2. What component of the pre-deal state carries the gradient?",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Hiring state, controlling for pre-deal employment growth"
+    },
+    {
+     "text": "0.410",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C62",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.078, 0.753]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C62",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C62",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Historical share of no-hire months"
+    },
+    {
+     "text": "0.559",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C35",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.241, 0.885]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C35",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C35",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Length of hiring pause in progress at closing"
+    },
+    {
+     "text": "0.040",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C34",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.016, 0.107]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C34",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C34",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Residualised hiring state"
+    },
+    {
+     "text": "0.243",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C36",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.221, 0.723]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C36",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C36",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Earlier hiring state, months −36 to −25"
+    },
+    {
+     "text": "0.268",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E06",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table B3. Alternative transformations of the hiring outcome",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Gradient"
+    },
+    {
+     "text": "Placebo mean (SD)"
+    },
+    {
+     "text": "Standardized distance"
+    },
+    {
+     "text": "Upper-tail placebo"
+    }
+   ],
+   [
+    {
+     "text": "Winsorised 5/95, primary"
+    },
+    {
+     "text": "0.710",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.101 (0.154)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01a",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        12
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.96",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Unwinsorised"
+    },
+    {
+     "text": "0.837",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E02",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.122 (0.181)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E02a",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        12
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E02b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.96",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Winsorised 1/99"
+    },
+    {
+     "text": "0.816",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E03",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.114 (0.171)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E03a",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        12
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E03b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "4.10",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I60",
+        "path": "estimates.specs.winsor_1_99.z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0010",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E03c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Winsorised 10/90"
+    },
+    {
+     "text": "0.634",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E04",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.096 (0.136)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E04a",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        12
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E04b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.96",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Inverse hyperbolic sine of hiring rate"
+    },
+    {
+     "text": "0.206",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E07",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.026 (0.059)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I66",
+        "path": "estimates.panelC_asinh.null_mean"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        12
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I66",
+        "path": "estimates.panelC_asinh.null_sd"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.08",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "E07b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0010",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E03c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "​"
+    },
+    {
+     "text": "0.162",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E08",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.017 (0.045)",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I66",
+        "path": "estimates.panelD_log1p.null_mean"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        7,
+        12
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I66",
+        "path": "estimates.panelD_log1p.null_sd"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.24",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "E08b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0020",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E07a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table B4. Selected alternatives to the primary matching and estimation design",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Events"
+    },
+    {
+     "text": "Gradient"
+    },
+    {
+     "text": "Standardized distance"
+    },
+    {
+     "text": "Upper-tail placebo"
+    }
+   ],
+   [
+    {
+     "text": "Primary: exact state tercile, 5 controls"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.710",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.96",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Exact state tercile, 20 controls"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.678",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I62",
+        "path": "estimates.bin_k20.observed"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "4.12",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "G04",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "State included in neighbour distance, 5 controls"
+    },
+    {
+     "text": "299",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.C 산업 1자리.n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.640",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I62",
+        "path": "estimates.dist_k5.observed"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.54",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I62",
+        "path": "estimates.dist_k5.z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0010",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E03c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "At least 6 of 12 state months observed"
+    },
+    {
+     "text": "310",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "G02",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.655",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "G02",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "4.57",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "G02a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Two state bins rather than three"
+    },
+    {
+     "text": "292",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.B 상태 2분위.n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.610",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.B 상태 2분위.observed"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.65",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.B 상태 2분위.z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "One-digit rather than two-digit industry cell"
+    },
+    {
+     "text": "299",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.C 산업 1자리.n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.636",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.C 산업 1자리.observed"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.69",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I63",
+        "path": "estimates.C 산업 1자리.z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "State measured over months −36 to −13"
+    },
+    {
+     "text": "244",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "D12",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.388",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D12",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "2.33",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I56",
+        "path": "estimates.panelC_state_window.24개월 [−36,−13].z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0115",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D12a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Inverse-variance weighting"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.346",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D12b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "2.28",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I56",
+        "path": "estimates.panelE_weighting.precision_weighted.z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0155",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D12c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Add deal-year fixed effects"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I56",
+        "path": "estimates.panelF_covariates.plus_year.n_treated"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.678",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I56",
+        "path": "estimates.panelF_covariates.plus_year.observed"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "3.50",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "artifact",
+        "file": "I56",
+        "path": "estimates.panelF_covariates.plus_year.z"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0010",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I56",
+        "path": "estimates.panelF_covariates.plus_year.RI_p"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table C1. Accounting consistency of pension worker flows",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Measure"
+    },
+    {
+     "text": "Value"
+    }
+   ],
+   [
+    {
+     "text": "Firm-month observations"
+    },
+    {
+     "text": "227,339",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C92",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Median absolute discrepancy"
+    },
+    {
+     "text": "1 worker",
+     "tokens": [
+      {
+       "span": [
+        0,
+        1
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C92c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Share reconciling exactly"
+    },
+    {
+     "text": "24.3%",
+     "tokens": [
+      {
+       "span": [
+        0,
+        4
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelB_stock_flow.exact_zero_share"
+       },
+       "plus": false,
+       "pct": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Median discrepancy relative to employment"
+    },
+    {
+     "text": "1.4%",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelB_stock_flow.rel_error_median"
+       },
+       "plus": false,
+       "pct": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "90th percentile, relative discrepancy"
+    },
+    {
+     "text": "7.1%",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelB_stock_flow.rel_error_p90"
+       },
+       "plus": false,
+       "pct": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Treated firms, year before transaction"
+    },
+    {
+     "text": "2.8%",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelB_stock_flow.treated_profile.pre[-12,-1].mean_rel_error"
+       },
+       "plus": false,
+       "pct": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Treated firms, transaction month"
+    },
+    {
+     "text": "3.6%",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelB_stock_flow.treated_profile.deal[0,0].mean_rel_error"
+       },
+       "plus": false,
+       "pct": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Treated firms, post-transaction period"
+    },
+    {
+     "text": "3.1%",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 1,
+       "src": {
+        "kind": "artifact",
+        "file": "I48",
+        "path": "estimates.panelB_stock_flow.treated_profile.post[1,12].mean_rel_error"
+       },
+       "plus": false,
+       "pct": true
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table C2. Hiring-state gradient under worker-flow measurement checks",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Gradient"
+    },
+    {
+     "text": "95% interval / inference"
+    }
+   ],
+   [
+    {
+     "text": "Primary hiring measure"
+    },
+    {
+     "text": "0.7101",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.3187, 1.1254]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Exclude months with relative discrepancy above 10%"
+    },
+    {
+     "text": "0.312",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "not separately detected"
+    }
+   ],
+   [
+    {
+     "text": "Exclude months with relative discrepancy above 5%"
+    },
+    {
+     "text": "0.544",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "not separately detected"
+    }
+   ],
+   [
+    {
+     "text": "Exclude months with total turnover above 50% of employment"
+    },
+    {
+     "text": "0.488",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.102, 0.850]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94b",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94b",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Exclude treated firms that change the number of registered workplaces"
+    },
+    {
+     "text": "0.557",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.160, 0.930]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94c",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C94c",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Hiring reconstructed from employment change and recorded exits"
+    },
+    {
+     "text": "0.365",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "E05",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "upper-tail placebo"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table C3. Flow-rate accounting and employment",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Outcome"
+    },
+    {
+     "text": "State gradient"
+    }
+   ],
+   [
+    {
+     "text": "Level hiring rate"
+    },
+    {
+     "text": "+0.263",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D13a",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Level separation rate"
+    },
+    {
+     "text": "+0.094",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D13b",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Level net inflow rate"
+    },
+    {
+     "text": "+0.172",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D13",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log employment"
+    },
+    {
+     "text": "−0.0580",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I57_levels",
+        "path": "estimates.lnE.observed"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table C4. Additional employment horizons and worker-flow contrasts",
+  "panel": "Panel A. Relative employment at longer horizons",
+  "rows": [
+   [
+    {
+     "text": "Horizon"
+    },
+    {
+     "text": "Gradient"
+    },
+    {
+     "text": "Standardized distance"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "+12 months"
+    },
+    {
+     "text": "−0.0316",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90n",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−1.92",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90nz",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "291",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90n",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "+24 months"
+    },
+    {
+     "text": "−0.1616",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90an",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−1.63",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90anz",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "245",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90an",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "+36 months"
+    },
+    {
+     "text": "−0.2092",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90bn",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−2.29",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 2,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90bnz",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "203",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C90bn",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table C4. Additional employment horizons and worker-flow contrasts",
+  "panel": "Panel B. Additional within-event contrast",
+  "rows": [
+   [
+    {
+     "text": "Contrast"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "Inference"
+    }
+   ],
+   [
+    {
+     "text": "Hiring − separations"
+    },
+    {
+     "text": "0.5746",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "D10e",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "two-sided"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table D1. State gradients at quarterly resolution",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Period"
+    },
+    {
+     "text": "Quarter 1"
+    },
+    {
+     "text": "Quarter 2"
+    },
+    {
+     "text": "Quarter 3"
+    },
+    {
+     "text": "Quarter 4"
+    }
+   ],
+   [
+    {
+     "text": "Treated, pre-deal"
+    },
+    {
+     "text": "+0.087",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "F01a",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "−0.042",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "F02a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.038",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "F02b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.056",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "F02c",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Treated, post-deal"
+    },
+    {
+     "text": "+0.147",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelA_treated_path.q1.grad"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.240",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "F03",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.108",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelA_treated_path.q3.grad"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.010",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelA_treated_path.q4.grad"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Untreated pseudo-events, pre-deal"
+    },
+    {
+     "text": "−0.073",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q-4.grad"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.031",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q-3.grad"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.003",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q-2.grad"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.045",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q-1.grad"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Untreated pseudo-events, post-deal"
+    },
+    {
+     "text": "−0.024",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q1.grad"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.088",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q2.grad"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "−0.040",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q3.grad"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.000",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I61",
+        "path": "estimates.panelC_placebo_path.q4.grad"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table D2. Supplementary validity checks",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Check"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% interval"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Sponsor deployment pressure, hazard ratio"
+    },
+    {
+     "text": "1.2881",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.specs.(4).terms.treated x post x pressure.HR"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[1.0535, 1.5750]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.specs.(4).terms.treated x post x pressure.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.specs.(4).terms.treated x post x pressure.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "379",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Independently date-confirmed subsample, no-hire share"
+    },
+    {
+     "text": "−0.0645",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C21",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.1145, −0.0163]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C21",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        17
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C21",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "62",
+     "tokens": [
+      {
+       "span": [
+        0,
+        2
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C21",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Primary gradient, one event per control firm"
+    },
+    {
+     "text": "0.7036",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C98d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    },
+    {
+     "text": "286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table D3. Sensitivity to shared control firms",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Gradient"
+    },
+    {
+     "text": "95% interval"
+    }
+   ],
+   [
+    {
+     "text": "Bootstrap clustered on treated firms"
+    },
+    {
+     "text": "0.7101",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.3187, 1.1254]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Bootstrap clustered on control firms"
+    },
+    {
+     "text": "0.7101",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "E01h",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.4595, 0.8771]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C98c",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C98c",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Each control assigned to at most one event"
+    },
+    {
+     "text": "0.7036",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C98d",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table D4. Relative-magnitude sensitivity",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Estimand"
+    },
+    {
+     "text": "Breakdown value"
+    }
+   ],
+   [
+    {
+     "text": "State gradient, twelve-month resolution"
+    },
+    {
+     "text": "3.126",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "H04",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Average post-deal effect"
+    },
+    {
+     "text": "0.658",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C19",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table E1. Hiring responses across transaction and sponsor characteristics",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Characteristic"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Control transaction − growth investment, unadjusted"
+    },
+    {
+     "text": "0.1218",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C65",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.0494, 0.2776]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C65",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C65",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "301",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I45",
+        "path": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Control transaction − growth investment, adjusted"
+    },
+    {
+     "text": "0.0475",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C66",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.1062, 0.1958]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C66",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C66",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "301",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I45",
+        "path": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Acquired ownership stake, per percentage point, adjusted"
+    },
+    {
+     "text": "0.0007",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C69",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.0015, 0.0027]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C69",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C69",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "181",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C69",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Majority (≥50%) − minority investment, adjusted"
+    },
+    {
+     "text": "0.0397",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C67",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.1761, 0.2674]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C67",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C67",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "181",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C69",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Sponsor experience, top − bottom tercile, adjusted"
+    },
+    {
+     "text": "0.0692",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C68",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.1278, 0.2609]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C68",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C68",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "301",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I45",
+        "path": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Sponsor identity, leave-one-out prediction"
+    },
+    {
+     "text": "−0.2675",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C76",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    },
+    {
+     "text": "189",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C76",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table E2. In-sample explanatory content on the common sample",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Model or incremental contribution"
+    },
+    {
+     "text": "​"
+    },
+    {
+     "text": "Permutation"
+    }
+   ],
+   [
+    {
+     "text": "Transaction characteristics jointly"
+    },
+    {
+     "text": "0.0092",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C70",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.6425",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C70a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Pre-deal hiring state alone"
+    },
+    {
+     "text": "0.0286",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C71",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "0.0250",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C71a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Transaction characteristics added to the state"
+    },
+    {
+     "text": "0.0068",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C72",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ],
+   [
+    {
+     "text": "State added to transaction characteristics"
+    },
+    {
+     "text": "0.0261",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C72a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table E3. Five-fold out-of-sample comparison",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Model"
+    },
+    {
+     "text": "Out-of-sample"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Transaction characteristics"
+    },
+    {
+     "text": "−0.0269",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C73",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ],
+   [
+    {
+     "text": "Pre-deal hiring state"
+    },
+    {
+     "text": "−0.0168",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C74",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ],
+   [
+    {
+     "text": "Difference: state − transaction characteristics"
+    },
+    {
+     "text": "0.0101",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C75",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.0349, 0.1173]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C75",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C75",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table E4. Sponsor-identity diagnostics",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Leave-one-out coefficient"
+    }
+   ],
+   [
+    {
+     "text": "Baseline sponsor leave-one-out"
+    },
+    {
+     "text": "−0.2675",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C76",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Outcome winsorised at 1/99"
+    },
+    {
+     "text": "−0.2659",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I45",
+        "path": "estimates.panelE_gp_loo_robustness.loo_winsor_1_99"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Outcome winsorised at 5/95"
+    },
+    {
+     "text": "−0.2387",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C76a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Drop five most influential events"
+    },
+    {
+     "text": "−0.1751",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C76b",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Covariate-adjusted response"
+    },
+    {
+     "text": "−0.2261",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "literal",
+        "value": "−0.2261",
+        "note": "UNTRACEABLE — appears only in RESULTS_LEDGER_v4 prose; no artifact JSON. Recompute or drop before submission."
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table F1. Worker earnings and one-year firm outcomes",
+  "panel": "Panel A. Worker earnings",
+  "rows": [
+   [
+    {
+     "text": "Outcome"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Assessed income per worker, log"
+    },
+    {
+     "text": "0.0096",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.0039, 0.0154]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "346",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Implied wage measure for newly added employment"
+    },
+    {
+     "text": "0.0086",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.1383, 0.1585]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17a",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17a",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "182",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C17a",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table F1. Worker earnings and one-year firm outcomes",
+  "panel": "Panel B. Firm outcomes one year after the transaction",
+  "rows": [
+   [
+    {
+     "text": "Outcome"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Events"
+    }
+   ],
+   [
+    {
+     "text": "Value added, log"
+    },
+    {
+     "text": "0.0778",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.0296, 0.1294]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "147",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Value added per worker, log"
+    },
+    {
+     "text": "−0.0052",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.0333, 0.0261]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        8
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18a",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        10,
+        16
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18a",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "147",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Value added per unit of assets, log"
+    },
+    {
+     "text": "−0.099",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.va_pa|h1.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.177, −0.020]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.va_pa|h1.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.va_pa|h1.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[report N]"
+    }
+   ],
+   [
+    {
+     "text": "Return on assets"
+    },
+    {
+     "text": "−0.008",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.roa|h1.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.037, 0.024]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.roa|h1.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.roa|h1.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[report N]"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table F2. Firm outcomes over three post-deal years",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Outcome"
+    },
+    {
+     "text": "+1 year"
+    },
+    {
+     "text": "+2 years"
+    },
+    {
+     "text": "+3 years"
+    }
+   ],
+   [
+    {
+     "text": "Log value added"
+    },
+    {
+     "text": "+0.078",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "value"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.080",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.log_va|h2.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.052",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.log_va|h3.DiD"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log value added per worker"
+    },
+    {
+     "text": "−0.005",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18a",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "−0.003",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.va_pe|h2.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "+0.006",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.va_pe|h3.DiD"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Log assets"
+    },
+    {
+     "text": "+0.227",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.log_asset|h1.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.180",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.log_asset|h2.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.240",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.log_asset|h3.DiD"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Survival"
+    },
+    {
+     "text": "+0.006",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.va_pe|h3.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.009",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.alive|h2.DiD"
+       },
+       "plus": true
+      }
+     ]
+    },
+    {
+     "text": "+0.007",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I04c",
+        "path": "estimates.panelA_value_added.alive|h3.DiD"
+       },
+       "plus": true
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Events"
+    },
+    {
+     "text": "147",
+     "tokens": [
+      {
+       "span": [
+        0,
+        3
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "ledger",
+        "claim": "C18",
+        "field": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[report N]"
+    },
+    {
+     "text": "[report N]"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table G1. Sponsor exits and reversibility",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "Value"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Entry-period effect"
+    },
+    {
+     "text": "−0.0715",
+     "tokens": [
+      {
+       "span": [
+        0,
+        7
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.entry.mean"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.133, −0.009]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.entry.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.entry.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Exit-period effect"
+    },
+    {
+     "text": "−0.008",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelA_by_timing.stated.zero_DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.119, 0.086]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.exit.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.exit.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Entry + exit"
+    },
+    {
+     "text": "−0.079",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.sum.mean"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.212, 0.034]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.sum.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.panelB_entry_exit_pairs.sum.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Minimum detectable effect"
+    },
+    {
+     "text": "0.194",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "estimates.MDE_at_n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ],
+   [
+    {
+     "text": "Usable sponsor exits"
+    },
+    {
+     "text": "13",
+     "tokens": [
+      {
+       "span": [
+        0,
+        2
+       ],
+       "nd": 0,
+       "src": {
+        "kind": "artifact",
+        "file": "I05",
+        "path": "n"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table G2. Not-yet-treated comparison at a 24-month treatment gap",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Original sample"
+    },
+    {
+     "text": "−0.086",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S1 기존처치·기존풀.P1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.165, −0.007]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S1 기존처치·기존풀.P1_ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        15
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S1 기존처치·기존풀.P1_ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Expanded sample"
+    },
+    {
+     "text": "−0.058",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S4 확장처치·확장풀.P1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.126, 0.008]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S4 확장처치·확장풀.P1_ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S4 확장처치·확장풀.P1_ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Difference between samples"
+    },
+    {
+     "text": "−0.029",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelC_collapse_test.G24.P1_diff"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.130, 0.071]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G24|S5 회수전용·확장풀.rel_ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I06",
+        "path": "estimates.panelA_specs.G36|S3 확장처치·기존풀.rel_ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table G3. Labour outcomes around non-private-equity ownership changes",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Outcome"
+    },
+    {
+     "text": "Estimate"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "No-hire outcome"
+    },
+    {
+     "text": "0.0050",
+     "tokens": [
+      {
+       "span": [
+        0,
+        6
+       ],
+       "nd": 4,
+       "src": {
+        "kind": "artifact",
+        "file": "I19",
+        "path": "estimates.panelB_by_type.OWN.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.007, 0.018]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I19",
+        "path": "estimates.panelB_by_type.OWN.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I19",
+        "path": "estimates.panelB_by_type.OWN.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Employment level"
+    },
+    {
+     "text": "0.002",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I19",
+        "path": "estimates.panelC_inertia_moderator.OWN.T1.DiD"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[−0.017, 0.025]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        7
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C74",
+        "field": "value"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        9,
+        14
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C44a",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "text": "Slope with transferred ownership stake"
+    },
+    {
+     "text": "−0.000008 per pp",
+     "tokens": [
+      {
+       "span": [
+        0,
+        9
+       ],
+       "nd": 6,
+       "src": {
+        "kind": "artifact",
+        "file": "I19c",
+        "path": "estimates.panelB_own_dose.slope_per_pct"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "—"
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table H1. Supplementary monthly hiring hazard estimates",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Specification"
+    },
+    {
+     "text": "Hazard ratio"
+    },
+    {
+     "text": "95% CI"
+    }
+   ],
+   [
+    {
+     "text": "Post-deal hiring, treated relative to matched controls"
+    },
+    {
+     "text": "1.159",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.specs.(2).terms.treated x post.HR"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[1.083, 1.241]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.specs.(2).terms.treated x post.ci.0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "artifact",
+        "file": "I36",
+        "path": "estimates.specs.(2).terms.treated x post.ci.1"
+       },
+       "plus": false
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "caption": "Table H2. State interaction in the monthly hazard specification",
+  "panel": "",
+  "rows": [
+   [
+    {
+     "text": "Matching design"
+    },
+    {
+     "text": "State interaction, hazard ratio"
+    },
+    {
+     "text": "95% CI"
+    },
+    {
+     "text": "Interpretation"
+    }
+   ],
+   [
+    {
+     "text": "Previous matching, state not exact-matched"
+    },
+    {
+     "text": "1.204",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C9",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[1.021, 1.421]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C9",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "C9",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Positive interaction"
+    }
+   ],
+   [
+    {
+     "text": "State-balanced matching, continuous state"
+    },
+    {
+     "text": "1.507",
+     "tokens": [
+      {
+       "span": [
+        0,
+        5
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D14",
+        "field": "value"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "[0.871, 2.609]",
+     "tokens": [
+      {
+       "span": [
+        1,
+        6
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D14",
+        "field": "ci0"
+       },
+       "plus": false
+      },
+      {
+       "span": [
+        8,
+        13
+       ],
+       "nd": 3,
+       "src": {
+        "kind": "ledger",
+        "claim": "D14",
+        "field": "ci1"
+       },
+       "plus": false
+      }
+     ]
+    },
+    {
+     "text": "Same direction, imprecise"
+    }
+   ],
+   [
+    {
+     "text": "State-balanced matching, state tercile"
+    },
+    {
+     "text": "—"
+    },
+    {
+     "text": "—"
+    },
+    {
+     "text": "Not separately estimable with event fixed effects"
+    }
+   ]
+  ]
+ }
+]

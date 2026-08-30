@@ -28,7 +28,7 @@ pipeline/          the full analysis pipeline, i01 … i69 + shared loaders (req
 paper_exhibits/    tables and figures extracted from the submitted .docx — the reference the checks compare against
 EXHIBIT_MAP.csv    table · panel · row · token → claim id · artifact path · generating pipeline script
 TEXT_NUMBERS.csv   every number in the prose (References excluded) → source
-PLACEHOLDERS_RESOLVED.md   values and definitions for the manuscript's [report N] / [confirm …] placeholders, and the two items that cannot be traced
+PLACEHOLDERS_RESOLVED.md   values and definitions for the manuscript's [report N] / [confirm …] placeholders, and the one value to correct
 ARTIFACT_MANIFEST.md · DATA_ACCESS.md · LICENSE
 ```
 
@@ -37,7 +37,7 @@ ARTIFACT_MANIFEST.md · DATA_ACCESS.md · LICENSE
 ```bash
 python3 main_paper/build_tables.py && python3 online_appendix/build_tables.py     # exit 1 on any cell mismatch
 python3 main_paper/build_figure1.py && python3 online_appendix/build_figureC1.py
-python3 code/make_notebooks.py                                                    # rebuild notebooks with stored outputs
+python3 code/make_exhibit_map.py && python3 code/make_notebooks.py                 # rebuild exhibit map, manifest, notebooks
 ```
 Python 3.11+, numpy, matplotlib. Set `P014_ARTIFACTS` to point elsewhere if the artifacts are moved.
 

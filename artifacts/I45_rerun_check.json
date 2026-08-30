@@ -1,0 +1,32 @@
+{
+  "id": "I45-rerun-check",
+  "date": "2026-08-31",
+  "purpose": "Confirmatory re-run of i45_power_invariance.py (seed 42) to verify Table E4's covariate-adjusted leave-one-out coefficient; artifacts/I45.json was not overwritten.",
+  "script": "pipeline/i45_power_invariance.py",
+  "script_sha256_16": "c5e11cb7385c698b",
+  "artifact_sha256_16": "ca7e0e559cd38c48",
+  "panelE_rerun": {
+    "loo_raw": -0.2675,
+    "loo_winsor_1_99": -0.2659,
+    "loo_winsor_5_95": -0.2387,
+    "loo_drop_top5": -0.1751,
+    "loo_on_adjusted_residual": -0.2496,
+    "n_loo": 189,
+    "n_gp": 164
+  },
+  "panelE_artifact": {
+    "loo_raw": -0.2675,
+    "loo_winsor_1_99": -0.2659,
+    "loo_winsor_5_95": -0.2387,
+    "loo_drop_top5": -0.1751,
+    "loo_on_adjusted_residual": -0.2496,
+    "n_loo": 189,
+    "n_gp": 164
+  },
+  "all_equal": true,
+  "covariate_r2_rerun": 0.1284,
+  "covariate_r2_artifact": 0.1284,
+  "manuscript_value": -0.2261,
+  "artifact_value": -0.2496,
+  "conclusion": "The manuscript's −0.2261 is a stale value from an earlier covariate set; the reproducible value is loo_on_adjusted_residual below."
+}

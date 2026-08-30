@@ -1,6 +1,6 @@
 # Artifact manifest
 
-Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript tables whose cells read from the file (from `EXHIBIT_MAP.csv`). `I05.json` is a public copy with firm identifiers removed.
+Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript tables whose cells read from the file (from `EXHIBIT_MAP.csv`). `I05.json` is a public copy with firm identifiers removed. `I45_rerun_check.json` records the 2026-08-31 confirmatory re-run behind the Table E4 correction.
 
 | Artifact | sha256₁₆ | Bytes | Pipeline script | Feeds |
 |---|---|---:|---|---|
@@ -40,6 +40,7 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I43.json` | `05e25cfb4ea2f29c` | 4,900 | `i43_invariance_lograte.py` | — |
 | `I44.json` | `7e893dccc627d316` | 5,795 | `i44_state_variable.py` | OA Table B2 |
 | `I45.json` | `ca7e0e559cd38c48` | 6,598 | `i45_power_invariance.py` | OA Table E1, OA Table E2, OA Table E3, OA Table E4, OA Table G3 |
+| `I45_rerun_check.json` | `fe1e0f02a44a4143` | 1,106 | `i45_power_invariance.py` | — |
 | `I46.json` | `0c3065edbfbadd7b` | 9,936 | `i46_state_vs_volume.py` | — |
 | `I47.json` | `f772a3eba5697770` | 10,732 | `i47_state_final.py` | OA Table B1 |
 | `I48.json` | `30cab17b5d6b8f25` | 3,782 | `i48_construct_validity.py` | Main Table 1, OA Table C1, OA Table C2 |

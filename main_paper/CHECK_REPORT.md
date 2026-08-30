@@ -5,3 +5,4 @@
 - mismatches: 0
 - untraceable literals (rendered as-is, flagged): 0
 
+- cells where the submitted .docx must be corrected to the artifact value: 0

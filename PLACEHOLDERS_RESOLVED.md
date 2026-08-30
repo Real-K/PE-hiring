@@ -1,6 +1,6 @@
 # Placeholders in the submitted manuscript — resolved from the analysis artifacts
 
-Every `[report N]`, `[confirm …]`, `[insert …]` in *Main Paper(PE Hiring).docx* / *Online Appendix.docx*, with the value or definition taken from the artifact that generated the surrounding numbers. Paths are `artifact.json:estimates.…`. Two items could **not** be traced and are flagged at the end.
+Every `[report N]`, `[confirm …]`, `[insert …]` in *Main Paper(PE Hiring).docx* / *Online Appendix.docx*, with the value or definition taken from the artifact that generated the surrounding numbers. Paths are `artifact.json:estimates.…`. One value in the manuscript is stale and must be corrected; see the end.
 
 ## Table F1, Panel B — event counts
 
@@ -61,17 +61,17 @@ Source: `I04c.json:estimates.panelA_value_added.<outcome>|h<k>.{DiD,ci,n}`. Reve
 
 ## Table H2 — state interaction under the two designs
 
-- Previous matching (state not in the cell): `I25.json:estimates.panelD_hazard_triple.tp_hi` HR 1.204 [1.0205, 1.4205] — **note: I25 is the pre-expansion (283-event) design artifact**; confirm this is the intended 'previous matching' estimate or re-run on the 379-event conventional design.
+- Previous matching (state not in the exact-matching cell): `I25.json:estimates.panelD_hazard_triple.tp_hi` HR 1.204 [1.0205, 1.4205]. I25 was run on 2026-08-24 on the expanded treated sample (752/379); the hazard panel uses the 308 events with a pre-pre state measurement, 3,919 grouped cells, 41,303 firm-months (`panelD_hazard_triple.{n_ev_fe,n_cells,n_firm_months}`). 'Previous' refers to the matching procedure, not to an earlier sample — the row is correctly traceable and needs no change; consider adding the 308-event count to the table note.
 - State-balanced, continuous state: `I57.json:estimates.panelA_hazard_triple.연속 S` HR 1.5074 [0.871, 2.6087], grouped cells 1199.
 
 ## Table E4 — variance decomposition
 
 - `I17.json:estimates.panelB_variance`: sponsor fixed-effect share 0.2875 (manuscript 28.8%), permutation median 0.2571 (25.7%), permutation p 0.2605 (0.26).
 
-## Items that could not be traced
+## Value that must be corrected in the .docx
 
-1. **Table E4 'Covariate-adjusted response −0.2261'** — this number does not exist in any artifact JSON; it appears only in the internal RESULTS_LEDGER prose from an earlier inline computation. Either recompute it as a proper artifact (leave-one-out sponsor prediction on the covariate-adjusted response) or drop the row. The build renders it as a literal and flags it in `online_appendix/CHECK_REPORT.md`.
-2. **Table H2 'Previous matching' 1.204 [1.021, 1.421]** — traceable only to `I25.json` (pre-expansion design). See above.
+1. **Table E4 'Covariate-adjusted response −0.2261' → −0.2496.** The covariate-adjusted leave-one-out coefficient in the artifact is `I45.json:estimates.panelE_gp_loo_robustness.loo_on_adjusted_residual` = −0.2496 (run 2026-08-25, final covariate set: pre-deal hiring state S, log size, pre-deal growth, age, one-digit industry, deal year — the same set as Table E3's 'adjusted' rows). The −0.2261 in the manuscript is the value from an earlier run with the pre-I47 covariate set, carried over from internal ledger prose; no artifact contains it. The other four E4 rows (−0.2675, −0.2659, −0.2387, −0.1751) match the artifact. The E.4 prose sentence 'computing it on the covariate-adjusted residual gives −0.2261' must change likewise. The confirmatory re-run of `i45_power_invariance.py` is recorded in `artifacts/I45_rerun_check.json`.
+2. **Table H2** — no change (see above; my earlier flag that I25 was a pre-expansion artifact was wrong).
 
 ## Editorial
 

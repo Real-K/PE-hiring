@@ -19,6 +19,9 @@ lit = [(T["caption"], c["text"], tok["src"]["note"]) for T in spec for row in T[
 rep = [f"# Check report — Online Appendix, Tables A1–H2", "", f"- tables: {len(spec)}", f"- numeric cells checked against the submitted manuscript: {n}", f"- mismatches: {len(bad)}", f"- untraceable literals (rendered as-is, flagged): {len(lit)}", ""]
 for cap, pan, want, got in bad: rep.append(f"- MISMATCH {cap} / {pan}: manuscript '{want}' vs rebuilt '{got}'")
 for cap, txt, note in lit: rep.append(f"- LITERAL {cap}: '{txt}' — {note}")
+ed = [(T["caption"], tok["docx_current"], c["text"], tok["src"].get("note", "")) for T in spec for row in T["rows"] for c in row for tok in c.get("tokens", []) if tok.get("docx_current")]
+rep.append(f"- cells where the submitted .docx must be corrected to the artifact value: {len(ed)}")
+for cap, cur, new, note in ed: rep.append(f"- DOCX EDIT REQUIRED {cap}: .docx prints '{cur}' → artifact value '{new}'. {note}")
 open(os.path.join(HERE, "CHECK_REPORT.md"), "w", encoding="utf-8").write("\n".join(rep) + "\n")
-print(f"Online Appendix, Tables A1–H2: {len(spec)} tables · {n} cells checked · {len(bad)} mismatches · {len(lit)} untraceable literal(s)")
+print(f"Online Appendix, Tables A1–H2: {len(spec)} tables · {n} cells checked · {len(bad)} mismatches · {len(lit)} untraceable literal(s) · {len(ed)} docx edit(s) required")
 sys.exit(1 if bad else 0)

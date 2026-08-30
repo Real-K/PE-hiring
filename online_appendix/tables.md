@@ -185,7 +185,7 @@
 | Outcome winsorised at 1/99 | −0.2659 |
 | Outcome winsorised at 5/95 | −0.2387 |
 | Drop five most influential events | −0.1751 |
-| Covariate-adjusted response | −0.2261 |
+| Covariate-adjusted response | −0.2496 |
 
 **Table F1. Worker earnings and one-year firm outcomes** — Panel A. Worker earnings
 

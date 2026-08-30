@@ -5315,7 +5315,7 @@
      "text": "Covariate-adjusted response"
     },
     {
-     "text": "−0.2261",
+     "text": "−0.2496",
      "tokens": [
       {
        "span": [
@@ -5324,11 +5324,13 @@
        ],
        "nd": 4,
        "src": {
-        "kind": "literal",
-        "value": "−0.2261",
-        "note": "UNTRACEABLE — appears only in RESULTS_LEDGER_v4 prose; no artifact JSON. Recompute or drop before submission."
+        "kind": "artifact",
+        "file": "I45",
+        "path": "estimates.panelE_gp_loo_robustness.loo_on_adjusted_residual",
+        "note": "Manuscript prints −0.2261 (stale: pre-I47 covariate set, internal ledger prose). Artifact value from the final covariate set (state S, size, growth, age, industry, year) is −0.2496 — .docx cell must be updated."
        },
-       "plus": false
+       "plus": false,
+       "docx_current": "−0.2261"
       }
      ]
     }

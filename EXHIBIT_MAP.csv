@@ -1,475 +1,475 @@
-document,table,panel,row,col,token,claim_id,source,pipeline_script
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Private equity investments identified,1,752,,I48.json:estimates.panelA_sample_flow.canonical_treated_file,i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,no pension record,1,168,C91,I48.json:estimates.panelA_sample_flow.drop_no_nps_link,i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,incomplete pre-deal window,1,120,C91a,I48.json:estimates.panelA_sample_flow.drop_insufficient_pre_window,i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,fewer than five insured employees,1,75,C91b,I48.json:estimates.panelA_sample_flow.drop_employment_lt5,i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,no eligible control cell,1,10,C91c,I48.json:estimates.panelA_sample_flow.drop_no_control_cell,i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Baseline matched design,1,379,C97,I48.json:estimates.panelE_in_vs_out.included.median_employment (n),i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,"with  6 observed months in each window, target and a control (Table 2)",1,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,"memo: conventional heterogeneity design, no state in the cell",1,301,,I48.json:estimates.panelC_exclusions.baseline.n,i48_construct_validity.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with state-balanced controls (primary gradient),1,286,D01,I58.json:estimates.panelA_common_sample.balanced_full.observed (n),i58_design_audit.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with all deal characteristics observed,1,180,C45,I40.json:estimates.panelB_36m_clustering.x.DiD (n),i40_salvage.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with audited financial statements,1,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with complete pre-deal covariates (Panel D),1,366,,I37.json:n,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,"Matched control firms (5 per target, never treated)",1,"1,895",,constant (sample fact),
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Firm-months in the hazard sample,1,"48,853",,I36.json:estimates.n_firm_months,i36_regression_table.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Two-digit industries represented,1,44,,I37.json:estimates.n_industries,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Median employees,1,79,,I04.json:estimates.panelB_by_inertia.T3 고관성.h2.log_wage.n,i04_performance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Mean employees,1,218.2,,I37.json:estimates.rows.0.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Median deal year,1,2021,,constant (sample fact),
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,"Share of firm-months with no hiring, pre-deal",1,0.269,,I37.json:estimates.rows.5.treated_sd,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Mean intensity within active months (hires / employees),1,0.055,C81b,I53.json:estimates.specs.implied_hires.null_mean,i53_randomization.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Normalized difference, treated versus controls, previous design",1,-0.0362,D06,I58.json:estimates.panelB_state_balance.current.normalized_difference,i58_design_audit.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Normalized difference, state-balanced design",1,-0.0078,D06a,I58.json:estimates.panelB_state_balance.balanced.normalized_difference,i58_design_audit.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Correlation of treated and control state, previous / balanced",1,0.3659,D05d,I58_control_contamination.json:estimates.현행.corr_St_So,
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Correlation of treated and control state, previous / balanced",1,0.7614,D05e,I58_control_contamination.json:estimates.상태균형.corr_St_So,
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Auxiliary: share of no-hire months, tercile cut points",1,0.083,,I35.json:estimates.tercile_cuts.0,i35_canonical.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Auxiliary: share of no-hire months, tercile cut points",1,0.333,,I36.json:estimates.tercile_cut_inaction,i36_regression_table.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,1,218.2,,I37.json:estimates.rows.0.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,2,228.1,,I37.json:estimates.rows.0.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,3,-0.012,,I37.json:estimates.rows.0.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,4,97.2,,I37.json:estimates.rows.0.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,5,+0.175,,I37.json:estimates.rows.0.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,1,4.420,,I37.json:estimates.rows.1.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,2,4.421,,I37.json:estimates.rows.1.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,3,-0.000,,I37.json:estimates.rows.1.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,4,3.531,,I37.json:estimates.rows.1.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,5,+0.753,,I37.json:estimates.rows.1.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,1,0.142,,I37.json:estimates.rows.2.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,2,0.130,,I37.json:estimates.rows.2.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,3,+0.032,,I37.json:estimates.rows.2.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,4,0.063,,I37.json:estimates.rows.2.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,5,+0.116,,I37.json:estimates.rows.2.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),1,15.5,,I37.json:estimates.rows.3.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),2,16.4,,I37.json:estimates.rows.3.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),3,-0.091,,I37.json:estimates.rows.3.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),4,17.7,,I37.json:estimates.rows.3.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),5,-0.229,,I37.json:estimates.rows.3.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",1,0.444,,I37.json:estimates.rows.4.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",2,0.428,,I37.json:estimates.rows.4.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",3,+0.051,,I37.json:estimates.rows.4.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",4,0.379,,I37.json:estimates.rows.4.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",5,+0.184,,I37.json:estimates.rows.4.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",1,0.358,,I37.json:estimates.rows.5.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",2,0.367,,I37.json:estimates.rows.5.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",3,-0.037,,I37.json:estimates.rows.5.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",4,0.371,,I37.json:estimates.rows.5.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",5,-0.041,,I37.json:estimates.rows.5.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",1,0.269,,I37.json:estimates.rows.5.treated_sd,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",2,0.288,,I37.json:estimates.rows.6.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",3,-0.076,,I37.json:estimates.rows.6.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",4,0.500,,I37.json:estimates.rows.6.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",5,-0.786,,I37.json:estimates.rows.6.nd_pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",1,0.282,,I37.json:estimates.rows.7.treated,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",2,0.306,,I37.json:estimates.rows.7.matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",3,-0.095,,I37.json:estimates.rows.7.nd_matched,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",4,0.496,,I37.json:estimates.rows.7.pool,i37_balance.py
-main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",5,-0.724,,I37.json:estimates.rows.7.nd_pool,i37_balance.py
-main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",1,0.0878,C52,I35.json:estimates.canonical.A2_rel12.est,i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",2,0.0462,C52,I35.json:estimates.canonical.A2_rel12.est (ci0),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",2,0.1300,C52,I35.json:estimates.canonical.A2_rel12.est (ci1),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",3,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,1,0.0485,C2,I35.json:estimates.canonical.A1_hire_DiD.est,i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,2,0.0163,C2,I35.json:estimates.canonical.A1_hire_DiD.est (ci0),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,2,0.0814,C2,I35.json:estimates.canonical.A1_hire_DiD.est (ci1),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,3,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,Separation rate,1,0.0007,C4,I35.json:estimates.canonical.A5_separation.est,i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,Separation rate,2,-0.0353,C4,I35.json:estimates.canonical.A5_separation.est (ci0),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,Separation rate,2,0.0398,C4,I35.json:estimates.canonical.A5_separation.est (ci1),i35_canonical.py
-main,Table 2. Average post-investment employment and hiring responses,,Separation rate,3,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Gradient in log hiring rate,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Gradient in log hiring rate,1,0.3187,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci0),i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Gradient in log hiring rate,1,1.1254,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci1),i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,"Placebo null, mean (SD)",1,0.101,E01a,I60.json:estimates.specs.winsor_5_95.null_mean,i60_speccurve.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,"Placebo null, mean (SD)",1,0.1538,E01b,I60.json:estimates.specs.winsor_5_95.null_sd,i60_speccurve.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Excess over placebo mean,1,0.6091,E01e,I60.json:estimates.specs.winsor_5_95.excess,i60_speccurve.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Upper-tail placebo,1,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Effect of an interquartile move,1,0.2005,E01k,I65.json:estimates.panelF_magnitude.effect_iqr,i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Effect of an interquartile move,1,0.0900,E01k,I65.json:estimates.panelF_magnitude.effect_iqr (ci0),i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Effect of an interquartile move,1,0.3177,E01k,I65.json:estimates.panelF_magnitude.effect_iqr (ci1),i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Previous matching, common sample",1,0.4698,D03,I58.json:estimates.panelA_common_sample.current_common.observed,i58_design_audit.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"State-balanced matching, common sample",1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Treated-firm gradient, previous / state-balanced",1,0.8425,D04,I58.json:estimates.panelD_decomposition.current.own,i58_design_audit.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Treated-firm gradient, previous / state-balanced",1,0.8425,D04,I58.json:estimates.panelD_decomposition.current.own,i58_design_audit.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Control-group gradient, previous / state-balanced",1,0.2950,D04b,I58.json:estimates.panelD_decomposition.current.control_mean,i58_design_audit.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Control-group gradient, previous / state-balanced",1,0.0056,D04c,I58.json:estimates.panelD_decomposition.balanced.control_mean,i58_design_audit.py
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log count of hires,1,0.6315,D07,I59.json:estimates.lN.observed,
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log count of hires,2,0.1795,D07a,I59.json:estimates.lN.null_mean,
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,"Log hires, controlling for change in log employment",1,0.6957,D08,I59.json:estimates.lN_ctrlE.observed,
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,"Log hires, controlling for change in log employment",2,0.0363,D08a,I59.json:estimates.lN_ctrlE.null_mean,
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log employment,1,−0.0580,,I59.json:estimates.lE.observed,
-main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log employment,2,0.0796,D09e,I57.json:estimates.panelB_outcomes.emp.null_mean,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log hiring rate,1,0.7101,D09,I57.json:estimates.panelB_outcomes.hire.observed,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log hiring rate,3,286,D09,I57.json:estimates.panelB_outcomes.hire.observed (n),i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,"Log churn, (hires + separations) / employment",1,0.3816,D09a,I57.json:estimates.panelB_outcomes.churn.observed,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,"Log churn, (hires + separations) / employment",2,3.08,D09b,I57.json:estimates.panelB_outcomes.churn.z,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,"Log churn, (hires + separations) / employment",3,288,D09a,I57.json:estimates.panelB_outcomes.churn.observed (n),i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,1,0.1788,D09h,I57.json:estimates.panelB_outcomes.sep.observed,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,2,1.17,D09i,I57.json:estimates.panelB_outcomes.sep.z,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,2,0.2349,D09j,I57.json:estimates.panelB_outcomes.sep.RI_p_two_sided,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,3,281,D09h,I57.json:estimates.panelB_outcomes.sep.observed (n),i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,1,-0.0580,D09d,I57.json:estimates.panelB_outcomes.emp.observed,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,2,-2.6,D09f,I57.json:estimates.panelB_outcomes.emp.z,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,2,0.007,D09g,I57.json:estimates.panelB_outcomes.emp.RI_p_two_sided,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,3,289,D09d,I57.json:estimates.panelB_outcomes.emp.observed (n),i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,1,0.7536,D10,I57.json:estimates.panelC_paired.채용 − 고용.observed,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,2,0.0232,D10a,I57.json:estimates.panelC_paired.채용 − 고용.null_mean,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,2,4.56,D10b,I57.json:estimates.panelC_paired.채용 − 고용.z,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,3,286,D09,I57.json:estimates.panelB_outcomes.hire.observed (n),i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Churn  employment,1,0.4539,D10c,I57.json:estimates.panelC_paired.churn − 고용.observed,i57_reallocation2.py
-main,Table 4. Worker-flow responses by pre-deal hiring state,,Churn  employment,2,4.19,D10d,I57.json:estimates.panelC_paired.churn − 고용.z,i57_reallocation2.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",1,−0.0777,H06,I66.json:estimates.panelA_pretrend_early_state.observed,i66_pretrend_zeros.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",2,−0.4394,H06b,I66.json:estimates.panelA_pretrend_early_state.excess_ci (ci0),i66_pretrend_zeros.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",2,0.0854,H06b,I66.json:estimates.panelA_pretrend_early_state.excess_ci (ci1),i66_pretrend_zeros.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",3,250,H06,I66.json:estimates.panelA_pretrend_early_state.observed (n),i66_pretrend_zeros.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",1,0.1068,H01,I64.json:estimates.pre_12m.observed,i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",2,−0.1955,H01,I64.json:estimates.pre_12m.observed (ci0),i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",2,0.4351,H01,I64.json:estimates.pre_12m.observed (ci1),i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",3,283,H01,I64.json:estimates.pre_12m.observed (n),i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",1,0.7250,H02,I64.json:estimates.post_12m.observed,i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",2,0.3259,H02,I64.json:estimates.post_12m.observed (ci0),i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",2,1.1081,H02,I64.json:estimates.post_12m.observed (ci1),i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",3,283,H01,I64.json:estimates.pre_12m.observed (n),i64_pretrend_honest.py
-main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Relative-magnitude breakdown, gradient",1,3.126,H04,I64.json:estimates.honestdid.resolution_12m.Mbar,i64_pretrend_honest.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,1,-0.0466,C41,I38.json:estimates.panelA_excess.actual.DiD,i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,2,-0.0675,C41,I38.json:estimates.panelA_excess.actual.DiD (ci0),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,2,-0.0270,C41,I38.json:estimates.panelA_excess.actual.DiD (ci1),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,3,346,C41,I38.json:estimates.panelA_excess.actual.DiD (n),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Change implied by the volume increase alone,1,-0.0518,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD,i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Change implied by the volume increase alone,2,-0.0699,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD (ci0),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Change implied by the volume increase alone,2,-0.0326,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD (ci1),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",1,0.0052,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD,i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",2,-0.0082,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci0),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",2,0.0189,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci1),i38_excess_zeros.py
-main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",3,346,C41,I38.json:estimates.panelA_excess.actual.DiD (n),i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,1,−0.0466,C41,I38.json:estimates.panelA_excess.actual.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,2,−0.0518,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,3,+0.0052,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,4,−0.0082,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci0),i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,4,+0.0189,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci1),i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,5,0.046,,I38.json:estimates.panelA_excess.excess_uniform.equiv.SESOI,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",1,−0.0466,C41,I38.json:estimates.panelA_excess.actual.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",2,−0.0508,,I38.json:estimates.panelA_excess.expected_wgt.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",3,+0.0042,,I38.json:estimates.panelA_excess.excess_wgt.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",4,−0.0088,,I38.json:estimates.panelA_excess.excess_wgt.ci.0,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",4,+0.0180,,I38.json:estimates.panelA_excess.excess_wgt.ci.1,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",5,0.046,,I38.json:estimates.panelA_excess.excess_uniform.equiv.SESOI,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,1,−0.5594,,I39.json:estimates.zero.actual.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,2,−0.6182,,I39.json:estimates.zero.expected.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,3,+0.0587,,I39.json:estimates.zero.excess.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,4,−0.1097,,I39.json:estimates.zero.excess.ci.0,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,4,+0.2086,,I39.json:estimates.zero.excess.ci.1,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,5,0.55,,I39.json:estimates.zero.excess.equiv.SESOI,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",1,−0.3566,,I38.json:estimates.panelB_spell_concentration.maxspell.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",2,−0.3688,,I39.json:estimates.ms.expected.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",3,+0.0122,C43,I39.json:estimates.ms.excess.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",4,−0.1330,C43,I39.json:estimates.ms.excess.DiD (ci0),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",4,+0.1608,C43,I39.json:estimates.ms.excess.DiD (ci1),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",5,0.36,,I39.json:estimates.ms.excess.equiv.SESOI,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,1,−0.0248,,I38.json:estimates.panelB_spell_concentration.hhi.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,2,−0.0309,,I39.json:estimates.hhi.expected.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,3,+0.0061,C44,I39.json:estimates.hhi.excess.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,4,−0.0064,C44,I39.json:estimates.hhi.excess.DiD (ci0),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,4,+0.0190,C44,I39.json:estimates.hhi.excess.DiD (ci1),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,5,0.025,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,1,−0.0249,,I38.json:estimates.panelB_spell_concentration.top2.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,2,−0.0335,,I39.json:estimates.t2.expected.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,3,+0.0086,C44a,I39.json:estimates.t2.excess.DiD,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,4,−0.0082,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci0),i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,4,+0.0250,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,5,0.025,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,1,−0.055,,I40.json:estimates.panelB_36m_clustering.z.DiD,i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,2,−0.086,,I40.json:estimates.panelB_36m_clustering.z.ci.0,i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,2,−0.025,,I38.json:estimates.panelB_spell_concentration.hhi.DiD,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,3,+0.0088,C45,I40.json:estimates.panelB_36m_clustering.x.DiD,i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,4,−0.0058,C45,I40.json:estimates.panelB_36m_clustering.x.DiD (ci0),i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,4,+0.0220,C45,I40.json:estimates.panelB_36m_clustering.x.DiD (ci1),i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,5,0.046,,I38.json:estimates.panelA_excess.excess_uniform.equiv.SESOI,i38_excess_zeros.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",1,−0.756,,I40.json:estimates.panelB_36m_clustering.ms.DiD,i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",2,−1.335,,I40.json:estimates.panelB_36m_clustering.ms.ci.0,i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",2,−0.161,,I39.json:estimates.ms.actual.ci.1,i39_spell_benchmark.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",3,+0.297,C45a,I40.json:estimates.panelB_36m_clustering.xms.DiD,i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",4,−0.117,C45a,I40.json:estimates.panelB_36m_clustering.xms.DiD (ci0),i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",4,+0.727,C45a,I40.json:estimates.panelB_36m_clustering.xms.DiD (ci1),i40_salvage.py
-appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",5,1.0,,I40.json:estimates.panelB_36m_clustering.xms.equiv.SESOI,i40_salvage.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month share,",1,+0.0443,,I35.json:estimates.canonical.B1_dp.est,i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month share,",2,+0.0247,,I35.json:estimates.canonical.B1_dp.ci.0,i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month share,",2,+0.0645,,I35.json:estimates.canonical.B1_dp.ci.1,i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month hiring intensity,",1,+0.0048,C5c,I35.json:estimates.canonical.B2_di.est,i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month hiring intensity,",2,−0.0001,C5c,I35.json:estimates.canonical.B2_di.est (ci0),i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month hiring intensity,",2,+0.0102,C5c,I35.json:estimates.canonical.B2_di.est (ci1),i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month share,",1,+0.1011,C5a,I35.json:estimates.canonical.B3_dlogp.est,i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month share,",2,+0.0544,C5a,I35.json:estimates.canonical.B3_dlogp.est (ci0),i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month share,",2,+0.1496,C5a,I35.json:estimates.canonical.B3_dlogp.est (ci1),i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month intensity,",1,+0.0652,C5b,I35.json:estimates.canonical.B4_dlogi.est,i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month intensity,",2,+0.0074,C5b,I35.json:estimates.canonical.B4_dlogi.est (ci0),i35_canonical.py
-appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month intensity,",2,+0.1242,C5b,I35.json:estimates.canonical.B4_dlogi.est (ci1),i35_canonical.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,1,0.4964,,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_raw.slope,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,2,0.5650,C84,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl.slope,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,2,0.210,C84,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl.slope (ci0),i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,2,0.968,C84,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl.slope (ci1),i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,1,0.1275,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_raw.slope,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,2,0.1578,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.slope,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,2,0.020,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.ci.0,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,2,0.291,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.ci.1,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,1,0.5259,,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_raw.slope,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,2,0.3522,C86,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_adj_fwl.slope,i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,2,−0.079,C86,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_adj_fwl.slope (ci0),i47_state_final.py
-appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,2,0.829,C86,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_adj_fwl.slope (ci1),i47_state_final.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Hiring state, controlling for pre-deal employment growth",1,0.410,C62,I44.json:estimates.panelD_scale_vs_release.dorm.coef,i44_state_variable.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Hiring state, controlling for pre-deal employment growth",2,0.078,C62,I44.json:estimates.panelD_scale_vs_release.dorm.coef (ci0),i44_state_variable.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Hiring state, controlling for pre-deal employment growth",2,0.753,C62,I44.json:estimates.panelD_scale_vs_release.dorm.coef (ci1),i44_state_variable.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Historical share of no-hire months,1,0.559,C35,I41.json:estimates.panelD_transitory_vs_structural.historical.slope,i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Historical share of no-hire months,2,0.241,C35,I41.json:estimates.panelD_transitory_vs_structural.historical.slope (ci0),i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Historical share of no-hire months,2,0.885,C35,I41.json:estimates.panelD_transitory_vs_structural.historical.slope (ci1),i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Length of hiring pause in progress at closing,1,0.040,C34,I41.json:estimates.panelD_transitory_vs_structural.current_spell.slope,i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Length of hiring pause in progress at closing,2,−0.016,C34,I41.json:estimates.panelD_transitory_vs_structural.current_spell.slope (ci0),i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Length of hiring pause in progress at closing,2,0.107,C34,I41.json:estimates.panelD_transitory_vs_structural.current_spell.slope (ci1),i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Residualised hiring state,1,0.243,C36,I41.json:estimates.panelB_residualized.resid_slope.slope,i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Residualised hiring state,2,−0.221,C36,I41.json:estimates.panelB_residualized.resid_slope.slope (ci0),i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,Residualised hiring state,2,0.723,C36,I41.json:estimates.panelB_residualized.resid_slope.slope (ci1),i41_moderator_defense.py
-appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Earlier hiring state, months −36 to −25",1,0.268,E06,I66.json:estimates.panelB_post_early_state.observed,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",1,0.710,E01,I60.json:estimates.specs.winsor_5_95.observed,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",2,0.101,E01a,I60.json:estimates.specs.winsor_5_95.null_mean,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",2,0.154,E01b,I60.json:estimates.specs.winsor_5_95.null_sd,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,1,0.837,E02,I60.json:estimates.specs.raw.observed,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,2,0.122,E02a,I60.json:estimates.specs.raw.null_mean,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,2,0.181,E02b,I60.json:estimates.specs.raw.null_sd,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,1,0.816,E03,I60.json:estimates.specs.winsor_1_99.observed,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,2,0.114,E03a,I60.json:estimates.specs.winsor_1_99.null_mean,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,2,0.171,E03b,I60.json:estimates.specs.winsor_1_99.null_sd,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,3,4.10,,I60.json:estimates.specs.winsor_1_99.z,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,4,0.0010,E03c,I60.json:estimates.specs.winsor_1_99.RI_p,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,1,0.634,E04,I60.json:estimates.specs.winsor_10_90.observed,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,2,0.096,E04a,I60.json:estimates.specs.winsor_10_90.null_mean,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,2,0.136,E04b,I60.json:estimates.specs.winsor_10_90.null_sd,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,1,0.206,E07,I66.json:estimates.panelC_asinh.observed,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,2,0.026,,I66.json:estimates.panelC_asinh.null_mean,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,2,0.059,,I66.json:estimates.panelC_asinh.null_sd,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,3,3.08,E07b,I66.json:estimates.panelC_asinh.z,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,4,0.0010,E03c,I60.json:estimates.specs.winsor_1_99.RI_p,i60_speccurve.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,​,1,0.162,E08,I66.json:estimates.panelD_log1p.observed,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,​,2,0.017,,I66.json:estimates.panelD_log1p.null_mean,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,​,2,0.045,,I66.json:estimates.panelD_log1p.null_sd,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,​,3,3.24,E08b,I66.json:estimates.panelD_log1p.z,i66_pretrend_zeros.py
-appendix,Table B3. Alternative transformations of the hiring outcome,,​,4,0.0020,E07a,I66.json:estimates.panelC_asinh.p_two_sided,i66_pretrend_zeros.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",1,286,E01,I60.json:estimates.specs.winsor_5_95.observed (n),i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",2,0.710,E01,I60.json:estimates.specs.winsor_5_95.observed,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",1,286,E01,I60.json:estimates.specs.winsor_5_95.observed (n),i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",2,0.678,,I62.json:estimates.bin_k20.observed,i62_power3.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",3,4.12,G04,I62.json:estimates.bin_k20.z,i62_power3.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",1,299,,I63.json:estimates.C 산업 1자리.n,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",2,0.640,,I62.json:estimates.dist_k5.observed,i62_power3.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",3,3.54,,I62.json:estimates.dist_k5.z,i62_power3.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",4,0.0010,E03c,I60.json:estimates.specs.winsor_1_99.RI_p,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,1,310,G02,I63.json:estimates.A' 상태창 ≥6개월.observed (n),i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,2,0.655,G02,I63.json:estimates.A' 상태창 ≥6개월.observed,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,3,4.57,G02a,I63.json:estimates.A' 상태창 ≥6개월.z,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,1,292,,I63.json:estimates.B 상태 2분위.n,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,2,0.610,,I63.json:estimates.B 상태 2분위.observed,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,3,3.65,,I63.json:estimates.B 상태 2분위.z,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,1,299,,I63.json:estimates.C 산업 1자리.n,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,2,0.636,,I63.json:estimates.C 산업 1자리.observed,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,3,3.69,,I63.json:estimates.C 산업 1자리.z,i63_sample_expansion.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,1,244,D12,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].observed (n)",i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,2,0.388,D12,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].observed",i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,3,2.33,,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].z",i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,4,0.0115,D12a,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].RI_p",i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,1,286,E01,I60.json:estimates.specs.winsor_5_95.observed (n),i60_speccurve.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,2,0.346,D12b,I56.json:estimates.panelE_weighting.precision_weighted.observed,i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,3,2.28,,I56.json:estimates.panelE_weighting.precision_weighted.z,i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,4,0.0155,D12c,I56.json:estimates.panelE_weighting.precision_weighted.RI_p,i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,1,286,,I56.json:estimates.panelF_covariates.plus_year.n_treated,i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,2,0.678,,I56.json:estimates.panelF_covariates.plus_year.observed,i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,3,3.50,,I56.json:estimates.panelF_covariates.plus_year.z,i56_efficiency.py
-appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,4,0.0010,,I56.json:estimates.panelF_covariates.plus_year.RI_p,i56_efficiency.py
-appendix,Table C1. Accounting consistency of pension worker flows,,Firm-month observations,1,"227,339",C92,I48.json:estimates.panelB_stock_flow.rel_error_median (n),i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,Median absolute discrepancy,1,1,C92c,I48.json:estimates.panelB_stock_flow.median_abs_error,i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,Share reconciling exactly,1,24.3,,I48.json:estimates.panelB_stock_flow.exact_zero_share,i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,Median discrepancy relative to employment,1,1.4,,I48.json:estimates.panelB_stock_flow.rel_error_median,i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,"90th percentile, relative discrepancy",1,7.1,,I48.json:estimates.panelB_stock_flow.rel_error_p90,i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,"Treated firms, year before transaction",1,2.8,,"I48.json:estimates.panelB_stock_flow.treated_profile.pre[-12,-1].mean_rel_error",i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,"Treated firms, transaction month",1,3.6,,"I48.json:estimates.panelB_stock_flow.treated_profile.deal[0,0].mean_rel_error",i48_construct_validity.py
-appendix,Table C1. Accounting consistency of pension worker flows,,"Treated firms, post-transaction period",1,3.1,,"I48.json:estimates.panelB_stock_flow.treated_profile.post[1,12].mean_rel_error",i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Primary hiring measure,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Primary hiring measure,2,0.3187,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci0),i65_bootci_reuse.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Primary hiring measure,2,1.1254,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci1),i65_bootci_reuse.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with relative discrepancy above 10%,1,0.312,C94,I48.json:estimates.panelC_exclusions.exclude_rel_gt_10pct.slope_adj,i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with relative discrepancy above 5%,1,0.544,C94a,I48.json:estimates.panelC_exclusions.exclude_rel_gt_5pct.slope_adj,i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with total turnover above 50% of employment,1,0.488,C94b,I48.json:estimates.panelC_exclusions.exclude_churn_gt_50pct.slope_adj,i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with total turnover above 50% of employment,2,0.102,C94b,I48.json:estimates.panelC_exclusions.exclude_churn_gt_50pct.slope_adj (ci0),i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with total turnover above 50% of employment,2,0.850,C94b,I48.json:estimates.panelC_exclusions.exclude_churn_gt_50pct.slope_adj (ci1),i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude treated firms that change the number of registered workplaces,1,0.557,C94c,I48.json:estimates.panelD_site_change.excluded.slope_adj,i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude treated firms that change the number of registered workplaces,2,0.160,C94c,I48.json:estimates.panelD_site_change.excluded.slope_adj (ci0),i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude treated firms that change the number of registered workplaces,2,0.930,C94c,I48.json:estimates.panelD_site_change.excluded.slope_adj (ci1),i48_construct_validity.py
-appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Hiring reconstructed from employment change and recorded exits,1,0.365,E05,I60.json:estimates.specs.implied_hires.observed,i60_speccurve.py
-appendix,Table C3. Flow-rate accounting and employment,,Level hiring rate,1,+0.263,D13a,I57_levels.json:estimates.h_rate.observed,
-appendix,Table C3. Flow-rate accounting and employment,,Level separation rate,1,+0.094,D13b,I57_levels.json:estimates.s_rate.observed,
-appendix,Table C3. Flow-rate accounting and employment,,Level net inflow rate,1,+0.172,D13,I57_levels.json:estimates.net.observed,
-appendix,Table C3. Flow-rate accounting and employment,,Log employment,1,−0.0580,,I57_levels.json:estimates.lnE.observed,
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+12 months,1,−0.0316,C90n,I67.json:estimates.horizons.h12.observed,i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+12 months,2,−1.92,C90nz,I67.json:estimates.horizons.h12.z,i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+12 months,3,291,C90n,I67.json:estimates.horizons.h12.observed (n),i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+24 months,1,−0.1616,C90an,I67.json:estimates.horizons.h24.observed,i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+24 months,2,−1.63,C90anz,I67.json:estimates.horizons.h24.z,i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+24 months,3,245,C90an,I67.json:estimates.horizons.h24.observed (n),i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+36 months,1,−0.2092,C90bn,I67.json:estimates.horizons.h36.observed,i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+36 months,2,−2.29,C90bnz,I67.json:estimates.horizons.h36.z,i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+36 months,3,203,C90bn,I67.json:estimates.horizons.h36.observed (n),i67_emp_horizons.py
-appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel B. Additional within-event contrast,Hiring − separations,1,0.5746,D10e,I57.json:estimates.panelC_paired.채용 − 이직.observed,i57_reallocation2.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",1,+0.087,F01a,I61.json:estimates.panelB_pre_joint.max_abs_pre,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",2,−0.042,F02a,I61.json:estimates.panelA_treated_path.q-3.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",3,−0.038,F02b,I61.json:estimates.panelA_treated_path.q-2.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",4,−0.056,F02c,I61.json:estimates.panelA_treated_path.q-1.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",1,+0.147,,I61.json:estimates.panelA_treated_path.q1.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",2,+0.240,F03,I61.json:estimates.panelA_treated_path.q2.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",3,+0.108,,I61.json:estimates.panelA_treated_path.q3.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",4,+0.010,,I61.json:estimates.panelA_treated_path.q4.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",1,−0.073,,I61.json:estimates.panelC_placebo_path.q-4.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",2,−0.031,,I61.json:estimates.panelC_placebo_path.q-3.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",3,−0.003,,I61.json:estimates.panelC_placebo_path.q-2.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",4,+0.045,,I61.json:estimates.panelC_placebo_path.q-1.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",1,−0.024,,I61.json:estimates.panelC_placebo_path.q1.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",2,+0.088,,I61.json:estimates.panelC_placebo_path.q2.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",3,−0.040,,I61.json:estimates.panelC_placebo_path.q3.grad,i61_gradient_pretrend.py
-appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",4,−0.000,,I61.json:estimates.panelC_placebo_path.q4.grad,i61_gradient_pretrend.py
-appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",1,1.2881,,I36.json:estimates.specs.(4).terms.treated x post x pressure.HR,i36_regression_table.py
-appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",2,1.0535,,I36.json:estimates.specs.(4).terms.treated x post x pressure.ci.0,i36_regression_table.py
-appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",2,1.5750,,I36.json:estimates.specs.(4).terms.treated x post x pressure.ci.1,i36_regression_table.py
-appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",3,379,,I36.json:n,i36_regression_table.py
-appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",1,−0.0645,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD,i14_shareholder_dose.py
-appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",2,−0.1145,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD (ci0),i14_shareholder_dose.py
-appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",2,−0.0163,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD (ci1),i14_shareholder_dose.py
-appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",3,62,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD (n),i14_shareholder_dose.py
-appendix,Table D2. Supplementary validity checks,,"Primary gradient, one event per control firm",1,0.7036,C98d,I65.json:estimates.panelE_one_to_one.observed,i65_bootci_reuse.py
-appendix,Table D2. Supplementary validity checks,,"Primary gradient, one event per control firm",3,286,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (n),i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on treated firms,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on treated firms,2,0.3187,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci0),i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on treated firms,2,1.1254,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci1),i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on control firms,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on control firms,2,0.4595,C98c,I65.json:estimates.panelD_control_cluster.ci95 (ci0),i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on control firms,2,0.8771,C98c,I65.json:estimates.panelD_control_cluster.ci95 (ci1),i65_bootci_reuse.py
-appendix,Table D3. Sensitivity to shared control firms,,Each control assigned to at most one event,1,0.7036,C98d,I65.json:estimates.panelE_one_to_one.observed,i65_bootci_reuse.py
-appendix,Table D4. Relative-magnitude sensitivity,,"State gradient, twelve-month resolution",1,3.126,H04,I64.json:estimates.honestdid.resolution_12m.Mbar,i64_pretrend_honest.py
-appendix,Table D4. Relative-magnitude sensitivity,,Average post-deal effect,1,0.658,C19,I11.json:estimates.S4_quarterly_premean.Mbar,i11_honestdid.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",1,0.1218,C65,I45.json:estimates.panelB_covariate_adjusted.deal_type.raw.diff,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",2,−0.0494,C65,I45.json:estimates.panelB_covariate_adjusted.deal_type.raw.diff (ci0),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",2,0.2776,C65,I45.json:estimates.panelB_covariate_adjusted.deal_type.raw.diff (ci1),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",3,301,,I45.json:n,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",1,0.0475,C66,I45.json:estimates.panelB_covariate_adjusted.deal_type.adjusted.diff,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",2,−0.1062,C66,I45.json:estimates.panelB_covariate_adjusted.deal_type.adjusted.diff (ci0),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",2,0.1958,C66,I45.json:estimates.panelB_covariate_adjusted.deal_type.adjusted.diff (ci1),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",3,301,,I45.json:n,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",1,0.0007,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",2,−0.0015,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (ci0),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",2,0.0027,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (ci1),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",3,181,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (n),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",1,0.0397,C67,I45.json:estimates.panelB_covariate_adjusted.stake_maj_min.adjusted.diff,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",2,−0.1761,C67,I45.json:estimates.panelB_covariate_adjusted.stake_maj_min.adjusted.diff (ci0),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",2,0.2674,C67,I45.json:estimates.panelB_covariate_adjusted.stake_maj_min.adjusted.diff (ci1),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",3,181,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (n),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",1,0.0692,C68,I45.json:estimates.panelB_covariate_adjusted.gp_experience.adjusted.diff,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",2,−0.1278,C68,I45.json:estimates.panelB_covariate_adjusted.gp_experience.adjusted.diff (ci0),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",2,0.2609,C68,I45.json:estimates.panelB_covariate_adjusted.gp_experience.adjusted.diff (ci1),i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",3,301,,I45.json:n,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor identity, leave-one-out prediction",1,−0.2675,C76,I45.json:estimates.panelE_gp_loo_robustness.loo_raw,i45_power_invariance.py
-appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor identity, leave-one-out prediction",3,189,C76,I45.json:estimates.panelE_gp_loo_robustness.loo_raw (n),i45_power_invariance.py
-appendix,Table E2. In-sample explanatory content on the common sample,,Transaction characteristics jointly,1,0.0092,C70,I45.json:estimates.panelC_joint_test.r2_deal,i45_power_invariance.py
-appendix,Table E2. In-sample explanatory content on the common sample,,Transaction characteristics jointly,2,0.6425,C70a,I45.json:estimates.panelC_joint_test.perm_p_deal,i45_power_invariance.py
-appendix,Table E2. In-sample explanatory content on the common sample,,Pre-deal hiring state alone,1,0.0286,C71,I45.json:estimates.panelC_joint_test.r2_state,i45_power_invariance.py
-appendix,Table E2. In-sample explanatory content on the common sample,,Pre-deal hiring state alone,2,0.0250,C71a,I45.json:estimates.panelC_joint_test.perm_p_state,i45_power_invariance.py
-appendix,Table E2. In-sample explanatory content on the common sample,,Transaction characteristics added to the state,1,0.0068,C72,I45.json:estimates.panelC_joint_test.incremental_deal_over_state,i45_power_invariance.py
-appendix,Table E2. In-sample explanatory content on the common sample,,State added to transaction characteristics,1,0.0261,C72a,I45.json:estimates.panelC_joint_test.incremental_state_over_deal,i45_power_invariance.py
-appendix,Table E3. Five-fold out-of-sample comparison,,Transaction characteristics,1,−0.0269,C73,I45.json:estimates.panelD_oos_prediction.oos_r2_deal,i45_power_invariance.py
-appendix,Table E3. Five-fold out-of-sample comparison,,Pre-deal hiring state,1,−0.0168,C74,I45.json:estimates.panelD_oos_prediction.oos_r2_state,i45_power_invariance.py
-appendix,Table E3. Five-fold out-of-sample comparison,,Difference: state − transaction characteristics,1,0.0101,C75,I45.json:estimates.panelD_oos_prediction.state_minus_deal,i45_power_invariance.py
-appendix,Table E3. Five-fold out-of-sample comparison,,Difference: state − transaction characteristics,2,−0.0349,C75,I45.json:estimates.panelD_oos_prediction.state_minus_deal (ci0),i45_power_invariance.py
-appendix,Table E3. Five-fold out-of-sample comparison,,Difference: state − transaction characteristics,2,0.1173,C75,I45.json:estimates.panelD_oos_prediction.state_minus_deal (ci1),i45_power_invariance.py
-appendix,Table E4. Sponsor-identity diagnostics,,Baseline sponsor leave-one-out,1,−0.2675,C76,I45.json:estimates.panelE_gp_loo_robustness.loo_raw,i45_power_invariance.py
-appendix,Table E4. Sponsor-identity diagnostics,,Outcome winsorised at 1/99,1,−0.2659,,I45.json:estimates.panelE_gp_loo_robustness.loo_winsor_1_99,i45_power_invariance.py
-appendix,Table E4. Sponsor-identity diagnostics,,Outcome winsorised at 5/95,1,−0.2387,C76a,I45.json:estimates.panelE_gp_loo_robustness.loo_winsor_5_95,i45_power_invariance.py
-appendix,Table E4. Sponsor-identity diagnostics,,Drop five most influential events,1,−0.1751,C76b,I45.json:estimates.panelE_gp_loo_robustness.loo_drop_top5,i45_power_invariance.py
-appendix,Table E4. Sponsor-identity diagnostics,,Covariate-adjusted response,1,−0.2261,,UNTRACEABLE,
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",1,0.0096,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD,i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",2,0.0039,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD (ci0),i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",2,0.0154,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD (ci1),i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",3,346,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD (n),i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,1,0.0086,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD,i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,2,−0.1383,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD (ci0),i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,2,0.1585,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD (ci1),i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,3,182,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD (n),i22_wage_structure.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",1,0.0778,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",2,0.0296,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (ci0),i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",2,0.1294,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (ci1),i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",3,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",1,−0.0052,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",2,−0.0333,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD (ci0),i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",2,0.0261,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD (ci1),i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",3,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per unit of assets, log",1,−0.099,,I04c.json:estimates.panelA_value_added.va_pa|h1.DiD,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per unit of assets, log",2,−0.177,,I04c.json:estimates.panelA_value_added.va_pa|h1.ci.0,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per unit of assets, log",2,−0.020,,I04c.json:estimates.panelA_value_added.va_pa|h1.ci.1,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,Return on assets,1,−0.008,,I04c.json:estimates.panelA_value_added.roa|h1.DiD,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,Return on assets,2,−0.037,,I04c.json:estimates.panelA_value_added.roa|h1.ci.0,i04c_valueadded.py
-appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,Return on assets,2,0.024,,I04c.json:estimates.panelA_value_added.roa|h1.ci.1,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log value added,1,+0.078,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log value added,2,+0.080,,I04c.json:estimates.panelA_value_added.log_va|h2.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log value added,3,+0.052,,I04c.json:estimates.panelA_value_added.log_va|h3.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log value added per worker,1,−0.005,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log value added per worker,2,−0.003,,I04c.json:estimates.panelA_value_added.va_pe|h2.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log value added per worker,3,+0.006,,I04c.json:estimates.panelA_value_added.va_pe|h3.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log assets,1,+0.227,,I04c.json:estimates.panelA_value_added.log_asset|h1.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log assets,2,+0.180,,I04c.json:estimates.panelA_value_added.log_asset|h2.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Log assets,3,+0.240,,I04c.json:estimates.panelA_value_added.log_asset|h3.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Survival,1,+0.006,,I04c.json:estimates.panelA_value_added.va_pe|h3.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Survival,2,+0.009,,I04c.json:estimates.panelA_value_added.alive|h2.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Survival,3,+0.007,,I04c.json:estimates.panelA_value_added.alive|h3.DiD,i04c_valueadded.py
-appendix,Table F2. Firm outcomes over three post-deal years,,Events,1,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py
-appendix,Table G1. Sponsor exits and reversibility,,Entry-period effect,1,−0.0715,,I05.json:estimates.panelB_entry_exit_pairs.entry.mean,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Entry-period effect,2,−0.133,,I05.json:estimates.panelB_entry_exit_pairs.entry.ci.0,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Entry-period effect,2,−0.009,,I05.json:estimates.panelB_entry_exit_pairs.entry.ci.1,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Exit-period effect,1,−0.008,,I05.json:estimates.panelA_by_timing.stated.zero_DiD,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Exit-period effect,2,−0.119,,I05.json:estimates.panelB_entry_exit_pairs.exit.ci.0,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Exit-period effect,2,0.086,,I05.json:estimates.panelB_entry_exit_pairs.exit.ci.1,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Entry + exit,1,−0.079,,I05.json:estimates.panelB_entry_exit_pairs.sum.mean,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Entry + exit,2,−0.212,,I05.json:estimates.panelB_entry_exit_pairs.sum.ci.0,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Entry + exit,2,0.034,,I05.json:estimates.panelB_entry_exit_pairs.sum.ci.1,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Minimum detectable effect,1,0.194,,I05.json:estimates.MDE_at_n,i05_exit_reversal.py
-appendix,Table G1. Sponsor exits and reversibility,,Usable sponsor exits,1,13,,I05.json:n,i05_exit_reversal.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Original sample,1,−0.086,,I06.json:estimates.panelA_specs.G24|S1 기존처치·기존풀.P1,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Original sample,2,−0.165,,I06.json:estimates.panelA_specs.G24|S1 기존처치·기존풀.P1_ci.0,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Original sample,2,−0.007,,I06.json:estimates.panelA_specs.G24|S1 기존처치·기존풀.P1_ci.1,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Expanded sample,1,−0.058,,I06.json:estimates.panelA_specs.G24|S4 확장처치·확장풀.P1,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Expanded sample,2,−0.126,,I06.json:estimates.panelA_specs.G24|S4 확장처치·확장풀.P1_ci.0,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Expanded sample,2,0.008,,I06.json:estimates.panelA_specs.G24|S4 확장처치·확장풀.P1_ci.1,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Difference between samples,1,−0.029,,I06.json:estimates.panelC_collapse_test.G24.P1_diff,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Difference between samples,2,−0.130,,I06.json:estimates.panelA_specs.G24|S5 회수전용·확장풀.rel_ci.0,i06_notyet_anatomy.py
-appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Difference between samples,2,0.071,,I06.json:estimates.panelA_specs.G36|S3 확장처치·기존풀.rel_ci.1,i06_notyet_anatomy.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,No-hire outcome,1,0.0050,,I19.json:estimates.panelB_by_type.OWN.DiD,i19_succession.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,No-hire outcome,2,−0.007,,I19.json:estimates.panelB_by_type.OWN.ci.0,i19_succession.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,No-hire outcome,2,0.018,,I19.json:estimates.panelB_by_type.OWN.ci.1,i19_succession.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Employment level,1,0.002,,I19.json:estimates.panelC_inertia_moderator.OWN.T1.DiD,i19_succession.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Employment level,2,−0.017,C74,I45.json:estimates.panelD_oos_prediction.oos_r2_state,i45_power_invariance.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Employment level,2,0.025,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py
-appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Slope with transferred ownership stake,1,−0.000008,,I19c.json:estimates.panelB_own_dose.slope_per_pct,i19c_dose_gradient.py
-appendix,Table H1. Supplementary monthly hiring hazard estimates,,"Post-deal hiring, treated relative to matched controls",1,1.159,,I36.json:estimates.specs.(2).terms.treated x post.HR,i36_regression_table.py
-appendix,Table H1. Supplementary monthly hiring hazard estimates,,"Post-deal hiring, treated relative to matched controls",2,1.083,,I36.json:estimates.specs.(2).terms.treated x post.ci.0,i36_regression_table.py
-appendix,Table H1. Supplementary monthly hiring hazard estimates,,"Post-deal hiring, treated relative to matched controls",2,1.241,,I36.json:estimates.specs.(2).terms.treated x post.ci.1,i36_regression_table.py
-appendix,Table H2. State interaction in the monthly hazard specification,,"Previous matching, state not exact-matched",1,1.204,C9,I25.json:estimates.panelD_hazard_triple.tp_hi.HR,i25_pre_inertia.py
-appendix,Table H2. State interaction in the monthly hazard specification,,"Previous matching, state not exact-matched",2,1.021,C9,I25.json:estimates.panelD_hazard_triple.tp_hi.HR (ci0),i25_pre_inertia.py
-appendix,Table H2. State interaction in the monthly hazard specification,,"Previous matching, state not exact-matched",2,1.421,C9,I25.json:estimates.panelD_hazard_triple.tp_hi.HR (ci1),i25_pre_inertia.py
-appendix,Table H2. State interaction in the monthly hazard specification,,"State-balanced matching, continuous state",1,1.507,D14,I57.json:estimates.panelA_hazard_triple.연속 S.HR,i57_reallocation2.py
-appendix,Table H2. State interaction in the monthly hazard specification,,"State-balanced matching, continuous state",2,0.871,D14,I57.json:estimates.panelA_hazard_triple.연속 S.HR (ci0),i57_reallocation2.py
-appendix,Table H2. State interaction in the monthly hazard specification,,"State-balanced matching, continuous state",2,2.609,D14,I57.json:estimates.panelA_hazard_triple.연속 S.HR (ci1),i57_reallocation2.py
+document,table,panel,row,col,token,claim_id,source,pipeline_script,docx_edit_required
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Private equity investments identified,1,752,,I48.json:estimates.panelA_sample_flow.canonical_treated_file,i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,no pension record,1,168,C91,I48.json:estimates.panelA_sample_flow.drop_no_nps_link,i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,incomplete pre-deal window,1,120,C91a,I48.json:estimates.panelA_sample_flow.drop_insufficient_pre_window,i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,fewer than five insured employees,1,75,C91b,I48.json:estimates.panelA_sample_flow.drop_employment_lt5,i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,no eligible control cell,1,10,C91c,I48.json:estimates.panelA_sample_flow.drop_no_control_cell,i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Baseline matched design,1,379,C97,I48.json:estimates.panelE_in_vs_out.included.median_employment (n),i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,"with  6 observed months in each window, target and a control (Table 2)",1,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,"memo: conventional heterogeneity design, no state in the cell",1,301,,I48.json:estimates.panelC_exclusions.baseline.n,i48_construct_validity.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with state-balanced controls (primary gradient),1,286,D01,I58.json:estimates.panelA_common_sample.balanced_full.observed (n),i58_design_audit.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with all deal characteristics observed,1,180,C45,I40.json:estimates.panelB_36m_clustering.x.DiD (n),i40_salvage.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with audited financial statements,1,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,with complete pre-deal covariates (Panel D),1,366,,I37.json:n,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,"Matched control firms (5 per target, never treated)",1,"1,895",,constant (sample fact),,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Firm-months in the hazard sample,1,"48,853",,I36.json:estimates.n_firm_months,i36_regression_table.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel A. Sample,Two-digit industries represented,1,44,,I37.json:estimates.n_industries,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Median employees,1,79,,I04.json:estimates.panelB_by_inertia.T3 고관성.h2.log_wage.n,i04_performance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Mean employees,1,218.2,,I37.json:estimates.rows.0.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Median deal year,1,2021,,constant (sample fact),,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,"Share of firm-months with no hiring, pre-deal",1,0.269,,I37.json:estimates.rows.5.treated_sd,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel B. Targets at the deal,Mean intensity within active months (hires / employees),1,0.055,C81b,I53.json:estimates.specs.implied_hires.null_mean,i53_randomization.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Normalized difference, treated versus controls, previous design",1,-0.0362,D06,I58.json:estimates.panelB_state_balance.current.normalized_difference,i58_design_audit.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Normalized difference, state-balanced design",1,-0.0078,D06a,I58.json:estimates.panelB_state_balance.balanced.normalized_difference,i58_design_audit.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Correlation of treated and control state, previous / balanced",1,0.3659,D05d,I58_control_contamination.json:estimates.현행.corr_St_So,,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Correlation of treated and control state, previous / balanced",1,0.7614,D05e,I58_control_contamination.json:estimates.상태균형.corr_St_So,,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Auxiliary: share of no-hire months, tercile cut points",1,0.083,,I35.json:estimates.tercile_cuts.0,i35_canonical.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel C. The pre-deal hiring state,"Auxiliary: share of no-hire months, tercile cut points",1,0.333,,I36.json:estimates.tercile_cut_inaction,i36_regression_table.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,1,218.2,,I37.json:estimates.rows.0.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,2,228.1,,I37.json:estimates.rows.0.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,3,-0.012,,I37.json:estimates.rows.0.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,4,97.2,,I37.json:estimates.rows.0.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Employees,5,+0.175,,I37.json:estimates.rows.0.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,1,4.420,,I37.json:estimates.rows.1.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,2,4.421,,I37.json:estimates.rows.1.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,3,-0.000,,I37.json:estimates.rows.1.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,4,3.531,,I37.json:estimates.rows.1.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Log employees,5,+0.753,,I37.json:estimates.rows.1.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,1,0.142,,I37.json:estimates.rows.2.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,2,0.130,,I37.json:estimates.rows.2.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,3,+0.032,,I37.json:estimates.rows.2.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,4,0.063,,I37.json:estimates.rows.2.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Pre-deal employment growth,5,+0.116,,I37.json:estimates.rows.2.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),1,15.5,,I37.json:estimates.rows.3.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),2,16.4,,I37.json:estimates.rows.3.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),3,-0.091,,I37.json:estimates.rows.3.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),4,17.7,,I37.json:estimates.rows.3.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,Firm age (years),5,-0.229,,I37.json:estimates.rows.3.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",1,0.444,,I37.json:estimates.rows.4.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",2,0.428,,I37.json:estimates.rows.4.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",3,+0.051,,I37.json:estimates.rows.4.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",4,0.379,,I37.json:estimates.rows.4.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Hiring rate, prior 12 months",5,+0.184,,I37.json:estimates.rows.4.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",1,0.358,,I37.json:estimates.rows.5.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",2,0.367,,I37.json:estimates.rows.5.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",3,-0.037,,I37.json:estimates.rows.5.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",4,0.371,,I37.json:estimates.rows.5.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Separation rate, prior 12 months",5,-0.041,,I37.json:estimates.rows.5.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",1,0.269,,I37.json:estimates.rows.5.treated_sd,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",2,0.288,,I37.json:estimates.rows.6.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",3,-0.076,,I37.json:estimates.rows.6.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",4,0.500,,I37.json:estimates.rows.6.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 12 to 1",5,-0.786,,I37.json:estimates.rows.6.nd_pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",1,0.282,,I37.json:estimates.rows.7.treated,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",2,0.306,,I37.json:estimates.rows.7.matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",3,-0.095,,I37.json:estimates.rows.7.nd_matched,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",4,0.496,,I37.json:estimates.rows.7.pool,i37_balance.py,
+main,"Table 1. Sample construction, characteristics, and covariate balance",Panel D. Covariate balance,"Share of no-hire months, 24 to 13",5,-0.724,,I37.json:estimates.rows.7.nd_pool,i37_balance.py,
+main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",1,0.0878,C52,I35.json:estimates.canonical.A2_rel12.est,i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",2,0.0462,C52,I35.json:estimates.canonical.A2_rel12.est (ci0),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",2,0.1300,C52,I35.json:estimates.canonical.A2_rel12.est (ci1),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,"Employment, 12 months after ( log)",3,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,1,0.0485,C2,I35.json:estimates.canonical.A1_hire_DiD.est,i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,2,0.0163,C2,I35.json:estimates.canonical.A1_hire_DiD.est (ci0),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,2,0.0814,C2,I35.json:estimates.canonical.A1_hire_DiD.est (ci1),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,12-month hiring rate,3,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,Separation rate,1,0.0007,C4,I35.json:estimates.canonical.A5_separation.est,i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,Separation rate,2,-0.0353,C4,I35.json:estimates.canonical.A5_separation.est (ci0),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,Separation rate,2,0.0398,C4,I35.json:estimates.canonical.A5_separation.est (ci1),i35_canonical.py,
+main,Table 2. Average post-investment employment and hiring responses,,Separation rate,3,367,C2,I35.json:estimates.canonical.A1_hire_DiD.est (n),i35_canonical.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Gradient in log hiring rate,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Gradient in log hiring rate,1,0.3187,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci0),i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Gradient in log hiring rate,1,1.1254,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci1),i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,"Placebo null, mean (SD)",1,0.101,E01a,I60.json:estimates.specs.winsor_5_95.null_mean,i60_speccurve.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,"Placebo null, mean (SD)",1,0.1538,E01b,I60.json:estimates.specs.winsor_5_95.null_sd,i60_speccurve.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Excess over placebo mean,1,0.6091,E01e,I60.json:estimates.specs.winsor_5_95.excess,i60_speccurve.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Upper-tail placebo,1,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Effect of an interquartile move,1,0.2005,E01k,I65.json:estimates.panelF_magnitude.effect_iqr,i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Effect of an interquartile move,1,0.0900,E01k,I65.json:estimates.panelF_magnitude.effect_iqr (ci0),i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel A. Primary gradient,Effect of an interquartile move,1,0.3177,E01k,I65.json:estimates.panelF_magnitude.effect_iqr (ci1),i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Previous matching, common sample",1,0.4698,D03,I58.json:estimates.panelA_common_sample.current_common.observed,i58_design_audit.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"State-balanced matching, common sample",1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Treated-firm gradient, previous / state-balanced",1,0.8425,D04,I58.json:estimates.panelD_decomposition.current.own,i58_design_audit.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Treated-firm gradient, previous / state-balanced",1,0.8425,D04,I58.json:estimates.panelD_decomposition.current.own,i58_design_audit.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Control-group gradient, previous / state-balanced",1,0.2950,D04b,I58.json:estimates.panelD_decomposition.current.control_mean,i58_design_audit.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel B. Effect of matching on the hiring state,"Control-group gradient, previous / state-balanced",1,0.0056,D04c,I58.json:estimates.panelD_decomposition.balanced.control_mean,i58_design_audit.py,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log count of hires,1,0.6315,D07,I59.json:estimates.lN.observed,,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log count of hires,2,0.1795,D07a,I59.json:estimates.lN.null_mean,,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,"Log hires, controlling for change in log employment",1,0.6957,D08,I59.json:estimates.lN_ctrlE.observed,,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,"Log hires, controlling for change in log employment",2,0.0363,D08a,I59.json:estimates.lN_ctrlE.null_mean,,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log employment,1,−0.0580,,I59.json:estimates.lE.observed,,
+main,Table 3. Hiring responses by pre-deal hiring intensity,Panel C. Hiring counts and employment,Log employment,2,0.0796,D09e,I57.json:estimates.panelB_outcomes.emp.null_mean,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log hiring rate,1,0.7101,D09,I57.json:estimates.panelB_outcomes.hire.observed,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log hiring rate,3,286,D09,I57.json:estimates.panelB_outcomes.hire.observed (n),i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,"Log churn, (hires + separations) / employment",1,0.3816,D09a,I57.json:estimates.panelB_outcomes.churn.observed,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,"Log churn, (hires + separations) / employment",2,3.08,D09b,I57.json:estimates.panelB_outcomes.churn.z,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,"Log churn, (hires + separations) / employment",3,288,D09a,I57.json:estimates.panelB_outcomes.churn.observed (n),i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,1,0.1788,D09h,I57.json:estimates.panelB_outcomes.sep.observed,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,2,1.17,D09i,I57.json:estimates.panelB_outcomes.sep.z,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,2,0.2349,D09j,I57.json:estimates.panelB_outcomes.sep.RI_p_two_sided,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log separation rate,3,281,D09h,I57.json:estimates.panelB_outcomes.sep.observed (n),i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,1,-0.0580,D09d,I57.json:estimates.panelB_outcomes.emp.observed,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,2,-2.6,D09f,I57.json:estimates.panelB_outcomes.emp.z,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,2,0.007,D09g,I57.json:estimates.panelB_outcomes.emp.RI_p_two_sided,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Log employment,3,289,D09d,I57.json:estimates.panelB_outcomes.emp.observed (n),i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,1,0.7536,D10,I57.json:estimates.panelC_paired.채용 − 고용.observed,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,2,0.0232,D10a,I57.json:estimates.panelC_paired.채용 − 고용.null_mean,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,2,4.56,D10b,I57.json:estimates.panelC_paired.채용 − 고용.z,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Hiring  employment,3,286,D09,I57.json:estimates.panelB_outcomes.hire.observed (n),i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Churn  employment,1,0.4539,D10c,I57.json:estimates.panelC_paired.churn − 고용.observed,i57_reallocation2.py,
+main,Table 4. Worker-flow responses by pre-deal hiring state,,Churn  employment,2,4.19,D10d,I57.json:estimates.panelC_paired.churn − 고용.z,i57_reallocation2.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",1,−0.0777,H06,I66.json:estimates.panelA_pretrend_early_state.observed,i66_pretrend_zeros.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",2,−0.4394,H06b,I66.json:estimates.panelA_pretrend_early_state.excess_ci (ci0),i66_pretrend_zeros.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",2,0.0854,H06b,I66.json:estimates.panelA_pretrend_early_state.excess_ci (ci1),i66_pretrend_zeros.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal excess gradient, non-overlapping state window",3,250,H06,I66.json:estimates.panelA_pretrend_early_state.observed (n),i66_pretrend_zeros.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",1,0.1068,H01,I64.json:estimates.pre_12m.observed,i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",2,−0.1955,H01,I64.json:estimates.pre_12m.observed (ci0),i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",2,0.4351,H01,I64.json:estimates.pre_12m.observed (ci1),i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Pre-deal gradient, usual state window",3,283,H01,I64.json:estimates.pre_12m.observed (n),i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",1,0.7250,H02,I64.json:estimates.post_12m.observed,i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",2,0.3259,H02,I64.json:estimates.post_12m.observed (ci0),i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",2,1.1081,H02,I64.json:estimates.post_12m.observed (ci1),i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Post-deal gradient, same events",3,283,H01,I64.json:estimates.pre_12m.observed (n),i64_pretrend_honest.py,
+main,Table 5. Pre-deal dynamics of the hiring-state gradient,,"Relative-magnitude breakdown, gradient",1,3.126,H04,I64.json:estimates.honestdid.resolution_12m.Mbar,i64_pretrend_honest.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,1,-0.0466,C41,I38.json:estimates.panelA_excess.actual.DiD,i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,2,-0.0675,C41,I38.json:estimates.panelA_excess.actual.DiD (ci0),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,2,-0.0270,C41,I38.json:estimates.panelA_excess.actual.DiD (ci1),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Share of no-hire months: actual change,3,346,C41,I38.json:estimates.panelA_excess.actual.DiD (n),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Change implied by the volume increase alone,1,-0.0518,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD,i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Change implied by the volume increase alone,2,-0.0699,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD (ci0),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,Change implied by the volume increase alone,2,-0.0326,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD (ci1),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",1,0.0052,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD,i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",2,-0.0082,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci0),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",2,0.0189,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci1),i38_excess_zeros.py,
+main,Table 6. Monthly hiring patterns relative to a volume benchmark,,"Excess, over and above the benchmark",3,346,C41,I38.json:estimates.panelA_excess.actual.DiD (n),i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,1,−0.0466,C41,I38.json:estimates.panelA_excess.actual.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,2,−0.0518,C41a,I38.json:estimates.panelA_excess.expected_uniform.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,3,+0.0052,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,4,−0.0082,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci0),i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,4,+0.0189,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci1),i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of no-hire months,5,0.046,,I38.json:estimates.panelA_excess.excess_uniform.equiv.SESOI,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",1,−0.0466,C41,I38.json:estimates.panelA_excess.actual.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",2,−0.0508,,I38.json:estimates.panelA_excess.expected_wgt.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",3,+0.0042,,I38.json:estimates.panelA_excess.excess_wgt.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",4,−0.0088,,I38.json:estimates.panelA_excess.excess_wgt.ci.0,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",4,+0.0180,,I38.json:estimates.panelA_excess.excess_wgt.ci.1,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Share of no-hire months, employment-weighted benchmark",5,0.046,,I38.json:estimates.panelA_excess.excess_uniform.equiv.SESOI,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,1,−0.5594,,I39.json:estimates.zero.actual.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,2,−0.6182,,I39.json:estimates.zero.expected.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,3,+0.0587,,I39.json:estimates.zero.excess.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,4,−0.1097,,I39.json:estimates.zero.excess.ci.0,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,4,+0.2086,,I39.json:estimates.zero.excess.ci.1,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Number of no-hire months,5,0.55,,I39.json:estimates.zero.excess.equiv.SESOI,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",1,−0.3566,,I38.json:estimates.panelB_spell_concentration.maxspell.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",2,−0.3688,,I39.json:estimates.ms.expected.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",3,+0.0122,C43,I39.json:estimates.ms.excess.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",4,−0.1330,C43,I39.json:estimates.ms.excess.DiD (ci0),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",4,+0.1608,C43,I39.json:estimates.ms.excess.DiD (ci1),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,"Longest no-hire spell, months",5,0.36,,I39.json:estimates.ms.excess.equiv.SESOI,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,1,−0.0248,,I38.json:estimates.panelB_spell_concentration.hhi.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,2,−0.0309,,I39.json:estimates.hhi.expected.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,3,+0.0061,C44,I39.json:estimates.hhi.excess.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,4,−0.0064,C44,I39.json:estimates.hhi.excess.DiD (ci0),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,4,+0.0190,C44,I39.json:estimates.hhi.excess.DiD (ci1),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Herfindahl index of hires across months,5,0.025,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,1,−0.0249,,I38.json:estimates.panelB_spell_concentration.top2.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,2,−0.0335,,I39.json:estimates.t2.expected.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,3,+0.0086,C44a,I39.json:estimates.t2.excess.DiD,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,4,−0.0082,C42,I38.json:estimates.panelA_excess.excess_uniform.DiD (ci0),i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,4,+0.0250,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel A. Twelve-month window,Share of hires in the two busiest months,5,0.025,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,1,−0.055,,I40.json:estimates.panelB_36m_clustering.z.DiD,i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,2,−0.086,,I40.json:estimates.panelB_36m_clustering.z.ci.0,i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,2,−0.025,,I38.json:estimates.panelB_spell_concentration.hhi.DiD,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,3,+0.0088,C45,I40.json:estimates.panelB_36m_clustering.x.DiD,i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,4,−0.0058,C45,I40.json:estimates.panelB_36m_clustering.x.DiD (ci0),i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,4,+0.0220,C45,I40.json:estimates.panelB_36m_clustering.x.DiD (ci1),i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,Share of no-hire months,5,0.046,,I38.json:estimates.panelA_excess.excess_uniform.equiv.SESOI,i38_excess_zeros.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",1,−0.756,,I40.json:estimates.panelB_36m_clustering.ms.DiD,i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",2,−1.335,,I40.json:estimates.panelB_36m_clustering.ms.ci.0,i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",2,−0.161,,I39.json:estimates.ms.actual.ci.1,i39_spell_benchmark.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",3,+0.297,C45a,I40.json:estimates.panelB_36m_clustering.xms.DiD,i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",4,−0.117,C45a,I40.json:estimates.panelB_36m_clustering.xms.DiD (ci0),i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",4,+0.727,C45a,I40.json:estimates.panelB_36m_clustering.xms.DiD (ci1),i40_salvage.py,
+appendix,Table A1. Monthly hiring measures and the volume benchmark,Panel B. Thirty-six-month window,"Longest no-hire spell, months",5,1.0,,I40.json:estimates.panelB_36m_clustering.xms.equiv.SESOI,i40_salvage.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month share,",1,+0.0443,,I35.json:estimates.canonical.B1_dp.est,i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month share,",2,+0.0247,,I35.json:estimates.canonical.B1_dp.ci.0,i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month share,",2,+0.0645,,I35.json:estimates.canonical.B1_dp.ci.1,i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month hiring intensity,",1,+0.0048,C5c,I35.json:estimates.canonical.B2_di.est,i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month hiring intensity,",2,−0.0001,C5c,I35.json:estimates.canonical.B2_di.est (ci0),i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in active-month hiring intensity,",2,+0.0102,C5c,I35.json:estimates.canonical.B2_di.est (ci1),i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month share,",1,+0.1011,C5a,I35.json:estimates.canonical.B3_dlogp.est,i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month share,",2,+0.0544,C5a,I35.json:estimates.canonical.B3_dlogp.est (ci0),i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month share,",2,+0.1496,C5a,I35.json:estimates.canonical.B3_dlogp.est (ci1),i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month intensity,",1,+0.0652,C5b,I35.json:estimates.canonical.B4_dlogi.est,i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month intensity,",2,+0.0074,C5b,I35.json:estimates.canonical.B4_dlogi.est (ci0),i35_canonical.py,
+appendix,Table A2. Decomposition of the average increase in hiring,,"Change in log active-month intensity,",2,+0.1242,C5b,I35.json:estimates.canonical.B4_dlogi.est (ci1),i35_canonical.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,1,0.4964,,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_raw.slope,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,2,0.5650,C84,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl.slope,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,2,0.210,C84,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl.slope (ci0),i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring rate,2,0.968,C84,I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl.slope (ci1),i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,1,0.1275,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_raw.slope,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,2,0.1578,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.slope,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,2,0.020,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.ci.0,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Hiring volume,2,0.291,,I47.json:estimates.panelA_fwl_adjusted.neg_log_volume.slope_adj_fwl.ci.1,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,1,0.5259,,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_raw.slope,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,2,0.3522,C86,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_adj_fwl.slope,i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,2,−0.079,C86,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_adj_fwl.slope (ci0),i47_state_final.py,
+appendix,Table B1. Alternative measures of pre-deal hiring activity,,Share of months with no hiring,2,0.829,C86,I47.json:estimates.panelA_fwl_adjusted.dormancy.slope_adj_fwl.slope (ci1),i47_state_final.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Hiring state, controlling for pre-deal employment growth",1,0.410,C62,I44.json:estimates.panelD_scale_vs_release.dorm.coef,i44_state_variable.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Hiring state, controlling for pre-deal employment growth",2,0.078,C62,I44.json:estimates.panelD_scale_vs_release.dorm.coef (ci0),i44_state_variable.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Hiring state, controlling for pre-deal employment growth",2,0.753,C62,I44.json:estimates.panelD_scale_vs_release.dorm.coef (ci1),i44_state_variable.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Historical share of no-hire months,1,0.559,C35,I41.json:estimates.panelD_transitory_vs_structural.historical.slope,i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Historical share of no-hire months,2,0.241,C35,I41.json:estimates.panelD_transitory_vs_structural.historical.slope (ci0),i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Historical share of no-hire months,2,0.885,C35,I41.json:estimates.panelD_transitory_vs_structural.historical.slope (ci1),i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Length of hiring pause in progress at closing,1,0.040,C34,I41.json:estimates.panelD_transitory_vs_structural.current_spell.slope,i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Length of hiring pause in progress at closing,2,−0.016,C34,I41.json:estimates.panelD_transitory_vs_structural.current_spell.slope (ci0),i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Length of hiring pause in progress at closing,2,0.107,C34,I41.json:estimates.panelD_transitory_vs_structural.current_spell.slope (ci1),i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Residualised hiring state,1,0.243,C36,I41.json:estimates.panelB_residualized.resid_slope.slope,i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Residualised hiring state,2,−0.221,C36,I41.json:estimates.panelB_residualized.resid_slope.slope (ci0),i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,Residualised hiring state,2,0.723,C36,I41.json:estimates.panelB_residualized.resid_slope.slope (ci1),i41_moderator_defense.py,
+appendix,Table B2. What component of the pre-deal state carries the gradient?,,"Earlier hiring state, months −36 to −25",1,0.268,E06,I66.json:estimates.panelB_post_early_state.observed,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",1,0.710,E01,I60.json:estimates.specs.winsor_5_95.observed,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",2,0.101,E01a,I60.json:estimates.specs.winsor_5_95.null_mean,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",2,0.154,E01b,I60.json:estimates.specs.winsor_5_95.null_sd,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,"Winsorised 5/95, primary",4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,1,0.837,E02,I60.json:estimates.specs.raw.observed,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,2,0.122,E02a,I60.json:estimates.specs.raw.null_mean,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,2,0.181,E02b,I60.json:estimates.specs.raw.null_sd,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Unwinsorised,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,1,0.816,E03,I60.json:estimates.specs.winsor_1_99.observed,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,2,0.114,E03a,I60.json:estimates.specs.winsor_1_99.null_mean,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,2,0.171,E03b,I60.json:estimates.specs.winsor_1_99.null_sd,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,3,4.10,,I60.json:estimates.specs.winsor_1_99.z,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 1/99,4,0.0010,E03c,I60.json:estimates.specs.winsor_1_99.RI_p,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,1,0.634,E04,I60.json:estimates.specs.winsor_10_90.observed,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,2,0.096,E04a,I60.json:estimates.specs.winsor_10_90.null_mean,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,2,0.136,E04b,I60.json:estimates.specs.winsor_10_90.null_sd,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Winsorised 10/90,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,1,0.206,E07,I66.json:estimates.panelC_asinh.observed,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,2,0.026,,I66.json:estimates.panelC_asinh.null_mean,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,2,0.059,,I66.json:estimates.panelC_asinh.null_sd,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,3,3.08,E07b,I66.json:estimates.panelC_asinh.z,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,Inverse hyperbolic sine of hiring rate,4,0.0010,E03c,I60.json:estimates.specs.winsor_1_99.RI_p,i60_speccurve.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,​,1,0.162,E08,I66.json:estimates.panelD_log1p.observed,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,​,2,0.017,,I66.json:estimates.panelD_log1p.null_mean,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,​,2,0.045,,I66.json:estimates.panelD_log1p.null_sd,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,​,3,3.24,E08b,I66.json:estimates.panelD_log1p.z,i66_pretrend_zeros.py,
+appendix,Table B3. Alternative transformations of the hiring outcome,,​,4,0.0020,E07a,I66.json:estimates.panelC_asinh.p_two_sided,i66_pretrend_zeros.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",1,286,E01,I60.json:estimates.specs.winsor_5_95.observed (n),i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",2,0.710,E01,I60.json:estimates.specs.winsor_5_95.observed,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",3,3.96,E01d,I60.json:estimates.specs.winsor_5_95.z,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Primary: exact state tercile, 5 controls",4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",1,286,E01,I60.json:estimates.specs.winsor_5_95.observed (n),i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",2,0.678,,I62.json:estimates.bin_k20.observed,i62_power3.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",3,4.12,G04,I62.json:estimates.bin_k20.z,i62_power3.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"Exact state tercile, 20 controls",4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",1,299,,I63.json:estimates.C 산업 1자리.n,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",2,0.640,,I62.json:estimates.dist_k5.observed,i62_power3.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",3,3.54,,I62.json:estimates.dist_k5.z,i62_power3.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,"State included in neighbour distance, 5 controls",4,0.0010,E03c,I60.json:estimates.specs.winsor_1_99.RI_p,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,1,310,G02,I63.json:estimates.A' 상태창 ≥6개월.observed (n),i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,2,0.655,G02,I63.json:estimates.A' 상태창 ≥6개월.observed,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,3,4.57,G02a,I63.json:estimates.A' 상태창 ≥6개월.z,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,At least 6 of 12 state months observed,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,1,292,,I63.json:estimates.B 상태 2분위.n,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,2,0.610,,I63.json:estimates.B 상태 2분위.observed,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,3,3.65,,I63.json:estimates.B 상태 2분위.z,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Two state bins rather than three,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,1,299,,I63.json:estimates.C 산업 1자리.n,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,2,0.636,,I63.json:estimates.C 산업 1자리.observed,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,3,3.69,,I63.json:estimates.C 산업 1자리.z,i63_sample_expansion.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,One-digit rather than two-digit industry cell,4,0.0005,E01c,I60.json:estimates.specs.winsor_5_95.RI_p,i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,1,244,D12,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].observed (n)",i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,2,0.388,D12,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].observed",i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,3,2.33,,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].z",i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,State measured over months −36 to −13,4,0.0115,D12a,"I56.json:estimates.panelC_state_window.24개월 [−36,−13].RI_p",i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,1,286,E01,I60.json:estimates.specs.winsor_5_95.observed (n),i60_speccurve.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,2,0.346,D12b,I56.json:estimates.panelE_weighting.precision_weighted.observed,i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,3,2.28,,I56.json:estimates.panelE_weighting.precision_weighted.z,i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Inverse-variance weighting,4,0.0155,D12c,I56.json:estimates.panelE_weighting.precision_weighted.RI_p,i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,1,286,,I56.json:estimates.panelF_covariates.plus_year.n_treated,i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,2,0.678,,I56.json:estimates.panelF_covariates.plus_year.observed,i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,3,3.50,,I56.json:estimates.panelF_covariates.plus_year.z,i56_efficiency.py,
+appendix,Table B4. Selected alternatives to the primary matching and estimation design,,Add deal-year fixed effects,4,0.0010,,I56.json:estimates.panelF_covariates.plus_year.RI_p,i56_efficiency.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,Firm-month observations,1,"227,339",C92,I48.json:estimates.panelB_stock_flow.rel_error_median (n),i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,Median absolute discrepancy,1,1,C92c,I48.json:estimates.panelB_stock_flow.median_abs_error,i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,Share reconciling exactly,1,24.3,,I48.json:estimates.panelB_stock_flow.exact_zero_share,i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,Median discrepancy relative to employment,1,1.4,,I48.json:estimates.panelB_stock_flow.rel_error_median,i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,"90th percentile, relative discrepancy",1,7.1,,I48.json:estimates.panelB_stock_flow.rel_error_p90,i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,"Treated firms, year before transaction",1,2.8,,"I48.json:estimates.panelB_stock_flow.treated_profile.pre[-12,-1].mean_rel_error",i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,"Treated firms, transaction month",1,3.6,,"I48.json:estimates.panelB_stock_flow.treated_profile.deal[0,0].mean_rel_error",i48_construct_validity.py,
+appendix,Table C1. Accounting consistency of pension worker flows,,"Treated firms, post-transaction period",1,3.1,,"I48.json:estimates.panelB_stock_flow.treated_profile.post[1,12].mean_rel_error",i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Primary hiring measure,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Primary hiring measure,2,0.3187,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci0),i65_bootci_reuse.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Primary hiring measure,2,1.1254,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci1),i65_bootci_reuse.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with relative discrepancy above 10%,1,0.312,C94,I48.json:estimates.panelC_exclusions.exclude_rel_gt_10pct.slope_adj,i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with relative discrepancy above 5%,1,0.544,C94a,I48.json:estimates.panelC_exclusions.exclude_rel_gt_5pct.slope_adj,i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with total turnover above 50% of employment,1,0.488,C94b,I48.json:estimates.panelC_exclusions.exclude_churn_gt_50pct.slope_adj,i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with total turnover above 50% of employment,2,0.102,C94b,I48.json:estimates.panelC_exclusions.exclude_churn_gt_50pct.slope_adj (ci0),i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude months with total turnover above 50% of employment,2,0.850,C94b,I48.json:estimates.panelC_exclusions.exclude_churn_gt_50pct.slope_adj (ci1),i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude treated firms that change the number of registered workplaces,1,0.557,C94c,I48.json:estimates.panelD_site_change.excluded.slope_adj,i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude treated firms that change the number of registered workplaces,2,0.160,C94c,I48.json:estimates.panelD_site_change.excluded.slope_adj (ci0),i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Exclude treated firms that change the number of registered workplaces,2,0.930,C94c,I48.json:estimates.panelD_site_change.excluded.slope_adj (ci1),i48_construct_validity.py,
+appendix,Table C2. Hiring-state gradient under worker-flow measurement checks,,Hiring reconstructed from employment change and recorded exits,1,0.365,E05,I60.json:estimates.specs.implied_hires.observed,i60_speccurve.py,
+appendix,Table C3. Flow-rate accounting and employment,,Level hiring rate,1,+0.263,D13a,I57_levels.json:estimates.h_rate.observed,,
+appendix,Table C3. Flow-rate accounting and employment,,Level separation rate,1,+0.094,D13b,I57_levels.json:estimates.s_rate.observed,,
+appendix,Table C3. Flow-rate accounting and employment,,Level net inflow rate,1,+0.172,D13,I57_levels.json:estimates.net.observed,,
+appendix,Table C3. Flow-rate accounting and employment,,Log employment,1,−0.0580,,I57_levels.json:estimates.lnE.observed,,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+12 months,1,−0.0316,C90n,I67.json:estimates.horizons.h12.observed,i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+12 months,2,−1.92,C90nz,I67.json:estimates.horizons.h12.z,i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+12 months,3,291,C90n,I67.json:estimates.horizons.h12.observed (n),i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+24 months,1,−0.1616,C90an,I67.json:estimates.horizons.h24.observed,i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+24 months,2,−1.63,C90anz,I67.json:estimates.horizons.h24.z,i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+24 months,3,245,C90an,I67.json:estimates.horizons.h24.observed (n),i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+36 months,1,−0.2092,C90bn,I67.json:estimates.horizons.h36.observed,i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+36 months,2,−2.29,C90bnz,I67.json:estimates.horizons.h36.z,i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel A. Relative employment at longer horizons,+36 months,3,203,C90bn,I67.json:estimates.horizons.h36.observed (n),i67_emp_horizons.py,
+appendix,Table C4. Additional employment horizons and worker-flow contrasts,Panel B. Additional within-event contrast,Hiring − separations,1,0.5746,D10e,I57.json:estimates.panelC_paired.채용 − 이직.observed,i57_reallocation2.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",1,+0.087,F01a,I61.json:estimates.panelB_pre_joint.max_abs_pre,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",2,−0.042,F02a,I61.json:estimates.panelA_treated_path.q-3.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",3,−0.038,F02b,I61.json:estimates.panelA_treated_path.q-2.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, pre-deal",4,−0.056,F02c,I61.json:estimates.panelA_treated_path.q-1.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",1,+0.147,,I61.json:estimates.panelA_treated_path.q1.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",2,+0.240,F03,I61.json:estimates.panelA_treated_path.q2.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",3,+0.108,,I61.json:estimates.panelA_treated_path.q3.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Treated, post-deal",4,+0.010,,I61.json:estimates.panelA_treated_path.q4.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",1,−0.073,,I61.json:estimates.panelC_placebo_path.q-4.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",2,−0.031,,I61.json:estimates.panelC_placebo_path.q-3.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",3,−0.003,,I61.json:estimates.panelC_placebo_path.q-2.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, pre-deal",4,+0.045,,I61.json:estimates.panelC_placebo_path.q-1.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",1,−0.024,,I61.json:estimates.panelC_placebo_path.q1.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",2,+0.088,,I61.json:estimates.panelC_placebo_path.q2.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",3,−0.040,,I61.json:estimates.panelC_placebo_path.q3.grad,i61_gradient_pretrend.py,
+appendix,Table D1. State gradients at quarterly resolution,,"Untreated pseudo-events, post-deal",4,−0.000,,I61.json:estimates.panelC_placebo_path.q4.grad,i61_gradient_pretrend.py,
+appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",1,1.2881,,I36.json:estimates.specs.(4).terms.treated x post x pressure.HR,i36_regression_table.py,
+appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",2,1.0535,,I36.json:estimates.specs.(4).terms.treated x post x pressure.ci.0,i36_regression_table.py,
+appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",2,1.5750,,I36.json:estimates.specs.(4).terms.treated x post x pressure.ci.1,i36_regression_table.py,
+appendix,Table D2. Supplementary validity checks,,"Sponsor deployment pressure, hazard ratio",3,379,,I36.json:n,i36_regression_table.py,
+appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",1,−0.0645,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD,i14_shareholder_dose.py,
+appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",2,−0.1145,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD (ci0),i14_shareholder_dose.py,
+appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",2,−0.0163,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD (ci1),i14_shareholder_dose.py,
+appendix,Table D2. Supplementary validity checks,,"Independently date-confirmed subsample, no-hire share",3,62,C21,I14.json:estimates.panelE_validated_subsample.confirmed.zero_DiD (n),i14_shareholder_dose.py,
+appendix,Table D2. Supplementary validity checks,,"Primary gradient, one event per control firm",1,0.7036,C98d,I65.json:estimates.panelE_one_to_one.observed,i65_bootci_reuse.py,
+appendix,Table D2. Supplementary validity checks,,"Primary gradient, one event per control firm",3,286,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (n),i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on treated firms,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on treated firms,2,0.3187,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci0),i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on treated firms,2,1.1254,E01h,I65.json:estimates.panelA_firm_cluster.ci95 (ci1),i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on control firms,1,0.7101,E01h,I65.json:estimates.panelA_firm_cluster.ci95,i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on control firms,2,0.4595,C98c,I65.json:estimates.panelD_control_cluster.ci95 (ci0),i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Bootstrap clustered on control firms,2,0.8771,C98c,I65.json:estimates.panelD_control_cluster.ci95 (ci1),i65_bootci_reuse.py,
+appendix,Table D3. Sensitivity to shared control firms,,Each control assigned to at most one event,1,0.7036,C98d,I65.json:estimates.panelE_one_to_one.observed,i65_bootci_reuse.py,
+appendix,Table D4. Relative-magnitude sensitivity,,"State gradient, twelve-month resolution",1,3.126,H04,I64.json:estimates.honestdid.resolution_12m.Mbar,i64_pretrend_honest.py,
+appendix,Table D4. Relative-magnitude sensitivity,,Average post-deal effect,1,0.658,C19,I11.json:estimates.S4_quarterly_premean.Mbar,i11_honestdid.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",1,0.1218,C65,I45.json:estimates.panelB_covariate_adjusted.deal_type.raw.diff,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",2,−0.0494,C65,I45.json:estimates.panelB_covariate_adjusted.deal_type.raw.diff (ci0),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",2,0.2776,C65,I45.json:estimates.panelB_covariate_adjusted.deal_type.raw.diff (ci1),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, unadjusted",3,301,,I45.json:n,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",1,0.0475,C66,I45.json:estimates.panelB_covariate_adjusted.deal_type.adjusted.diff,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",2,−0.1062,C66,I45.json:estimates.panelB_covariate_adjusted.deal_type.adjusted.diff (ci0),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",2,0.1958,C66,I45.json:estimates.panelB_covariate_adjusted.deal_type.adjusted.diff (ci1),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Control transaction − growth investment, adjusted",3,301,,I45.json:n,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",1,0.0007,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",2,−0.0015,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (ci0),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",2,0.0027,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (ci1),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Acquired ownership stake, per percentage point, adjusted",3,181,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (n),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",1,0.0397,C67,I45.json:estimates.panelB_covariate_adjusted.stake_maj_min.adjusted.diff,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",2,−0.1761,C67,I45.json:estimates.panelB_covariate_adjusted.stake_maj_min.adjusted.diff (ci0),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",2,0.2674,C67,I45.json:estimates.panelB_covariate_adjusted.stake_maj_min.adjusted.diff (ci1),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Majority (≥50%) − minority investment, adjusted",3,181,C69,I45.json:estimates.panelB_covariate_adjusted.stake_slope.adjusted.slope (n),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",1,0.0692,C68,I45.json:estimates.panelB_covariate_adjusted.gp_experience.adjusted.diff,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",2,−0.1278,C68,I45.json:estimates.panelB_covariate_adjusted.gp_experience.adjusted.diff (ci0),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",2,0.2609,C68,I45.json:estimates.panelB_covariate_adjusted.gp_experience.adjusted.diff (ci1),i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor experience, top − bottom tercile, adjusted",3,301,,I45.json:n,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor identity, leave-one-out prediction",1,−0.2675,C76,I45.json:estimates.panelE_gp_loo_robustness.loo_raw,i45_power_invariance.py,
+appendix,Table E1. Hiring responses across transaction and sponsor characteristics,,"Sponsor identity, leave-one-out prediction",3,189,C76,I45.json:estimates.panelE_gp_loo_robustness.loo_raw (n),i45_power_invariance.py,
+appendix,Table E2. In-sample explanatory content on the common sample,,Transaction characteristics jointly,1,0.0092,C70,I45.json:estimates.panelC_joint_test.r2_deal,i45_power_invariance.py,
+appendix,Table E2. In-sample explanatory content on the common sample,,Transaction characteristics jointly,2,0.6425,C70a,I45.json:estimates.panelC_joint_test.perm_p_deal,i45_power_invariance.py,
+appendix,Table E2. In-sample explanatory content on the common sample,,Pre-deal hiring state alone,1,0.0286,C71,I45.json:estimates.panelC_joint_test.r2_state,i45_power_invariance.py,
+appendix,Table E2. In-sample explanatory content on the common sample,,Pre-deal hiring state alone,2,0.0250,C71a,I45.json:estimates.panelC_joint_test.perm_p_state,i45_power_invariance.py,
+appendix,Table E2. In-sample explanatory content on the common sample,,Transaction characteristics added to the state,1,0.0068,C72,I45.json:estimates.panelC_joint_test.incremental_deal_over_state,i45_power_invariance.py,
+appendix,Table E2. In-sample explanatory content on the common sample,,State added to transaction characteristics,1,0.0261,C72a,I45.json:estimates.panelC_joint_test.incremental_state_over_deal,i45_power_invariance.py,
+appendix,Table E3. Five-fold out-of-sample comparison,,Transaction characteristics,1,−0.0269,C73,I45.json:estimates.panelD_oos_prediction.oos_r2_deal,i45_power_invariance.py,
+appendix,Table E3. Five-fold out-of-sample comparison,,Pre-deal hiring state,1,−0.0168,C74,I45.json:estimates.panelD_oos_prediction.oos_r2_state,i45_power_invariance.py,
+appendix,Table E3. Five-fold out-of-sample comparison,,Difference: state − transaction characteristics,1,0.0101,C75,I45.json:estimates.panelD_oos_prediction.state_minus_deal,i45_power_invariance.py,
+appendix,Table E3. Five-fold out-of-sample comparison,,Difference: state − transaction characteristics,2,−0.0349,C75,I45.json:estimates.panelD_oos_prediction.state_minus_deal (ci0),i45_power_invariance.py,
+appendix,Table E3. Five-fold out-of-sample comparison,,Difference: state − transaction characteristics,2,0.1173,C75,I45.json:estimates.panelD_oos_prediction.state_minus_deal (ci1),i45_power_invariance.py,
+appendix,Table E4. Sponsor-identity diagnostics,,Baseline sponsor leave-one-out,1,−0.2675,C76,I45.json:estimates.panelE_gp_loo_robustness.loo_raw,i45_power_invariance.py,
+appendix,Table E4. Sponsor-identity diagnostics,,Outcome winsorised at 1/99,1,−0.2659,,I45.json:estimates.panelE_gp_loo_robustness.loo_winsor_1_99,i45_power_invariance.py,
+appendix,Table E4. Sponsor-identity diagnostics,,Outcome winsorised at 5/95,1,−0.2387,C76a,I45.json:estimates.panelE_gp_loo_robustness.loo_winsor_5_95,i45_power_invariance.py,
+appendix,Table E4. Sponsor-identity diagnostics,,Drop five most influential events,1,−0.1751,C76b,I45.json:estimates.panelE_gp_loo_robustness.loo_drop_top5,i45_power_invariance.py,
+appendix,Table E4. Sponsor-identity diagnostics,,Covariate-adjusted response,1,−0.2496,,I45.json:estimates.panelE_gp_loo_robustness.loo_on_adjusted_residual,i45_power_invariance.py,−0.2261
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",1,0.0096,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD,i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",2,0.0039,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD (ci0),i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",2,0.0154,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD (ci1),i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,"Assessed income per worker, log",3,346,C17,I22.json:estimates.panelA_wage_emp.log_wage.DiD (n),i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,1,0.0086,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD,i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,2,−0.1383,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD (ci0),i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,2,0.1585,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD (ci1),i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel A. Worker earnings,Implied wage measure for newly added employment,3,182,C17a,I22.json:estimates.panelB_marginal_wage_ratio.DiD.DiD (n),i22_wage_structure.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",1,0.0778,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",2,0.0296,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (ci0),i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",2,0.1294,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (ci1),i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added, log",3,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",1,−0.0052,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",2,−0.0333,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD (ci0),i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",2,0.0261,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD (ci1),i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per worker, log",3,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per unit of assets, log",1,−0.099,,I04c.json:estimates.panelA_value_added.va_pa|h1.DiD,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per unit of assets, log",2,−0.177,,I04c.json:estimates.panelA_value_added.va_pa|h1.ci.0,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,"Value added per unit of assets, log",2,−0.020,,I04c.json:estimates.panelA_value_added.va_pa|h1.ci.1,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,Return on assets,1,−0.008,,I04c.json:estimates.panelA_value_added.roa|h1.DiD,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,Return on assets,2,−0.037,,I04c.json:estimates.panelA_value_added.roa|h1.ci.0,i04c_valueadded.py,
+appendix,Table F1. Worker earnings and one-year firm outcomes,Panel B. Firm outcomes one year after the transaction,Return on assets,2,0.024,,I04c.json:estimates.panelA_value_added.roa|h1.ci.1,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log value added,1,+0.078,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log value added,2,+0.080,,I04c.json:estimates.panelA_value_added.log_va|h2.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log value added,3,+0.052,,I04c.json:estimates.panelA_value_added.log_va|h3.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log value added per worker,1,−0.005,C18a,I04c.json:estimates.panelA_value_added.va_pe|h1.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log value added per worker,2,−0.003,,I04c.json:estimates.panelA_value_added.va_pe|h2.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log value added per worker,3,+0.006,,I04c.json:estimates.panelA_value_added.va_pe|h3.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log assets,1,+0.227,,I04c.json:estimates.panelA_value_added.log_asset|h1.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log assets,2,+0.180,,I04c.json:estimates.panelA_value_added.log_asset|h2.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Log assets,3,+0.240,,I04c.json:estimates.panelA_value_added.log_asset|h3.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Survival,1,+0.006,,I04c.json:estimates.panelA_value_added.va_pe|h3.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Survival,2,+0.009,,I04c.json:estimates.panelA_value_added.alive|h2.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Survival,3,+0.007,,I04c.json:estimates.panelA_value_added.alive|h3.DiD,i04c_valueadded.py,
+appendix,Table F2. Firm outcomes over three post-deal years,,Events,1,147,C18,I04c.json:estimates.panelA_value_added.log_va|h1.DiD (n),i04c_valueadded.py,
+appendix,Table G1. Sponsor exits and reversibility,,Entry-period effect,1,−0.0715,,I05.json:estimates.panelB_entry_exit_pairs.entry.mean,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Entry-period effect,2,−0.133,,I05.json:estimates.panelB_entry_exit_pairs.entry.ci.0,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Entry-period effect,2,−0.009,,I05.json:estimates.panelB_entry_exit_pairs.entry.ci.1,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Exit-period effect,1,−0.008,,I05.json:estimates.panelA_by_timing.stated.zero_DiD,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Exit-period effect,2,−0.119,,I05.json:estimates.panelB_entry_exit_pairs.exit.ci.0,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Exit-period effect,2,0.086,,I05.json:estimates.panelB_entry_exit_pairs.exit.ci.1,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Entry + exit,1,−0.079,,I05.json:estimates.panelB_entry_exit_pairs.sum.mean,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Entry + exit,2,−0.212,,I05.json:estimates.panelB_entry_exit_pairs.sum.ci.0,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Entry + exit,2,0.034,,I05.json:estimates.panelB_entry_exit_pairs.sum.ci.1,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Minimum detectable effect,1,0.194,,I05.json:estimates.MDE_at_n,i05_exit_reversal.py,
+appendix,Table G1. Sponsor exits and reversibility,,Usable sponsor exits,1,13,,I05.json:n,i05_exit_reversal.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Original sample,1,−0.086,,I06.json:estimates.panelA_specs.G24|S1 기존처치·기존풀.P1,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Original sample,2,−0.165,,I06.json:estimates.panelA_specs.G24|S1 기존처치·기존풀.P1_ci.0,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Original sample,2,−0.007,,I06.json:estimates.panelA_specs.G24|S1 기존처치·기존풀.P1_ci.1,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Expanded sample,1,−0.058,,I06.json:estimates.panelA_specs.G24|S4 확장처치·확장풀.P1,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Expanded sample,2,−0.126,,I06.json:estimates.panelA_specs.G24|S4 확장처치·확장풀.P1_ci.0,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Expanded sample,2,0.008,,I06.json:estimates.panelA_specs.G24|S4 확장처치·확장풀.P1_ci.1,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Difference between samples,1,−0.029,,I06.json:estimates.panelC_collapse_test.G24.P1_diff,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Difference between samples,2,−0.130,,I06.json:estimates.panelA_specs.G24|S5 회수전용·확장풀.rel_ci.0,i06_notyet_anatomy.py,
+appendix,Table G2. Not-yet-treated comparison at a 24-month treatment gap,,Difference between samples,2,0.071,,I06.json:estimates.panelA_specs.G36|S3 확장처치·기존풀.rel_ci.1,i06_notyet_anatomy.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,No-hire outcome,1,0.0050,,I19.json:estimates.panelB_by_type.OWN.DiD,i19_succession.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,No-hire outcome,2,−0.007,,I19.json:estimates.panelB_by_type.OWN.ci.0,i19_succession.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,No-hire outcome,2,0.018,,I19.json:estimates.panelB_by_type.OWN.ci.1,i19_succession.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Employment level,1,0.002,,I19.json:estimates.panelC_inertia_moderator.OWN.T1.DiD,i19_succession.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Employment level,2,−0.017,C74,I45.json:estimates.panelD_oos_prediction.oos_r2_state,i45_power_invariance.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Employment level,2,0.025,C44a,I39.json:estimates.t2.excess.DiD (ci1),i39_spell_benchmark.py,
+appendix,Table G3. Labour outcomes around non-private-equity ownership changes,,Slope with transferred ownership stake,1,−0.000008,,I19c.json:estimates.panelB_own_dose.slope_per_pct,i19c_dose_gradient.py,
+appendix,Table H1. Supplementary monthly hiring hazard estimates,,"Post-deal hiring, treated relative to matched controls",1,1.159,,I36.json:estimates.specs.(2).terms.treated x post.HR,i36_regression_table.py,
+appendix,Table H1. Supplementary monthly hiring hazard estimates,,"Post-deal hiring, treated relative to matched controls",2,1.083,,I36.json:estimates.specs.(2).terms.treated x post.ci.0,i36_regression_table.py,
+appendix,Table H1. Supplementary monthly hiring hazard estimates,,"Post-deal hiring, treated relative to matched controls",2,1.241,,I36.json:estimates.specs.(2).terms.treated x post.ci.1,i36_regression_table.py,
+appendix,Table H2. State interaction in the monthly hazard specification,,"Previous matching, state not exact-matched",1,1.204,C9,I25.json:estimates.panelD_hazard_triple.tp_hi.HR,i25_pre_inertia.py,
+appendix,Table H2. State interaction in the monthly hazard specification,,"Previous matching, state not exact-matched",2,1.021,C9,I25.json:estimates.panelD_hazard_triple.tp_hi.HR (ci0),i25_pre_inertia.py,
+appendix,Table H2. State interaction in the monthly hazard specification,,"Previous matching, state not exact-matched",2,1.421,C9,I25.json:estimates.panelD_hazard_triple.tp_hi.HR (ci1),i25_pre_inertia.py,
+appendix,Table H2. State interaction in the monthly hazard specification,,"State-balanced matching, continuous state",1,1.507,D14,I57.json:estimates.panelA_hazard_triple.연속 S.HR,i57_reallocation2.py,
+appendix,Table H2. State interaction in the monthly hazard specification,,"State-balanced matching, continuous state",2,0.871,D14,I57.json:estimates.panelA_hazard_triple.연속 S.HR (ci0),i57_reallocation2.py,
+appendix,Table H2. State interaction in the monthly hazard specification,,"State-balanced matching, continuous state",2,2.609,D14,I57.json:estimates.panelA_hazard_triple.연속 S.HR (ci1),i57_reallocation2.py,

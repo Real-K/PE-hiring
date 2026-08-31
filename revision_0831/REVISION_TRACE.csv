@@ -1,0 +1,149 @@
+exhibit,value,source
+Table 1. Sample construction and characteristics of the matched population,752,I48.json:estimates.panelA_sample_flow.canonical_treated_file
+Table 1. Sample construction and characteristics of the matched population,168,I48.json:estimates.panelA_sample_flow.drop_no_nps_link
+Table 1. Sample construction and characteristics of the matched population,120,I48.json:estimates.panelA_sample_flow.drop_insufficient_pre_window
+Table 1. Sample construction and characteristics of the matched population,75,I48.json:estimates.panelA_sample_flow.drop_employment_lt5
+Table 1. Sample construction and characteristics of the matched population,10,I48.json:estimates.panelA_sample_flow.drop_no_control_cell
+Table 1. Sample construction and characteristics of the matched population,379,I48.json:estimates.panelA_sample_flow.matched_events
+Table 1. Sample construction and characteristics of the matched population,367,I35.json:estimates.canonical.A1_hire_DiD.n
+Table 1. Sample construction and characteristics of the matched population,301,I48.json:estimates.panelC_exclusions.baseline.n
+Table 1. Sample construction and characteristics of the matched population,286,I65.json:estimates.panelA_firm_cluster.n_events
+Table 1. Sample construction and characteristics of the matched population,53,I63.json:estimates.attrition.state_window
+Table 1. Sample construction and characteristics of the matched population,1,I63.json:estimates.attrition.emp_lt5
+Table 1. Sample construction and characteristics of the matched population,17,I63.json:estimates.attrition.no_cell
+Table 1. Sample construction and characteristics of the matched population,22,I63.json:estimates.attrition.outcome
+Table 1. Sample construction and characteristics of the matched population,180,I45.json:estimates.panelC_joint_test.n
+Table 1. Sample construction and characteristics of the matched population,147,CLAIMS_LEDGER C18 (I04c financial one-year sample)
+Table 1. Sample construction and characteristics of the matched population,79.8,I48.json:estimates.panelE_in_vs_out.included.median_employment
+Table 1. Sample construction and characteristics of the matched population,135.6,I48.json:estimates.panelE_in_vs_out.excluded.median_employment
+Table 1. Sample construction and characteristics of the matched population,218.2,I37.json:estimates.rows.0.treated
+Table 1. Sample construction and characteristics of the matched population,44,I37.json:estimates.n_industries
+Table 1. Sample construction and characteristics of the matched population,4.442,I70.json:estimates.panelC_balance286.lsize.treated_mean
+Table 1. Sample construction and characteristics of the matched population,4.380,I70.json:estimates.panelC_balance286.lsize.control_mean
+Table 1. Sample construction and characteristics of the matched population,+0.0538,I70.json:estimates.panelC_balance286.lsize.nd
+Table 1. Sample construction and characteristics of the matched population,+0.095,I70.json:estimates.panelC_balance286.grow.treated_mean
+Table 1. Sample construction and characteristics of the matched population,+0.080,I70.json:estimates.panelC_balance286.grow.control_mean
+Table 1. Sample construction and characteristics of the matched population,+0.0651,I70.json:estimates.panelC_balance286.grow.nd
+Table 1. Sample construction and characteristics of the matched population,16.524,I70.json:estimates.panelC_balance286.age.treated_mean
+Table 1. Sample construction and characteristics of the matched population,18.099,I70.json:estimates.panelC_balance286.age.control_mean
+Table 1. Sample construction and characteristics of the matched population,−0.1676,I70.json:estimates.panelC_balance286.age.nd
+Table 1. Sample construction and characteristics of the matched population,−0.352,I70.json:estimates.panelC_balance286.S.treated_mean
+Table 1. Sample construction and characteristics of the matched population,−0.343,I70.json:estimates.panelC_balance286.S.control_mean
+Table 1. Sample construction and characteristics of the matched population,−0.0390,I70.json:estimates.panelC_balance286.S.nd
+Table 1. Sample construction and characteristics of the matched population,0.436,I70.json:estimates.panelC_balance286.hr12.treated_mean
+Table 1. Sample construction and characteristics of the matched population,0.415,I70.json:estimates.panelC_balance286.hr12.control_mean
+Table 1. Sample construction and characteristics of the matched population,+0.0624,I70.json:estimates.panelC_balance286.hr12.nd
+Table 1. Sample construction and characteristics of the matched population,0.352,I70.json:estimates.panelC_balance286.sep12.treated_mean
+Table 1. Sample construction and characteristics of the matched population,0.350,I70.json:estimates.panelC_balance286.sep12.control_mean
+Table 1. Sample construction and characteristics of the matched population,+0.0075,I70.json:estimates.panelC_balance286.sep12.nd
+Table 2. Average post-investment changes relative to matched controls,0.0878,I35.json:estimates.canonical.A2_rel12.est
+Table 2. Average post-investment changes relative to matched controls,"[0.0462, 0.1300]",I35.json:estimates.canonical.A2_rel12.ci
+Table 2. Average post-investment changes relative to matched controls,367,I35.json:estimates.canonical.A2_rel12.n
+Table 2. Average post-investment changes relative to matched controls,0.0485,I35.json:estimates.canonical.A1_hire_DiD.est
+Table 2. Average post-investment changes relative to matched controls,"[0.0163, 0.0814]",I35.json:estimates.canonical.A1_hire_DiD.ci
+Table 2. Average post-investment changes relative to matched controls,367,I35.json:estimates.canonical.A1_hire_DiD.n
+Table 2. Average post-investment changes relative to matched controls,0.0007,I35.json:estimates.canonical.A5_separation.est
+Table 2. Average post-investment changes relative to matched controls,"[−0.0353, 0.0398]",I35.json:estimates.canonical.A5_separation.ci
+Table 2. Average post-investment changes relative to matched controls,367,I35.json:estimates.canonical.A5_separation.n
+Table 3. Hiring responses across pre-deal hiring states,0.7101,I65.json:estimates.panelA_firm_cluster.observed
+Table 3. Hiring responses across pre-deal hiring states,"[0.3187, 1.1254]",I65.json:estimates.panelA_firm_cluster.ci95
+Table 3. Hiring responses across pre-deal hiring states,0.2005,I65.json:estimates.panelF_magnitude.effect_iqr
+Table 3. Hiring responses across pre-deal hiring states,"[0.0900, 0.3177]",I65.json:estimates.panelF_magnitude.ci95_iqr
+Table 3. Hiring responses across pre-deal hiring states,0.1010,I70.json:estimates.panelA_gradient.null_mean
+Table 3. Hiring responses across pre-deal hiring states,0.1538,I70.json:estimates.panelA_gradient.null_sd
+Table 3. Hiring responses across pre-deal hiring states,0.6091,I60.json:estimates.specs.winsor_5_95.excess
+Table 3. Hiring responses across pre-deal hiring states,3.96,I70.json:estimates.panelA_gradient.z
+Table 3. Hiring responses across pre-deal hiring states,0.0010,I70.json:estimates.panelA_gradient.RI_p_two_sided_2min
+Table 3. Hiring responses across pre-deal hiring states,0.4698,I58.json:estimates.panelD_decomposition.current.eff
+Table 3. Hiring responses across pre-deal hiring states,0.7101,I58.json:estimates.panelD_decomposition.balanced.eff
+Table 3. Hiring responses across pre-deal hiring states,0.8425,I58.json:estimates.panelD_decomposition.current.own
+Table 3. Hiring responses across pre-deal hiring states,0.8425,I58.json:estimates.panelD_decomposition.balanced.own
+Table 3. Hiring responses across pre-deal hiring states,0.2950,I58.json:estimates.panelD_decomposition.current.control_mean
+Table 3. Hiring responses across pre-deal hiring states,0.0056,I58.json:estimates.panelD_decomposition.balanced.control_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.7101,I59.json:estimates.lrate.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1012,I59.json:estimates.lrate.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I59.json:estimates.lrate.p_two
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I59.json:estimates.lrate.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.6315,I59.json:estimates.lN.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1795,I59.json:estimates.lN.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.014,I59.json:estimates.lN.p_two
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I59.json:estimates.lN.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.6957,I59.json:estimates.lN_ctrlE.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0363,I59.json:estimates.lN_ctrlE.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.002,I59.json:estimates.lN_ctrlE.p_two
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I59.json:estimates.lN_ctrlE.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.3816,I57.json:estimates.panelB_outcomes.churn.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,3.08,I57.json:estimates.panelB_outcomes.churn.z
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.002,I57.json:estimates.panelB_outcomes.churn.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,288,I57.json:estimates.panelB_outcomes.churn.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1788,I57.json:estimates.panelB_outcomes.sep.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,1.17,I57.json:estimates.panelB_outcomes.sep.z
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.2349,I57.json:estimates.panelB_outcomes.sep.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,281,I57.json:estimates.panelB_outcomes.sep.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,−0.0580,I57.json:estimates.panelB_outcomes.emp.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,−2.60,I57.json:estimates.panelB_outcomes.emp.z
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.007,I57.json:estimates.panelB_outcomes.emp.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,289,I57.json:estimates.panelB_outcomes.emp.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.7536,I57.json:estimates.panelC_paired.채용 − 고용.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0232,I57.json:estimates.panelC_paired.채용 − 고용.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,4.56,I57.json:estimates.panelC_paired.채용 − 고용.z
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I57.json:estimates.panelC_paired.채용 − 고용.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I57.json:estimates.panelC_paired.채용 − 고용.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.4539,I57.json:estimates.panelC_paired.churn − 고용.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,−0.0750,I57.json:estimates.panelC_paired.churn − 고용.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,4.19,I57.json:estimates.panelC_paired.churn − 고용.z
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I57.json:estimates.panelC_paired.churn − 고용.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,288,I57.json:estimates.panelC_paired.churn − 고용.n
+Table 5. Pre-deal diagnostics for the hiring-state gradient,−0.1770,I66.json:estimates.panelA_pretrend_early_state.excess
+Table 5. Pre-deal diagnostics for the hiring-state gradient,"[−0.4394, 0.0854]",I66.json:estimates.panelA_pretrend_early_state.excess_ci
+Table 5. Pre-deal diagnostics for the hiring-state gradient,250,I66.json:estimates.panelA_pretrend_early_state.n
+Table 5. Pre-deal diagnostics for the hiring-state gradient,0.1068,I64.json:estimates.pre_12m.observed
+Table 5. Pre-deal diagnostics for the hiring-state gradient,"[−0.1955, 0.4351]",I64.json:estimates.pre_12m.boot_ci
+Table 5. Pre-deal diagnostics for the hiring-state gradient,283,I64.json:estimates.pre_12m.n
+Table 5. Pre-deal diagnostics for the hiring-state gradient,0.7250,I64.json:estimates.post_12m.observed
+Table 5. Pre-deal diagnostics for the hiring-state gradient,"[0.3259, 1.1081]",I64.json:estimates.post_12m.boot_ci
+Table 5. Pre-deal diagnostics for the hiring-state gradient,283,I64.json:estimates.post_12m.n
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,+0.1240,I71.json:estimates.panelB_groups.first_time.mean
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,"[0.0219, 0.2276]",I71.json:estimates.panelB_groups.first_time.ci
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,158,I71.json:estimates.panelB_groups.first_time.n
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,+0.2749,I71.json:estimates.panelB_groups.prior_1_3.mean
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,"[0.1369, 0.4128]",I71.json:estimates.panelB_groups.prior_1_3.ci
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,96,I71.json:estimates.panelB_groups.prior_1_3.n
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,+0.1122,I71.json:estimates.panelB_groups.prior_ge4.mean
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,"[−0.0643, 0.3025]",I71.json:estimates.panelB_groups.prior_ge4.ci
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,45,I71.json:estimates.panelB_groups.prior_ge4.n
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,−0.0118,I71.json:estimates.panelB_groups.ge4_minus_first.diff
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,"[−0.2193, 0.2195]",I71.json:estimates.panelB_groups.ge4_minus_first.ci
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,+0.0990,I71.json:estimates.panelB_groups.repeat_minus_first.diff
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,"[−0.0565, 0.2498]",I71.json:estimates.panelB_groups.repeat_minus_first.ci
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,0.53,I71.json:estimates.panelA_dist.share_first_time
+Table E1 (revised). Sponsor experience at the transaction date and the hiring response,0.74,I71.json:estimates.panelA_dist.corr_with_fullcount
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,0.0054,I71.json:estimates.panelC_joint.r2_deal
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,0.0286,I71.json:estimates.panelC_joint.r2_state
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,0.0311,I71.json:estimates.panelC_joint.r2_both
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,0.814,I71.json:estimates.panelC_joint.perm_p_deal
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,0.0220,I71.json:estimates.panelC_joint.perm_p_state
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,−0.0454,I71.json:estimates.panelD_oos.oos_r2_deal
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,−0.0168,I71.json:estimates.panelD_oos.oos_r2_state
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,−0.0534,I71.json:estimates.panelD_oos.oos_r2_both
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,+0.0287,I71.json:estimates.panelD_oos.state_minus_deal
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,"[−0.0280, 0.1148]",I71.json:estimates.panelD_oos.ci
+Tables E2–E3 (revised inputs). Joint and held-out comparisons with the rebuilt experience variable,180,I71.json:estimates.panelC_joint.n
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,+0.0255,I72.json:estimates.panelA_slopes.cash_assets.slope
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,"[−0.0650, 0.1152]",I72.json:estimates.panelA_slopes.cash_assets.ci
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,186,I72.json:estimates.panelA_slopes.cash_assets.n
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,−0.0045,I72.json:estimates.panelA_slopes.leverage.slope
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,"[−0.1027, 0.0875]",I72.json:estimates.panelA_slopes.leverage.ci
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,186,I72.json:estimates.panelA_slopes.leverage.n
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,+0.0489,I72.json:estimates.panelA_slopes.coverage.slope
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,"[−0.0420, 0.0891]",I72.json:estimates.panelA_slopes.coverage.ci
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,170,I72.json:estimates.panelA_slopes.coverage.n
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,−0.0055,I72.json:estimates.panelA_slopes.roa.slope
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,"[−0.0911, 0.1018]",I72.json:estimates.panelA_slopes.roa.ci
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,184,I72.json:estimates.panelA_slopes.roa.n
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,+0.1087,I72.json:estimates.panelA_slopes.state_common.slope
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,"[0.0229, 0.1964]",I72.json:estimates.panelA_slopes.state_common.ci
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,169,I72.json:estimates.panelA_slopes.state_common.n
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,+0.1095,I72.json:estimates.panelA_slopes.state_full.slope
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,"[0.0221, 0.1949]",I72.json:estimates.panelA_slopes.state_full.ci
+Table B5 (new). Pre-deal financial condition and hiring-response heterogeneity,301,I72.json:estimates.panelA_slopes.state_full.n

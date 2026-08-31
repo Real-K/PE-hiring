@@ -69,4 +69,7 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I67.json` | `67e86ce7fe5489c8` | 1,963 | `i67_emp_horizons.py` | OA Table C4 |
 | `I68.json` | `3b75315a55917528` | 3,316 | `i68_hiring_rate_es.py` | — |
 | `I69.json` | `9eea16a0120a0bda` | 2,230 | `i69_sample_flow.py` | — |
+| `I70.json` | `9443188d48bb4bd2` | 71,941 | `i70_fig_balance.py` | — |
+| `I71.json` | `87b7c4243d38e410` | 3,337 | `i71_gp_prior.py` | — |
+| `I72.json` | `92a98304ef2c0539` | 2,338 | `i72_fin_het.py` | — |
 | `h41_causal_gap.json` | `31b201a9dd5b8680` | 13,913 | `` | — |

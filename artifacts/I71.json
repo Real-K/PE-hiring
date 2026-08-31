@@ -1,0 +1,133 @@
+{
+  "id": "I-71",
+  "title": "스폰서 경험 재구축 — 거래시점 이전 딜 수",
+  "status": "GO",
+  "n": 299,
+  "estimates": {
+    "panelA_dist": {
+      "n_with_gp": 299,
+      "share_first_time": 0.5284,
+      "quantiles": {
+        "25": 0.0,
+        "50": 0.0,
+        "75": 2.0,
+        "90": 4.0
+      },
+      "max": 13.0,
+      "tercile_cuts": [
+        0.0,
+        1.0
+      ],
+      "corr_with_fullcount": 0.7448,
+      "same_month_ties": 17,
+      "def": "같은 스폰서(첫 기재 투자자)가 처치 유니버스(379)에서 초점 거래월보다 엄격히 이전에 실행한 딜 수"
+    },
+    "panelB_groups": {
+      "first_time": {
+        "n": 158,
+        "mean": 0.124,
+        "ci": [
+          0.0219,
+          0.2276
+        ]
+      },
+      "prior_1_3": {
+        "n": 96,
+        "mean": 0.2749,
+        "ci": [
+          0.1369,
+          0.4128
+        ]
+      },
+      "prior_ge4": {
+        "n": 45,
+        "mean": 0.1122,
+        "ci": [
+          -0.0643,
+          0.3025
+        ]
+      },
+      "ge4_minus_first": {
+        "diff": -0.0118,
+        "ci": [
+          -0.2193,
+          0.2195
+        ],
+        "n1": 45,
+        "n2": 158,
+        "sig": false,
+        "half_width": 0.2194,
+        "MDE_80": 0.3137,
+        "equiv": {
+          "SESOI": 0.3472,
+          "holds": true,
+          "margin": [
+            0.1279,
+            0.1277
+          ]
+        }
+      },
+      "repeat_minus_first": {
+        "diff": 0.099,
+        "ci": [
+          -0.0565,
+          0.2498
+        ],
+        "n1": 141,
+        "n2": 158,
+        "sig": false,
+        "half_width": 0.1532,
+        "MDE_80": 0.2189,
+        "equiv": {
+          "SESOI": 0.3472,
+          "holds": true,
+          "margin": [
+            0.2907,
+            0.0974
+          ]
+        }
+      },
+      "grouping_note": "삼분위 절단이 0 에서 퇴화하므로(첫 딜 과반) 0 / 1–3 / ≥4 고정 구간을 쓴다"
+    },
+    "panelC_joint": {
+      "n": 180,
+      "r2_deal": 0.0054,
+      "perm_p_deal": 0.8135,
+      "r2_state": 0.0286,
+      "perm_p_state": 0.022,
+      "r2_both": 0.0311,
+      "incremental_deal_over_state": 0.0025,
+      "incremental_state_over_deal": 0.0258,
+      "n_perm": 2000,
+      "deal_vars": [
+        "buyout",
+        "stake/100",
+        "log1p(prior sponsor deals)"
+      ]
+    },
+    "panelD_oos": {
+      "oos_r2_deal": -0.0454,
+      "oos_r2_state": -0.0168,
+      "oos_r2_both": -0.0534,
+      "state_minus_deal": 0.0287,
+      "ci": [
+        -0.028,
+        0.1148
+      ],
+      "sig": false,
+      "k_folds": 5,
+      "n": 180,
+      "framing": "held-out-event fit within the observed sample (not forecasting)"
+    }
+  },
+  "prediction": "look-ahead 없는 경험 변수로도 E1/E2/E3 의 결론(경험 gradient 부재, 상태 우위)이 유지되는가",
+  "verdict": "첫 딜 +0.1240 vs ≥4 +0.1122, 차이 -0.0118 [-0.2193, 0.2195] · 거래특성 R² 0.0054(순열 p 0.814) vs 상태 0.0286 · OOS 차이 +0.0287 [-0.028, 0.1148]",
+  "kill_met": false,
+  "code": "P014_upgrade_package/harness30/i71_gp_prior.py",
+  "sha256_16": "99a2ea3637067de3",
+  "seed": 42,
+  "runtime_s": 28.8,
+  "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
+  "date": "2026-08-31",
+  "comment_ref": "PE Hiring 0831_comment.md Part6 §10–11·§33"
+}

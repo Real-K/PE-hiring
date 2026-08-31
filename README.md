@@ -12,6 +12,18 @@ Analysis code and aggregate result artifacts behind the submitted manuscript (ma
 
 Outputs are stored in the notebooks. Each reads only `artifacts/` (aggregate JSON + the claims ledger); no licensed microdata is used or required.
 
+## Revised exhibits (0831 review memo) — `revision_0831/`
+
+The PI's 2026-08-31 review memo restructures the main paper to 5 tables + 2 figures and asks for three new analyses.
+`revision_0831/` builds all of it from artifacts: rebuilt Tables 1–5 (`main_exhibits.md`), the new two-panel Figure 1
+(event-level state–response scatter + the **actual** 2,000 placebo draws), Figure 2 (quarterly dynamics), the rebuilt
+sponsor-experience tables and the new Table B5 (`appendix_exhibits.md`). New pipeline runs: `i70_fig_balance.py`,
+`i71_gp_prior.py`, `i72_fin_het.py` → `I70/I71/I72.json`. Start at
+[`revision_0831/00_revised_exhibits.ipynb`](revision_0831/00_revised_exhibits.ipynb); the memo-to-exhibit mapping and
+open decisions are in [`revision_0831/REVISION_MAP.md`](revision_0831/REVISION_MAP.md). Cell-level traceability:
+`revision_0831/REVISION_TRACE.csv` (148 cells). `paper_exhibits/*_0831.md` are the extracted reference copies of the
+0831 manuscript build (its 895 decimal tokens all trace to the artifact pool).
+
 ## How the check works
 
 `spec/*.json` records, for every cell of every table in the submitted manuscript, the numeric tokens it contains and the artifact field (or claims-ledger claim) each token comes from. `code/render.py` rebuilds each cell by formatting the source value exactly as the manuscript prints it and compares the result with the cell text extracted from the .docx. Result at build time: **143 main-text and 331 appendix table tokens mapped; 393 numeric cells checked; 0 mismatches; 1 untraceable literal** (Table E4, see `PLACEHOLDERS_RESOLVED.md`). Both figures regenerate byte-identical to the images embedded in the .docx files.

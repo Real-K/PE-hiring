@@ -97,7 +97,9 @@ def cov12(row, m0):
     sv = Sv[row, c].astype(float)
     sep = float(np.nansum(sv) / b12[1]) if np.isfinite(sv).all() else np.nan
     S_, _ = Sall(m0)
-    return dict(lsize=float(np.log(b12[1])), grow=(float(np.log(st[1] / w36[1])) if (w36 and w36[1] > 0) else np.nan),
+    c12ok = len(c) == 12 and np.isfinite(Hv[row, c].astype(float)).all()
+    zsh12 = float((Hv[row, c].astype(float) == 0).mean()) if c12ok else np.nan
+    return dict(zsh12=zsh12, lsize=float(np.log(b12[1])), grow=(float(np.log(st[1] / w36[1])) if (w36 and w36[1] > 0) else np.nan),
                 age=(float((m0 - adpt[row]) / 12.0) if np.isfinite(adpt[row]) else np.nan),
                 hr12=float(b12[0] / b12[1]), sep12=sep,
                 S=(float(S_[row]) if (S_ is not None and np.isfinite(S_[row])) else np.nan))
@@ -111,7 +113,7 @@ for r in T1:
     for k in ([] if ct is None else ct):
         v = cov12(int(k), m0)
         if v: cn.append(v)
-LBL = {"lsize": "log 고용(−12~−1 평균)", "grow": "사전 고용성장(−24~−13 / −36~−25)",
+LBL = {"zsh12": "무채용월 비중(−12~−1)", "lsize": "log 고용(−12~−1 평균)", "grow": "사전 고용성장(−24~−13 / −36~−25)",
        "age": "업력(년)", "hr12": "사전 12개월 채용률", "sep12": "사전 12개월 이직률", "S": "사전 채용상태 S"}
 PC = {}
 for k, lab in LBL.items():

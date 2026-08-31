@@ -10,6 +10,8 @@
       "null_mean": 0.1006,
       "null_sd": 0.1576,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.0005,
       "z": 3.87,
       "sig": true,
       "n_placebo": 1246
@@ -20,6 +22,8 @@
       "null_mean": 0.0548,
       "null_sd": 0.1651,
       "RI_p": 0.001,
+      "RI_p_lower": 0.9995,
+      "RI_p_two_centered": 0.0015,
       "z": 3.54,
       "sig": true,
       "n_placebo": 1385
@@ -30,6 +34,8 @@
       "null_mean": 0.0831,
       "null_sd": 0.1787,
       "RI_p": 0.0055,
+      "RI_p_lower": 0.995,
+      "RI_p_two_centered": 0.0075,
       "z": 2.95,
       "sig": true,
       "n_placebo": 2601
@@ -40,6 +46,8 @@
       "null_mean": 0.0782,
       "null_sd": 0.1898,
       "RI_p": 0.007,
+      "RI_p_lower": 0.9935,
+      "RI_p_two_centered": 0.011,
       "z": 2.65,
       "sig": true,
       "n_placebo": 4646
@@ -50,6 +58,8 @@
       "null_mean": 0.0271,
       "null_sd": 0.1581,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.001,
       "z": 4.12,
       "sig": true,
       "n_placebo": 3664
@@ -125,9 +135,9 @@
   "verdict": "[C·D] 매칭 변형 5종 전부 유의: exact bin k=5 3.87 · 거리척도 k=5 3.54 · k=10 2.95 · k=20 2.65 · bin k=20 4.12. [B] ★ 결합 RI: 마할라노비스 28.35 vs 귀무 p95 7.6 → **p = 0.0005** — 이직 단독이 약해도 **패턴 전체는 강하게 검출된다**. [A] 사전추세를 기울기 1개로: 4분기 드리프트 -0.0375 [-0.5997, 0.4728], 등가성 미성립.",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i62_power3.py",
-  "sha256_16": "a1f30578a9f1550c",
+  "sha256_16": "ad09aa257f7cbcca",
   "seed": 42,
-  "runtime_s": 200.7,
+  "runtime_s": 171.6,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24"
 }

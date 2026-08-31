@@ -53,46 +53,46 @@ Table 3. Hiring responses across pre-deal hiring states,0.1010,I70.json:estimate
 Table 3. Hiring responses across pre-deal hiring states,0.1538,I70.json:estimates.panelA_gradient.null_sd
 Table 3. Hiring responses across pre-deal hiring states,0.6091,I60.json:estimates.specs.winsor_5_95.excess
 Table 3. Hiring responses across pre-deal hiring states,3.96,I70.json:estimates.panelA_gradient.z
-Table 3. Hiring responses across pre-deal hiring states,0.0010,I70.json:estimates.panelA_gradient.RI_p_two_sided_2min
+Table 3. Hiring responses across pre-deal hiring states,0.0005,I70.json:estimates.panelA_gradient.RI_p_two_sided
 Table 3. Hiring responses across pre-deal hiring states,0.4698,I58.json:estimates.panelD_decomposition.current.eff
 Table 3. Hiring responses across pre-deal hiring states,0.7101,I58.json:estimates.panelD_decomposition.balanced.eff
 Table 3. Hiring responses across pre-deal hiring states,0.8425,I58.json:estimates.panelD_decomposition.current.own
 Table 3. Hiring responses across pre-deal hiring states,0.8425,I58.json:estimates.panelD_decomposition.balanced.own
 Table 3. Hiring responses across pre-deal hiring states,0.2950,I58.json:estimates.panelD_decomposition.current.control_mean
 Table 3. Hiring responses across pre-deal hiring states,0.0056,I58.json:estimates.panelD_decomposition.balanced.control_mean
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.7101,I59.json:estimates.lrate.observed
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1012,I59.json:estimates.lrate.null_mean
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I59.json:estimates.lrate.p_two
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I59.json:estimates.lrate.n
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.6315,I59.json:estimates.lN.observed
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1795,I59.json:estimates.lN.null_mean
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.014,I59.json:estimates.lN.p_two
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I59.json:estimates.lN.n
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.6957,I59.json:estimates.lN_ctrlE.observed
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0363,I59.json:estimates.lN_ctrlE.null_mean
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.002,I59.json:estimates.lN_ctrlE.p_two
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I59.json:estimates.lN_ctrlE.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.7101,I57.json:estimates.panelB_outcomes.hire.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1006,I57.json:estimates.panelB_outcomes.hire.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0005,I57.json:estimates.panelB_outcomes.hire.RI_p_two_centered
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I57.json:estimates.panelB_outcomes.hire.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.6315,I57.json:estimates.panelB_outcomes.lN.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1858,I57.json:estimates.panelB_outcomes.lN.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0110,I57.json:estimates.panelB_outcomes.lN.RI_p_two_centered
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I57.json:estimates.panelB_outcomes.lN.n
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.6957,I57.json:estimates.panelB_outcomes.lN_ctrlE.observed
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0377,I57.json:estimates.panelB_outcomes.lN_ctrlE.null_mean
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0005,I57.json:estimates.panelB_outcomes.lN_ctrlE.RI_p_two_centered
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I57.json:estimates.panelB_outcomes.lN_ctrlE.n
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.3816,I57.json:estimates.panelB_outcomes.churn.observed
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,3.08,I57.json:estimates.panelB_outcomes.churn.z
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.002,I57.json:estimates.panelB_outcomes.churn.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.002,I57.json:estimates.panelB_outcomes.churn.RI_p_two_centered
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,288,I57.json:estimates.panelB_outcomes.churn.n
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.1788,I57.json:estimates.panelB_outcomes.sep.observed
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,1.17,I57.json:estimates.panelB_outcomes.sep.z
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.2349,I57.json:estimates.panelB_outcomes.sep.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.2384,I57.json:estimates.panelB_outcomes.sep.RI_p_two_centered
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,281,I57.json:estimates.panelB_outcomes.sep.n
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,−0.0580,I57.json:estimates.panelB_outcomes.emp.observed
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,−2.60,I57.json:estimates.panelB_outcomes.emp.z
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.007,I57.json:estimates.panelB_outcomes.emp.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.005,I57.json:estimates.panelB_outcomes.emp.RI_p_two_centered
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,289,I57.json:estimates.panelB_outcomes.emp.n
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.7536,I57.json:estimates.panelC_paired.채용 − 고용.observed
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.0232,I57.json:estimates.panelC_paired.채용 − 고용.null_mean
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,4.56,I57.json:estimates.panelC_paired.채용 − 고용.z
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I57.json:estimates.panelC_paired.채용 − 고용.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I57.json:estimates.panelC_paired.채용 − 고용.RI_p_two_centered
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,286,I57.json:estimates.panelC_paired.채용 − 고용.n
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.4539,I57.json:estimates.panelC_paired.churn − 고용.observed
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,−0.0750,I57.json:estimates.panelC_paired.churn − 고용.null_mean
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,4.19,I57.json:estimates.panelC_paired.churn − 고용.z
-Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I57.json:estimates.panelC_paired.churn − 고용.RI_p_two_sided
+Table 4. Worker-flow and employment gradients across pre-deal hiring states,0.001,I57.json:estimates.panelC_paired.churn − 고용.RI_p_two_centered
 Table 4. Worker-flow and employment gradients across pre-deal hiring states,288,I57.json:estimates.panelC_paired.churn − 고용.n
 Table 5. Pre-deal diagnostics for the hiring-state gradient,−0.1770,I66.json:estimates.panelA_pretrend_early_state.excess
 Table 5. Pre-deal diagnostics for the hiring-state gradient,"[−0.4394, 0.0854]",I66.json:estimates.panelA_pretrend_early_state.excess_ci

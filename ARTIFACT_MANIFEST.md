@@ -9,7 +9,7 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I03.json` | `db70361a6d437c6f` | 3,985 | `i03_ss_band.py` | — |
 | `I04.json` | `7f87b84efb4972a2` | 11,468 | `i04_performance.py` | Main Table 1 |
 | `I04b.json` | `94f17e7e266ef4b9` | 14,402 | `i04b_performance_v2.py` | — |
-| `I04c.json` | `c18f7bbc062046d1` | 14,155 | `i04c_valueadded.py` | Main Table 1, OA Table F1, OA Table F2 |
+| `I04c.json` | `3da40abb54aabe7a` | 14,694 | `i04c_valueadded.py` | Main Table 1, OA Table F1, OA Table F2 |
 | `I05.json` | `d2fefac444fa5209` | 3,918 | `i05_exit_reversal.py` | OA Table G1 |
 | `I05a.json` | `55fced24357fb7c3` | 1,500 | `i05a_exit_refine.py` | — |
 | `I06.json` | `27038f2628daacaa` | 6,699 | `i06_notyet_anatomy.py` | OA Table G2 |
@@ -53,23 +53,24 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I54.json` | `5c94d61cfabeeca3` | 3,319 | `i54_limits.py` | — |
 | `I55.json` | `338ac07afe0df07f` | 3,550 | `i55_reallocation.py` | — |
 | `I55_employment_horizons.json` | `6fa4b2cab9e6b5d0` | 943 | `(inline, 원장 §41-3)` | — |
-| `I56.json` | `3fc5778db1b3136a` | 4,915 | `i56_efficiency.py` | OA Table B4 |
-| `I57.json` | `ef478131c5c069ca` | 3,991 | `i57_reallocation2.py` | Main Table 3, Main Table 4, OA Table C4, OA Table H2 |
+| `I56.json` | `26af115be7ce9d4a` | 5,626 | `i56_efficiency.py` | OA Table B4 |
+| `I57.json` | `d8fc51f6ea86fbe8` | 5,275 | `i57_reallocation2.py` | Main Table 3, Main Table 4, OA Table C4, OA Table H2 |
 | `I57_levels.json` | `5d1968ab781ff148` | 932 | `` | OA Table C3 |
 | `I58.json` | `8e2e54ce180fab92` | 2,509 | `i58_design_audit.py` | Main Table 1, Main Table 3 |
 | `I58_control_contamination.json` | `01d679757aa751c7` | 659 | `` | Main Table 1 |
 | `I59.json` | `530a4c2d2a1c8af5` | 1,126 | `` | Main Table 3 |
-| `I60.json` | `4613c9d41fff2fc1` | 2,275 | `i60_speccurve.py` | Main Table 3, OA Table B3, OA Table B4, OA Table C2 |
+| `I60.json` | `9ce11e1e40eabe79` | 2,598 | `i60_speccurve.py` | Main Table 3, OA Table B3, OA Table B4, OA Table C2 |
 | `I61.json` | `fbd921816ffd5a02` | 3,720 | `i61_gradient_pretrend.py` | OA Table D1 |
-| `I62.json` | `2cc8309e0f530966` | 3,274 | `i62_power3.py` | OA Table B4 |
-| `I63.json` | `45c1d11886ffd02b` | 3,214 | `i63_sample_expansion.py` | OA Table B4 |
+| `I62.json` | `99790e69bc872ae3` | 3,580 | `i62_power3.py` | OA Table B4 |
+| `I63.json` | `8e51349f0c9d1294` | 3,575 | `i63_sample_expansion.py` | OA Table B4 |
 | `I64.json` | `ed1df01b02ecb3f4` | 1,914 | `i64_pretrend_honest.py` | Main Table 5, OA Table D4 |
 | `I65.json` | `3da372c82a53ce5d` | 2,832 | `i65_bootci_reuse.py` | Main Table 3, OA Table C2, OA Table D2, OA Table D3 |
-| `I66.json` | `e0989cbf57ae976f` | 3,048 | `i66_pretrend_zeros.py` | Main Table 5, OA Table B2, OA Table B3 |
+| `I66.json` | `f0ffd76d7dd90f5d` | 3,429 | `i66_pretrend_zeros.py` | Main Table 5, OA Table B2, OA Table B3 |
 | `I67.json` | `67e86ce7fe5489c8` | 1,963 | `i67_emp_horizons.py` | OA Table C4 |
 | `I68.json` | `3b75315a55917528` | 3,316 | `i68_hiring_rate_es.py` | — |
 | `I69.json` | `9eea16a0120a0bda` | 2,230 | `i69_sample_flow.py` | — |
-| `I70.json` | `9443188d48bb4bd2` | 71,941 | `i70_fig_balance.py` | — |
+| `I70.json` | `076f13d9cdd89fea` | 72,159 | `i70_fig_balance.py` | — |
 | `I71.json` | `87b7c4243d38e410` | 3,337 | `i71_gp_prior.py` | — |
 | `I72.json` | `92a98304ef2c0539` | 2,338 | `i72_fin_het.py` | — |
+| `I73.json` | `5130e3209ece8556` | 2,285 | `i73_decomp_e2.py` | — |
 | `h41_causal_gap.json` | `31b201a9dd5b8680` | 13,913 | `` | — |

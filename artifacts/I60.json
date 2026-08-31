@@ -15,6 +15,8 @@
           0.4082
         ],
         "RI_p": 0.0005,
+        "RI_p_lower": 1.0,
+        "RI_p_two_centered": 0.0005,
         "z": 3.96,
         "excess": 0.6091,
         "sig": true,
@@ -30,6 +32,8 @@
           0.4836
         ],
         "RI_p": 0.0005,
+        "RI_p_lower": 1.0,
+        "RI_p_two_centered": 0.0005,
         "z": 3.96,
         "excess": 0.7153,
         "sig": true,
@@ -45,6 +49,8 @@
           0.4484
         ],
         "RI_p": 0.001,
+        "RI_p_lower": 0.9995,
+        "RI_p_two_centered": 0.001,
         "z": 4.1,
         "excess": 0.7016,
         "sig": true,
@@ -60,6 +66,8 @@
           0.3791
         ],
         "RI_p": 0.0005,
+        "RI_p_lower": 1.0,
+        "RI_p_two_centered": 0.0005,
         "z": 3.96,
         "excess": 0.5381,
         "sig": true,
@@ -75,6 +83,8 @@
           0.3334
         ],
         "RI_p": 0.0125,
+        "RI_p_lower": 0.988,
+        "RI_p_two_centered": 0.023,
         "z": 2.2,
         "excess": 0.3048,
         "sig": true,
@@ -88,9 +98,9 @@
   "verdict": "주사양 +0.7101 (귀무 +0.1010, z 3.96, RI p 0.0005). 5사양 중 5종 유의.",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i60_speccurve.py",
-  "sha256_16": "e0629d8634e450c1",
+  "sha256_16": "2f933c65b10de5f8",
   "seed": 42,
-  "runtime_s": 40.1,
+  "runtime_s": 34.7,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24"
 }

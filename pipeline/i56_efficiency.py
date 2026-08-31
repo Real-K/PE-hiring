@@ -182,9 +182,11 @@ def ri(T, P, tag, wins=(5, 95), **kw):
         if s_ is not None: null.append(s_)
     null = np.array(null)
     p = (int((null >= obs).sum()) + 1) / (len(null) + 1)
+    pl = (int((null <= obs).sum()) + 1) / (len(null) + 1)
+    pc = (int((np.abs(null - null.mean()) >= abs(obs - null.mean())).sum()) + 1) / (len(null) + 1)
     out = {"observed": round(obs, 4), "n_treated": n_t, "n_placebo": len(P),
            "null_mean": round(float(null.mean()), 4), "null_sd": round(float(null.std()), 4),
-           "null_ci": qci(null), "RI_p": round(float(p), 4), "sig": bool(p < 0.05),
+           "null_ci": qci(null), "RI_p": round(float(p), 4), "RI_p_lower": round(float(pl), 4), "RI_p_two_centered": round(float(pc), 4), "sig": bool(p < 0.05),
            "z": round(float((obs - null.mean()) / null.std()), 2),
            "excess": round(float(obs - null.mean()), 4)}
     print(f"  {tag:<34} obs {out['observed']:>+7.4f} · null {out['null_mean']:>+7.4f}"

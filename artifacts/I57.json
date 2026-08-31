@@ -15,7 +15,9 @@
         ],
         "z": 1.47,
         "sig": false,
-        "n_cells": 1199
+        "n_cells": 1199,
+        "n_ev": 308,
+        "n_firm_months": 38652
       },
       "상위3분위": {
         "coef": 119104761499916.36,
@@ -27,7 +29,9 @@
         ],
         "z": 1918410049077480.2,
         "sig": true,
-        "n_cells": 1199
+        "n_cells": 1199,
+        "n_ev": 308,
+        "n_firm_months": 38652
       }
     },
     "panelB_outcomes": {
@@ -43,6 +47,7 @@
         "RI_p_upper": 0.0005,
         "RI_p_lower": 1.0,
         "RI_p_two_sided": 0.001,
+        "RI_p_two_centered": 0.0005,
         "z": 3.87,
         "excess": 0.6095,
         "sig": true
@@ -59,6 +64,7 @@
         "RI_p_upper": 0.1174,
         "RI_p_lower": 0.8831,
         "RI_p_two_sided": 0.2349,
+        "RI_p_two_centered": 0.2384,
         "z": 1.17,
         "excess": 0.1713,
         "sig": false
@@ -75,6 +81,7 @@
         "RI_p_upper": 0.001,
         "RI_p_lower": 0.9995,
         "RI_p_two_sided": 0.002,
+        "RI_p_two_centered": 0.002,
         "z": 3.08,
         "excess": 0.3635,
         "sig": true
@@ -91,8 +98,43 @@
         "RI_p_upper": 0.997,
         "RI_p_lower": 0.0035,
         "RI_p_two_sided": 0.007,
+        "RI_p_two_centered": 0.005,
         "z": -2.6,
         "excess": -0.1376,
+        "sig": true
+      },
+      "lN": {
+        "observed": 0.6315,
+        "n": 286,
+        "null_mean": 0.1858,
+        "null_sd": 0.1758,
+        "null_ci": [
+          -0.1732,
+          0.522
+        ],
+        "RI_p_upper": 0.004,
+        "RI_p_lower": 0.9965,
+        "RI_p_two_sided": 0.008,
+        "RI_p_two_centered": 0.011,
+        "z": 2.54,
+        "excess": 0.4457,
+        "sig": true
+      },
+      "lN_ctrlE": {
+        "observed": 0.6957,
+        "n": 286,
+        "null_mean": 0.0377,
+        "null_sd": 0.1526,
+        "null_ci": [
+          -0.2475,
+          0.3438
+        ],
+        "RI_p_upper": 0.0005,
+        "RI_p_lower": 1.0,
+        "RI_p_two_sided": 0.001,
+        "RI_p_two_centered": 0.0005,
+        "z": 4.31,
+        "excess": 0.658,
         "sig": true
       }
     },
@@ -109,6 +151,7 @@
         "RI_p_upper": 0.0005,
         "RI_p_lower": 1.0,
         "RI_p_two_sided": 0.001,
+        "RI_p_two_centered": 0.0005,
         "z": 4.56,
         "excess": 0.7304,
         "sig": true
@@ -125,6 +168,7 @@
         "RI_p_upper": 0.0215,
         "RI_p_lower": 0.979,
         "RI_p_two_sided": 0.043,
+        "RI_p_two_centered": 0.0415,
         "z": 2.08,
         "excess": 0.4235,
         "sig": true
@@ -141,6 +185,7 @@
         "RI_p_upper": 0.0005,
         "RI_p_lower": 1.0,
         "RI_p_two_sided": 0.001,
+        "RI_p_two_centered": 0.0005,
         "z": 4.19,
         "excess": 0.5289,
         "sig": true
@@ -154,9 +199,10 @@
   "verdict": "[A] hazard 삼중교호(확정 지표): 연속 1.5074 [0.871, 2.6087] · 3분위 inf [inf, inf]. [B] 채용 +0.7101(p상 0.001) vs 고용 -0.0580(p양측 0.007, z -2.6). [C] ★ 쌍대비 채용−고용 +0.7536 (귀무 +0.0232, z 4.56, p상 0.0005) — 재배치 서사가 쌍대비에서 직접 지지된다.",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i57_reallocation2.py",
-  "sha256_16": "64b7adc3790218f4",
+  "sha256_16": "dbb789d23dc45940",
   "seed": 42,
-  "runtime_s": 66.4,
+  "runtime_s": 58.5,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
-  "date": "2026-08-24"
+  "date": "2026-08-31",
+  "patch_note": "0831: +중심화 양측 p(RI_p_two_centered), +lN/lN_ctrlE, +hazard n_ev/n_firm_months — 기존 추정치·rng 순서 보존"
 }

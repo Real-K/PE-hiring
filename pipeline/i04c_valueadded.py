@@ -152,8 +152,17 @@ for h in HS:
     bs = np.array([d3[rng.integers(0, len(d3), len(d3))].mean()
                    - d1[rng.integers(0, len(d1), len(d1))].mean() for _ in range(NB)])
     ci = qci(bs); sg = "✓" if (ci[0] > 0 or ci[1] < 0) else "✗"
-    PD[f"T3-T1|h{h}"] = {"diff": round(float(d3.mean() - d1.mean()), 4), "ci": ci, "sig": sg == "✓"}
+    p2b = 2 * min(float((bs <= 0).mean()), float((bs >= 0).mean())); p2b = min(1.0, max(p2b, 1.0 / len(bs)))
+    PD[f"T3-T1|h{h}"] = {"diff": round(float(d3.mean() - d1.mean()), 4), "ci": ci, "sig": sg == "✓",
+                         "p_two_boot": round(p2b, 4), "n_T1": len(d1), "n_T3": len(d3)}
     print(f"    생존 T3−T1 h+{h} {d3.mean()-d1.mean():+.4f} {ci} {sg} (n {len(d1)}/{len(d3)})")
+
+hkeys = [k for k in PD if k.startswith("T3-T1|h")]
+for k in hkeys:
+    PD[k]["sidak_p"] = round(min(1.0, 1 - (1 - PD[k]["p_two_boot"]) ** len(hkeys)), 4)
+PD["multiplicity"] = {"procedure": "Šidák over the four horizon contrasts (two-sided bootstrap p)",
+                      "min_sidak_p": min(PD[k]["sidak_p"] for k in hkeys)}
+print("  생존 Šidák:", {k: (PD[k]["p_two_boot"], PD[k]["sidak_p"]) for k in hkeys})
 
 va_sig = [k for k in PA if k.startswith(("log_va", "va_pe", "va_pa")) and PA[k]["sig"]]
 va_pos = [k for k in va_sig if (PA[k]["DiD"] or 0) > 0]

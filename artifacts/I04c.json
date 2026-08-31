@@ -703,7 +703,11 @@
           -0.0598,
           0.0468
         ],
-        "sig": false
+        "sig": false,
+        "p_two_boot": 0.7708,
+        "n_T1": 126,
+        "n_T3": 98,
+        "sidak_p": 0.9972
       },
       "T3-T1|h2": {
         "diff": -0.048,
@@ -711,7 +715,11 @@
           -0.1275,
           0.0292
         ],
-        "sig": false
+        "sig": false,
+        "p_two_boot": 0.2082,
+        "n_T1": 108,
+        "n_T3": 86,
+        "sidak_p": 0.6069
       },
       "T3-T1|h3": {
         "diff": -0.0505,
@@ -719,7 +727,11 @@
           -0.1391,
           0.0358
         ],
-        "sig": false
+        "sig": false,
+        "p_two_boot": 0.2482,
+        "n_T1": 94,
+        "n_T3": 73,
+        "sidak_p": 0.6805
       },
       "T3-T1|h4": {
         "diff": -0.136,
@@ -727,7 +739,15 @@
           -0.2563,
           -0.0289
         ],
-        "sig": true
+        "sig": true,
+        "p_two_boot": 0.01,
+        "n_T1": 76,
+        "n_T3": 57,
+        "sidak_p": 0.0394
+      },
+      "multiplicity": {
+        "procedure": "Šidák over the four horizon contrasts (two-sided bootstrap p)",
+        "min_sidak_p": 0.0394
       }
     },
     "labels": {
@@ -745,9 +765,9 @@
   "verdict": "log VA: h+1 0.0778✓ h+2 0.0795✓ h+3 0.0519✗ h+4 0.0634✗ | VA/인원: h+1 -0.0052✗ h+2 -0.003✗ h+3 0.006✗ h+4 0.0213✗ | 등가성 성립 ['log_va|h3', 'va_pe|h1', 'va_pe|h2', 'va_pe|h3', 'va_pe|h4', 'log_rev|h1', 'log_rev|h2', 'alive|h1', 'alive|h2', 'alive|h3'] | 부가가치 혼재: +['log_va|h1', 'log_va|h2'] / −['va_pa|h1', 'va_pa|h3', 'va_pa|h4']",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i04c_valueadded.py",
-  "sha256_16": "9d14728ca1e8278f",
+  "sha256_16": "b9370ba0f96709b9",
   "seed": 42,
-  "runtime_s": 59.3,
+  "runtime_s": 55.7,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24",
   "conclusion": "부가가치 혼재: +['log_va|h1', 'log_va|h2'] / −['va_pa|h1', 'va_pa|h3', 'va_pa|h4']"

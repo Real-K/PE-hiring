@@ -43,3 +43,13 @@ claims V01–V10 in the ledger).
 4. **Adopting the rebuilt experience variable changes Appendix E numbers** (in-sample R² 0.0092→0.0054, permutation p 0.642→0.814; held-out
    difference +0.0101→+0.0287). Conclusions are unchanged; swap the E2/E3 cells when the variable is adopted.
 5. Previous round's pending docx edits remain: Table E4 −0.2261 → −0.2496; §3.2 "gradienct".
+
+## 2026-08-31 (2차) — placeholder 원고 채움에서 발생한 결과 변경·플래그
+
+6. **양측 p 관행 통일**: 원고 §4.3의 선언(중심화·직접계산)에 맞춰 i57/i59/i60/i62/i63/i56/i66 산출물에 `RI_p_two_centered`를 추가(기존 수치·rng 순서 보존, 동일 seed 재실행). 표 3·4·B3·B4·C2의 p는 전부 중심화 값.
+7. **F3(생존) 결론 변경**: 재계산한 Šidák(양측 부트스트랩 p, 4개 지평) 최소 p = **0.0394** — 이전 프로즈의 0.074와 다르며, +48개월 대비는 조정 후에도 검출됨. "does not survive" 문장을 교체했고 절차를 노트에 명시함(`I04c.json:panelD_survival.multiplicity`).
+8. **표 4 Panel A 참조평균 갱신**: lN/lN_ctrlE를 I57 실행으로 통일(관측 0.6315/0.6957 동일, 참조 0.1858/0.0377) — I59와 4째 자리 차이는 위약 재추출 때문.
+9. **B1 문장 교정**: "≥12건 표본, 물량 조건부" 값은 −0.3426(조건부)·+0.0101(무조건) — 기존 프로즈의 0.010은 무조건 값이었음. 두 값을 구분해 기재.
+10. **D2/D6 구현 명시**: 12개월 RR(사전 최대 0.1068, 사후 0.7250 SE 0.1995, M̄ 3.126)·분기(0.1259/0.0711/0.0871, M̄ 0)·평균효과(I11 S4: 사전 최대 0.0154, θ 0.046 SE 0.0105, M̄ 0.658).
+11. **E1–E3 재구축치**: prior-count 조정 기울기 +0.0622 [−0.0665, 0.1820], 상−하 +0.1139 [−0.0461, 0.2947]; 스폰서 분포(1건 108?/2건/≥3건 — I73 참조).
+12. 채움 전수 기록: `FILL_TRACE.csv` (157+ 치환), 검증: 채움 후 원고 소수 토큰 1,050개 전수 산출물 풀 추적(미매칭 = 6자리 지분 기울기 표기 2건·DOI 1건뿐).

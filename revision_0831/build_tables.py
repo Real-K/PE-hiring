@@ -99,7 +99,7 @@ row("Effect of an interquartile move", V("I65","panelF_magnitude.effect_iqr") + 
 row("Untreated reference mean (SD)", V("I70","panelA_gradient.null_mean") + " (" + V("I70","panelA_gradient.null_sd") + ")")
 row("Excess over untreated mean", V("I60","specs.winsor_5_95.excess"))
 row("Standardized distance", V("I70","panelA_gradient.z",2))
-row("Empirical two-sided p", V("I70","panelA_gradient.RI_p_two_sided_2min",4))
+row("Empirical two-sided p", V("I70","panelA_gradient.RI_p_two_sided",4))
 M.append("")
 M.append("**Panel B. Effect of balancing the pre-deal hiring state** — preferred 5/95-winsorised specification, common 286-event sample"); M.append("")
 hdr("Matching design", "Matched gradient")
@@ -119,25 +119,25 @@ note("Panel A: the confidence interval clusters on treated firms (2,000 bootstra
 tab("Table 4. Worker-flow and employment gradients across pre-deal hiring states")
 M.append("**Panel A. Worker-inflow measures**"); M.append("")
 hdr("Outcome", "Gradient", "Untreated reference mean", "Empirical two-sided p", "Events")
-row("Log hiring rate", V("I59","lrate.observed"), V("I59","lrate.null_mean"), V("I59","lrate.p_two",3), N("I59","lrate.n"))
-row("Log worker-entry count", V("I59","lN.observed"), V("I59","lN.null_mean"), V("I59","lN.p_two",3), N("I59","lN.n"))
-row("Log worker-entry count, controlling for Δ log employment", V("I59","lN_ctrlE.observed"), V("I59","lN_ctrlE.null_mean"), V("I59","lN_ctrlE.p_two",3), N("I59","lN_ctrlE.n"))
+row("Log hiring rate", V("I57","panelB_outcomes.hire.observed"), V("I57","panelB_outcomes.hire.null_mean"), V("I57","panelB_outcomes.hire.RI_p_two_centered",4), N("I57","panelB_outcomes.hire.n"))
+row("Log worker-entry count", V("I57","panelB_outcomes.lN.observed"), V("I57","panelB_outcomes.lN.null_mean"), V("I57","panelB_outcomes.lN.RI_p_two_centered",4), N("I57","panelB_outcomes.lN.n"))
+row("Log worker-entry count, controlling for Δ log employment", V("I57","panelB_outcomes.lN_ctrlE.observed"), V("I57","panelB_outcomes.lN_ctrlE.null_mean"), V("I57","panelB_outcomes.lN_ctrlE.RI_p_two_centered",4), N("I57","panelB_outcomes.lN_ctrlE.n"))
 M.append("")
 M.append("**Panel B. Worker flows and employment**"); M.append("")
 hdr("Outcome", "Gradient", "Standardized distance", "Empirical two-sided p", "Events")
-row("Log churn rate", V("I57","panelB_outcomes.churn.observed"), V("I57","panelB_outcomes.churn.z",2), V("I57","panelB_outcomes.churn.RI_p_two_sided",3), N("I57","panelB_outcomes.churn.n"))
-row("Log separation rate", V("I57","panelB_outcomes.sep.observed"), V("I57","panelB_outcomes.sep.z",2), V("I57","panelB_outcomes.sep.RI_p_two_sided",4), N("I57","panelB_outcomes.sep.n"))
-row("Log employment", V("I57","panelB_outcomes.emp.observed",4,signed=True), V("I57","panelB_outcomes.emp.z",2,signed=True), V("I57","panelB_outcomes.emp.RI_p_two_sided",3), N("I57","panelB_outcomes.emp.n"))
+row("Log churn rate", V("I57","panelB_outcomes.churn.observed"), V("I57","panelB_outcomes.churn.z",2), V("I57","panelB_outcomes.churn.RI_p_two_centered",3), N("I57","panelB_outcomes.churn.n"))
+row("Log separation rate", V("I57","panelB_outcomes.sep.observed"), V("I57","panelB_outcomes.sep.z",2), V("I57","panelB_outcomes.sep.RI_p_two_centered",4), N("I57","panelB_outcomes.sep.n"))
+row("Log employment", V("I57","panelB_outcomes.emp.observed",4,signed=True), V("I57","panelB_outcomes.emp.z",2,signed=True), V("I57","panelB_outcomes.emp.RI_p_two_centered",3), N("I57","panelB_outcomes.emp.n"))
 M.append("")
 M.append("**Panel C. Within-event outcome contrasts**"); M.append("")
 hdr("Contrast", "Estimate", "Reference mean / standardized distance", "Empirical two-sided p", "Events")
 row("Hiring − employment", V("I57","panelC_paired.채용 − 고용.observed"),
-    V("I57","panelC_paired.채용 − 고용.null_mean") + " / " + V("I57","panelC_paired.채용 − 고용.z",2), V("I57","panelC_paired.채용 − 고용.RI_p_two_sided",3), N("I57","panelC_paired.채용 − 고용.n"))
+    V("I57","panelC_paired.채용 − 고용.null_mean") + " / " + V("I57","panelC_paired.채용 − 고용.z",2), V("I57","panelC_paired.채용 − 고용.RI_p_two_centered",3), N("I57","panelC_paired.채용 − 고용.n"))
 row("Churn − employment", V("I57","panelC_paired.churn − 고용.observed"),
-    V("I57","panelC_paired.churn − 고용.null_mean",4,signed=True) + " / " + V("I57","panelC_paired.churn − 고용.z",2), V("I57","panelC_paired.churn − 고용.RI_p_two_sided",3), N("I57","panelC_paired.churn − 고용.n"))
+    V("I57","panelC_paired.churn − 고용.null_mean",4,signed=True) + " / " + V("I57","panelC_paired.churn − 고용.z",2), V("I57","panelC_paired.churn − 고용.RI_p_two_centered",3), N("I57","panelC_paired.churn − 고용.n"))
 note("Standardized distance = (observed − untreated reference mean)/reference SD, from the outcome-specific pseudo-event "
-     "distribution; two-sided p = 2·min(upper, lower) empirical tail shares. Panel A holds the design fixed and varies only "
-     "the outcome (denominator check); the reference distributions in Panel A are re-estimated per outcome (I59). "
+     "distribution; two-sided p follows the centred empirical rule used throughout the manuscript. Panel A holds the design fixed and varies only "
+     "the outcome (denominator check); the reference distributions in Panel A are re-estimated per outcome within the same I57 run. "
      "Event counts differ across outcomes because outcome windows must be non-degenerate; the Panel C contrasts are computed "
      "within the same events.")
 

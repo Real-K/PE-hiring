@@ -18,6 +18,8 @@
       "null_mean": 0.101,
       "null_sd": 0.1538,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.0005,
       "z": 3.96,
       "sig": true
     },
@@ -28,6 +30,8 @@
       "null_mean": 0.0753,
       "null_sd": 0.1437,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.0005,
       "z": 4.08,
       "sig": true,
       "recovered": {
@@ -47,6 +51,8 @@
       "null_mean": 0.0433,
       "null_sd": 0.1338,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.0005,
       "z": 4.57,
       "sig": true,
       "recovered": {
@@ -66,6 +72,8 @@
       "null_mean": 0.0589,
       "null_sd": 0.1512,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.0005,
       "z": 3.65,
       "sig": true,
       "recovered": {
@@ -85,6 +93,8 @@
       "null_mean": 0.1712,
       "null_sd": 0.126,
       "RI_p": 0.0005,
+      "RI_p_lower": 1.0,
+      "RI_p_two_centered": 0.001,
       "z": 3.69,
       "sig": true,
       "recovered": {
@@ -104,6 +114,8 @@
       "null_mean": 0.142,
       "null_sd": 0.1262,
       "RI_p": 0.01,
+      "RI_p_lower": 0.9905,
+      "RI_p_two_centered": 0.024,
       "z": 2.29,
       "sig": true,
       "recovered": {
@@ -122,9 +134,9 @@
   "verdict": "탈락 계측: {'state_window': 53, 'emp_lt5': 1, 'no_cell': 17, 'outcome': 22, 'ok': 286}. 기준 n=286 z=3.96. 레버별 z: A 4.08 · A' 4.57 · B 3.65 · C 3.69 · A+B+C 2.29. 최대 z 는 'A' 상태창 ≥6개월' (4.57, n=310).",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i63_sample_expansion.py",
-  "sha256_16": "f40b9f2e89baca27",
+  "sha256_16": "0b1e68cb93e2dfe4",
   "seed": 42,
-  "runtime_s": 88.2,
+  "runtime_s": 66.0,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24"
 }

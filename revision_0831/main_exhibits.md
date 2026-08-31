@@ -65,7 +65,7 @@
 | Untreated reference mean (SD) | 0.1010 (0.1538) |
 | Excess over untreated mean | 0.6091 |
 | Standardized distance | 3.96 |
-| Empirical two-sided p | 0.0010 |
+| Empirical two-sided p | 0.0005 |
 
 **Panel B. Effect of balancing the pre-deal hiring state** — preferred 5/95-winsorised specification, common 286-event sample
 
@@ -89,17 +89,17 @@
 
 | Outcome | Gradient | Untreated reference mean | Empirical two-sided p | Events |
 |---|---|---|---|---|
-| Log hiring rate | 0.7101 | 0.1012 | 0.001 | 286 |
-| Log worker-entry count | 0.6315 | 0.1795 | 0.014 | 286 |
-| Log worker-entry count, controlling for Δ log employment | 0.6957 | 0.0363 | 0.002 | 286 |
+| Log hiring rate | 0.7101 | 0.1006 | 0.0005 | 286 |
+| Log worker-entry count | 0.6315 | 0.1858 | 0.0110 | 286 |
+| Log worker-entry count, controlling for Δ log employment | 0.6957 | 0.0377 | 0.0005 | 286 |
 
 **Panel B. Worker flows and employment**
 
 | Outcome | Gradient | Standardized distance | Empirical two-sided p | Events |
 |---|---|---|---|---|
 | Log churn rate | 0.3816 | 3.08 | 0.002 | 288 |
-| Log separation rate | 0.1788 | 1.17 | 0.2349 | 281 |
-| Log employment | −0.0580 | −2.60 | 0.007 | 289 |
+| Log separation rate | 0.1788 | 1.17 | 0.2384 | 281 |
+| Log employment | −0.0580 | −2.60 | 0.005 | 289 |
 
 **Panel C. Within-event outcome contrasts**
 
@@ -108,7 +108,7 @@
 | Hiring − employment | 0.7536 | 0.0232 / 4.56 | 0.001 | 286 |
 | Churn − employment | 0.4539 | −0.0750 / 4.19 | 0.001 | 288 |
 
-*Notes.* Standardized distance = (observed − untreated reference mean)/reference SD, from the outcome-specific pseudo-event distribution; two-sided p = 2·min(upper, lower) empirical tail shares. Panel A holds the design fixed and varies only the outcome (denominator check); the reference distributions in Panel A are re-estimated per outcome (I59). Event counts differ across outcomes because outcome windows must be non-degenerate; the Panel C contrasts are computed within the same events.
+*Notes.* Standardized distance = (observed − untreated reference mean)/reference SD, from the outcome-specific pseudo-event distribution; two-sided p follows the centred empirical rule used throughout the manuscript. Panel A holds the design fixed and varies only the outcome (denominator check); the reference distributions in Panel A are re-estimated per outcome within the same I57 run. Event counts differ across outcomes because outcome windows must be non-degenerate; the Panel C contrasts are computed within the same events.
 
 ### Table 5. Pre-deal diagnostics for the hiring-state gradient
 

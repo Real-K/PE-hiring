@@ -1,0 +1,96 @@
+{
+  "id": "I-73",
+  "title": "노출가중 분해(표 A2) + E2 조정 경험기울기 (0831 원고)",
+  "status": "GO",
+  "n": 342,
+  "estimates": {
+    "panelA_exposure_decomp": {
+      "dq": {
+        "est": 0.0457,
+        "ci": [
+          0.0263,
+          0.0665
+        ],
+        "n": 346
+      },
+      "diE": {
+        "est": 0.0028,
+        "ci": [
+          -0.0004,
+          0.0064
+        ],
+        "n": 342
+      },
+      "dlq": {
+        "est": 0.1044,
+        "ci": [
+          0.0536,
+          0.1515
+        ],
+        "n": 342
+      },
+      "dliE": {
+        "est": 0.0586,
+        "ci": [
+          0.008,
+          0.1146
+        ],
+        "n": 342
+      },
+      "pre_q": 0.7409,
+      "pre_iE": 0.0539,
+      "extensive_share_log": {
+        "est": 0.6405,
+        "ci": [
+          0.4454,
+          0.9525
+        ],
+        "n": 342
+      }
+    },
+    "panelB_e2_adjusted": {
+      "sponsor_concentration": {
+        "n_gp_total": 206,
+        "n_gp_ge2": 62,
+        "n_eq1": 144,
+        "n_eq2": 29,
+        "n_ge3": 33,
+        "max_deals": 14,
+        "share_events_gp_ge2": 0.618
+      },
+      "slope_log1p_adj": {
+        "slope": 0.0622,
+        "ci": [
+          -0.0665,
+          0.182
+        ],
+        "n": 299
+      },
+      "tercile_cuts": [
+        0.0,
+        1.0
+      ],
+      "hi_lo_adj": {
+        "diff": 0.1139,
+        "ci": [
+          -0.0461,
+          0.2947
+        ],
+        "n_hi": 90,
+        "n_lo": 158
+      },
+      "adjust_set": "사전 상태 S·log 규모·사전 성장·업력·1자리 산업·딜연도 (FWL, x·y 양측 잔차화)",
+      "sponsor_rule": "복수 스폰서는 첫 기재 투자자(gplist 첫 항목)로 귀속"
+    }
+  },
+  "prediction": "0831 원고의 노출가중 분해 항등식과 E2 조정 사양을 정본 표본에서 산출",
+  "verdict": "Δlog q +0.1044 + Δlog i_E +0.0586, 노출비중 기여 0.640 [0.4454, 0.9525] · E2 조정기울기 +0.0622 [-0.0665, 0.182]",
+  "kill_met": false,
+  "code": "P014_upgrade_package/harness30/i73_decomp_e2.py",
+  "sha256_16": "96b6c84df8885782",
+  "seed": 42,
+  "runtime_s": 46.5,
+  "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
+  "date": "2026-08-31",
+  "comment_ref": "Paper+Appendix(w.placeholder).md §A.3·§E.2"
+}

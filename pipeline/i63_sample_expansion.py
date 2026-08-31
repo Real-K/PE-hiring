@@ -133,8 +133,10 @@ def ri(T,P,tag):
         v=grad(d_[:n_t],cuts)
         if v is not None: null.append(v)
     null=np.array(null); p=(int((null>=obs).sum())+1)/(len(null)+1)
+    pl=(int((null<=obs).sum())+1)/(len(null)+1)
+    pc = (int((np.abs(null - null.mean()) >= abs(obs - null.mean())).sum()) + 1) / (len(null) + 1)
     o={"observed":round(obs,4),"n":n_t,"n_placebo":len(P),"null_mean":round(float(null.mean()),4),
-       "null_sd":round(float(null.std()),4),"RI_p":round(float(p),4),
+       "null_sd":round(float(null.std()),4),"RI_p":round(float(p),4),"RI_p_lower":round(float(pl),4),"RI_p_two_centered":round(float(pc),4),
        "z":round(float((obs-null.mean())/null.std()),2),"sig":bool(p<0.05)}
     print(f"  {tag:<38} n={n_t:>3}/{len(P):>4} · obs {o['observed']:>+7.4f} · null {o['null_mean']:>+7.4f}"
           f"(SD {o['null_sd']:.4f}) · z={o['z']:>5.2f} · p {o['RI_p']:.4f} {'✓' if o['sig'] else '✗'}")

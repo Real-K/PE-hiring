@@ -1,3 +1,5 @@
+> **2026-08-31 갱신**: PI의 `Paper+Appendix(w.placeholder).md`는 `revision_0831/fill_manuscript*.py`로 전 placeholder가 채워졌다 (치환 기록 `revision_0831/FILL_TRACE.csv`, 채움본 사본 `paper_exhibits/Paper+Appendix_filled_2026-08-31.md`). 아래 값 중 일부는 그 과정에서 갱신됐다 — 특히 생존 다중성 p(0.074 → 0.0394)와 E1–E3 경험변수 재구축치.
+
 # Placeholders in the submitted manuscript — resolved from the analysis artifacts
 
 Every `[report N]`, `[confirm …]`, `[insert …]` in *Main Paper(PE Hiring).docx* / *Online Appendix.docx*, with the value or definition taken from the artifact that generated the surrounding numbers. Paths are `artifact.json:estimates.…`. One value in the manuscript is stale and must be corrected; see the end.

@@ -126,9 +126,17 @@ def ri(T, P, tag, wins=(5, 95)):
         if v is not None: null.append(v)
     null = np.array(null); sd = float(null.std())
     p_hi = (int((null >= obs).sum())+1)/(len(null)+1); p_lo = (int((null <= obs).sum())+1)/(len(null)+1)
+    pc = (int((np.abs(null - null.mean()) >= abs(obs - null.mean())).sum()) + 1) / (len(null) + 1)
+    rng_b = np.random.default_rng(SEED + 11)
+    bo = []
+    for _ in range(NDRAW):
+        ii = rng_b.integers(0, n_t, n_t)
+        v_b = sl([T[j] for j in ii], cuts)
+        if v_b is not None: bo.append(v_b)
     o = {"observed": round(obs, 4), "n": n_t, "n_placebo": len(P),
          "null_mean": round(float(null.mean()), 4), "null_sd": round(sd, 4), "null_ci": qci(null),
          "p_two_sided": round(float(min(1.0, 2*min(p_hi, p_lo))), 4),
+         "p_two_centered": round(float(pc), 4), "obs_boot_ci": qci(np.array(bo)),
          "p_upper": round(float(p_hi), 4),      # 방향 가설(양의 gradient)용 상단꼬리 p — 본문 §6.2 는 이 값을 쓴다
          "z": round(float((obs-null.mean())/sd), 2), "excess": round(float(obs-null.mean()), 4),
          "sig": bool(min(p_hi, p_lo) < 0.025)}

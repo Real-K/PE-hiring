@@ -15,6 +15,8 @@
         0.4835
       ],
       "RI_p": 0.0725,
+      "RI_p_lower": 0.928,
+      "RI_p_two_centered": 0.1434,
       "sig": false,
       "z": 1.45,
       "excess": 0.2492
@@ -30,6 +32,8 @@
         0.4769
       ],
       "RI_p": 0.0815,
+      "RI_p_lower": 0.919,
+      "RI_p_two_centered": 0.1604,
       "sig": false,
       "z": 1.4,
       "excess": 0.2328
@@ -45,6 +49,8 @@
         0.4942
       ],
       "RI_p": 0.0175,
+      "RI_p_lower": 0.983,
+      "RI_p_two_centered": 0.03,
       "sig": true,
       "z": 2.18,
       "excess": 0.3951
@@ -60,6 +66,8 @@
         0.3805
       ],
       "RI_p": 0.001,
+      "RI_p_lower": 0.9995,
+      "RI_p_two_centered": 0.0015,
       "sig": true,
       "z": 3.15,
       "excess": 0.457
@@ -76,6 +84,8 @@
           0.3935
         ],
         "RI_p": 0.0025,
+        "RI_p_lower": 0.998,
+        "RI_p_two_centered": 0.0025,
         "sig": true,
         "z": 3.0,
         "excess": 0.4515
@@ -91,6 +101,8 @@
           0.3396
         ],
         "RI_p": 0.0115,
+        "RI_p_lower": 0.989,
+        "RI_p_two_centered": 0.0185,
         "sig": true,
         "z": 2.33,
         "excess": 0.3156
@@ -121,6 +133,8 @@
           0.3981
         ],
         "RI_p": 0.003,
+        "RI_p_lower": 0.9975,
+        "RI_p_two_centered": 0.0045,
         "sig": true,
         "z": 3.01,
         "excess": 0.4512
@@ -136,6 +150,8 @@
           0.2896
         ],
         "RI_p": 0.0155,
+        "RI_p_lower": 0.985,
+        "RI_p_two_centered": 0.0185,
         "sig": true,
         "z": 2.28,
         "excess": 0.5558
@@ -153,6 +169,8 @@
           0.3981
         ],
         "RI_p": 0.003,
+        "RI_p_lower": 0.9975,
+        "RI_p_two_centered": 0.0045,
         "sig": true,
         "z": 3.01,
         "excess": 0.4512
@@ -168,6 +186,8 @@
           0.4315
         ],
         "RI_p": 0.001,
+        "RI_p_lower": 0.9995,
+        "RI_p_two_centered": 0.001,
         "sig": true,
         "z": 3.5,
         "excess": 0.5805
@@ -183,6 +203,8 @@
           0.3135
         ],
         "RI_p": 0.0185,
+        "RI_p_lower": 0.982,
+        "RI_p_two_centered": 0.0235,
         "sig": true,
         "z": 2.18,
         "excess": 0.5484
@@ -195,9 +217,9 @@
   "verdict": "설계 교정 4조합: 현행·LOO +0.3834(귀무 +0.1342, RI p 0.0725) · 현행·거울 +0.3834(+0.1505, p 0.0815) · 상태균형·LOO +0.5456(+0.1505, p 0.0175) · **상태균형·거울 +0.5456(+0.0886, p 0.0010)**. 효율: 역분산 가중 +0.3458 (p 0.0155) · 딜연도 추가 +0.6779 (p 0.0010).",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i56_efficiency.py",
-  "sha256_16": "01c68bf9ee8bf16a",
+  "sha256_16": "f8a4af7924f70a30",
   "seed": 42,
-  "runtime_s": 240.4,
+  "runtime_s": 189.3,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24"
 }

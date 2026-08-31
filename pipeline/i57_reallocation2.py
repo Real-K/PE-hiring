@@ -38,7 +38,8 @@ def blk(row, m0, a, b):
     return float(h.sum()), float(s.sum()), float(np.mean(e))
 
 
-OUTS = {"hire":  lambda H, S, E: (np.log(H / E) if H > 0 else None),
+OUTS = {"lN":    lambda H, S, E: (np.log(H) if H > 0 else None),
+        "hire":  lambda H, S, E: (np.log(H / E) if H > 0 else None),
         "sep":   lambda H, S, E: (np.log(S / E) if S > 0 else None),
         "churn": lambda H, S, E: (np.log((H + S) / E) if (H + S) > 0 else None),
         "emp":   lambda H, S, E: np.log(E)}
@@ -136,22 +137,25 @@ def design(rows):
     return np.column_stack(cols)
 
 
-def grad(rows, key, cuts=None):
-    sub = [r for r in rows if np.isfinite(r.get(key, np.nan))]
+def grad(rows, key, cuts=None, extra=None):
+    sub = [r for r in rows if np.isfinite(r.get(key, np.nan))
+           and (extra is None or np.isfinite(r.get(extra, np.nan)))]
     if len(sub) < 30: return None, 0
     y = np.array([r[key] for r in sub]); x = np.array([r["S"] for r in sub])
     if cuts is not None: y = np.clip(y, cuts[0], cuts[1])
     C = design(sub)
+    if extra is not None:
+        C = np.column_stack([C, np.array([r[extra] for r in sub])])
     r_ = lambda v: v - C @ np.linalg.lstsq(C, v, rcond=None)[0]
     yr, xr = r_(y), r_(x); d = float(np.sum(xr * xr))
     return (float(np.sum(xr * yr) / d) if d > 0 else None), len(sub)
 
 
-def ri2(key, tag, two_sided=True):
+def ri2(key, tag, two_sided=True, extra=None):
     sub = [r for r in T if np.isfinite(r.get(key, np.nan))]
     if len(sub) < 30: print(f"  {tag}: 표본 부족"); return None
     cuts = tuple(np.percentile([r[key] for r in sub], [5, 95]))
-    obs, n_t = grad(T, key, cuts)
+    obs, n_t = grad(T, key, cuts, extra)
     cells = sorted({r["g"] for r in P}); byg = {c: [r for r in P if r["g"] == c] for c in cells}
     null = []
     for _ in range(NDRAW):
@@ -159,16 +163,18 @@ def ri2(key, tag, two_sided=True):
         for i in rng.permutation(len(cells)):
             d_ += byg[cells[i]]
             if len(d_) >= n_t: break
-        v_, _ = grad(d_[:n_t], key, cuts)
+        v_, _ = grad(d_[:n_t], key, cuts, extra)
         if v_ is not None: null.append(v_)
     null = np.array(null)
     pu = (int((null >= obs).sum()) + 1) / (len(null) + 1)
     pl = (int((null <= obs).sum()) + 1) / (len(null) + 1)
     p2 = min(1.0, 2 * min(pu, pl))
+    pc = (int((np.abs(null - null.mean()) >= abs(obs - null.mean())).sum()) + 1) / (len(null) + 1)
     out = {"observed": round(obs, 4), "n": n_t, "null_mean": round(float(null.mean()), 4),
            "null_sd": round(float(null.std()), 4), "null_ci": qci(null),
            "RI_p_upper": round(float(pu), 4), "RI_p_lower": round(float(pl), 4),
            "RI_p_two_sided": round(float(p2), 4),
+           "RI_p_two_centered": round(float(pc), 4),
            "z": round(float((obs - null.mean()) / null.std()), 2),
            "excess": round(float(obs - null.mean()), 4),
            "sig": bool((p2 if two_sided else pu) < 0.05)}
@@ -193,6 +199,10 @@ for a, b, tag in (("hire", "emp", "채용 − 고용"), ("hire", "sep", "채용 
         r[f"{a}_{b}"] = (r[a] - r[b]) if (np.isfinite(r.get(a, np.nan))
                                           and np.isfinite(r.get(b, np.nan))) else np.nan
     PC[tag] = ri2(f"{a}_{b}", tag)
+
+print("\n[Panel B+] 채용건수 결과 — Table 4 Panel A 정본 (분모 점검)")
+PB["lN"] = ri2("lN", "Δlog 채용건수")
+PB["lN_ctrlE"] = ri2("lN", "Δlog 채용건수 | Δlog고용 통제", extra="emp")
 
 print("\n[Panel A] hazard 삼중교호 — 확정 상태지표")
 PA = {}
@@ -219,6 +229,7 @@ try:
     D = pd.DataFrame(rows, columns=["ev", "tr", "post", "hi", "S", "k", "n"])
     D = D.groupby(["ev", "tr", "post", "hi", "S"], as_index=False)[["k", "n"]].sum()
     print(f"  셀 {len(D)} (grouped binomial)")
+    n_ev_h = int(D["ev"].nunique()); n_fm_h = 12 * len(rows)
     for tag, col in (("연속 S", "S"), ("상위3분위", "hi")):
         X = pd.get_dummies(D["ev"].astype("category"), drop_first=True, dtype=float).to_numpy()
         base = np.column_stack([D["tr"], D["post"], D["tr"] * D["post"],
@@ -234,7 +245,7 @@ try:
                    "HR_ci": [round(float(np.exp(b_ - 1.96 * se_)), 4),
                              round(float(np.exp(b_ + 1.96 * se_)), 4)],
                    "z": round(b_ / se_, 2), "sig": bool(abs(b_ / se_) > 1.96),
-                   "n_cells": int(len(D))}
+                   "n_cells": int(len(D)), "n_ev": n_ev_h, "n_firm_months": n_fm_h}
         print(f"  {tag:<12} treated×post×S {b_:>+7.4f} (SE {se_:.4f}) HR {PA[tag]['HR']:.4f} "
               f"{PA[tag]['HR_ci']} z={PA[tag]['z']} {'✓' if PA[tag]['sig'] else '✗'}")
         del Xf, X, base; gc.collect()
@@ -258,4 +269,6 @@ emit("I-57", "두 번째 추정량(hazard) + 재배치 쌍대비",
      {"panelA_hazard_triple": PA, "panelB_outcomes": PB, "panelC_paired": PC,
       "n_treated": len(T), "n_placebo": len(P), "n_draws": NDRAW},
      "방법론이 다른 두 번째 추정량이 같은 답을 주는가 · 재배치가 쌍대비에서 지지되는가",
-     verdict, kill_met=False, n=len(T))
+     verdict, kill_met=False, n=len(T),
+     extra={"date": "2026-08-31",
+            "patch_note": "0831: +중심화 양측 p(RI_p_two_centered), +lN/lN_ctrlE, +hazard n_ev/n_firm_months — 기존 추정치·rng 순서 보존"})

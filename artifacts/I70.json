@@ -4541,6 +4541,14 @@
       }
     },
     "panelC_balance286": {
+      "zsh12": {
+        "label": "무채용월 비중(−12~−1)",
+        "treated_mean": 0.2625,
+        "control_mean": 0.2928,
+        "nd": -0.1101,
+        "n_treated": 286,
+        "n_controls": 1253
+      },
       "lsize": {
         "label": "log 고용(−12~−1 평균)",
         "treated_mean": 4.4418,
@@ -4595,9 +4603,9 @@
   "verdict": "기울기 +0.7101 재현 · 실제 2000 draws 경험 95% [-0.1835,+0.4082] · p_two 0.0005 · 286 균형 |ND| 최대 0.1676",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i70_fig_balance.py",
-  "sha256_16": "3314a845d55becbd",
+  "sha256_16": "69b7bacfddcddfab",
   "seed": 42,
-  "runtime_s": 27.7,
+  "runtime_s": 27.0,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-31",
   "comment_ref": "PE Hiring 0831_comment.md Part4 §6–7, Part3 §9"

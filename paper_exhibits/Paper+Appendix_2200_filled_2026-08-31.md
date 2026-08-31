@@ -1425,17 +1425,17 @@ The not-yet-treated design does not resolve the selection problem faced by the m
 
 We next examine ownership transitions that do not involve private equity. Among firms never observed as private equity targets, we identify changes in the largest recorded shareholder and exclude incoming holders whose names indicate a financial sponsor. The private equity and non-private-equity events are processed using annual event timing and a common control pool that excludes firms undergoing any identified ownership change.
 
-Labour outcomes move little around these non-private-equity ownership transitions. The estimated no-entry outcome is 0.0050 [−0.0066, 0.0176], while the employment-level estimate is 0.002 [-0.017, 0.025].
+Labour outcomes move little around these non-private-equity ownership transitions. The estimated no-entry outcome is 0.0050 [−0.0066, 0.0176], while the employment-level estimate is +0.0054 [−0.0069, 0.0184] ($n=1{,}188$).
 
 ### Table G3. Labour outcomes around non-private-equity ownership changes
 
 | Outcome | Estimate | 95% CI |
 |---|---:|---:|
 | No-entry outcome | 0.0050 | [−0.0066, 0.0176] |
-| Employment level | 0.002 | [−0.017, 0.025] |
+| Employment level | +0.0054 | [−0.0069, 0.0184] |
 | Slope with transferred ownership stake | −0.000008 per percentage point | [−0.0006, 0.0006] |
 
-*Notes.* Ownership changes are identified from annual shareholder records among firms never observed as private equity targets. Incoming holders whose names indicate a financial sponsor are excluded. The comparison uses annual event timing and a common control pool excluding firms with an identified ownership change. The transferred-stake slope uses the transferred common-share percentage recorded in the shareholder register, pooled across the 798 non-private-equity ownership-change events.
+*Notes.* Ownership changes are identified from annual shareholder records among firms never observed as private equity targets. Incoming holders whose names indicate a financial sponsor are excluded. The comparison uses annual event timing and a common control pool excluding firms with an identified ownership change. The transferred-stake slope uses the transferred common-share percentage recorded in the shareholder register, pooled across the 798 non-private-equity ownership-change events. The no-entry and employment rows use 1,191 and 1,188 ownership-change events, respectively.
 
 The estimated no-entry and employment changes are both close to zero in this sample. The slope with the transferred ownership stake is also close to zero at $-0.000008$ per percentage point [−0.0006, 0.0006] ($n=798$).
 

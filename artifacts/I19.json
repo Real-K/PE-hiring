@@ -92,6 +92,15 @@
         ]
       }
     },
+    "panelF_own_employment": {
+      "DiD": 0.0054,
+      "ci": [
+        -0.0069,
+        0.0184
+      ],
+      "n": 1188,
+      "outcome": "Δlog 창평균 고용 (−12..−1 → +1..+12), 처치−대조"
+    },
     "panelC_inertia_moderator": {
       "PE(연간)": {
         "T1": {
@@ -215,9 +224,9 @@
   "verdict": "PE(연간) -0.0335[-0.0543, -0.0118]✓ vs OWN 0.005[-0.0066, 0.0176]✗ | PE−OWN -0.0385[-0.0637, -0.0136]✓ 등가성 미성립 | T3−T1: PE -0.0764 vs OWN 0.0017✗ | PE_SPEC: OWN 무효과 + PE−OWN 유의 — **PE 고유** 메커니즘",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i19_succession.py",
-  "sha256_16": "6abc4b895b41058a",
+  "sha256_16": "1fa4aa747b08c73b",
   "seed": 42,
-  "runtime_s": 58.7,
+  "runtime_s": 59.5,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24",
   "prespecified_verdict": "GENERIC: OWN 효과가 PE 와 등가(δ=0.046) & OWN 에서도 T3−T1 유의 | PE_SPEC: OWN 무유의 & PE−OWN 차이 유의 | PARTIAL: 그 외",

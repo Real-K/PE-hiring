@@ -217,8 +217,25 @@ verdict = (f"PE(연간) {PB['PE(연간)']['DiD']}{PB['PE(연간)']['ci']}{'✓' 
            f"PE−OWN {PD['diff']}{PD['ci']}{'✓' if PD['sig'] else '✗'} 등가성 {'성립' if eq else '미성립'} | "
            f"T3−T1: PE {PC['PE(연간)'].get('T3-T1',{}).get('diff')} vs OWN "
            f"{PC['OWN'].get('T3-T1',{}).get('diff')}{'✓' if own_mod else '✗'} | {pre}: {concl}")
+# ── 0831 추가: OWN 표본 고용수준 DiD (Δlog 창평균 고용) — 별도 seed, 기존 rng 순서 보존 ──
+_rng19 = np.random.default_rng(SEED + 19)
+def _demp(row, m0):
+    a = widx(G, m0, -12, -1); b = widx(G, m0, 1, 12)
+    if len(a) != 12 or len(b) != 12: return np.nan
+    ea, eb = Ev[row, a].astype(float), Ev[row, b].astype(float)
+    if not (np.isfinite(ea).all() and np.isfinite(eb).all()) or ea.mean() < 5 or eb.mean() <= 0: return np.nan
+    return float(np.log(eb.mean() / ea.mean()))
+_t, _c = [], []
+for e in EV_OW:
+    v = _demp(e["ti"], e["m0"])
+    cs = [_demp(k, e["m0"]) for k in e["ctrls"]]; cs = [x for x in cs if np.isfinite(x)]
+    if np.isfinite(v) and cs: _t.append(v); _c.append(float(np.mean(cs)))
+_p, _ci, _n = boot_did_ci(_t, _c, _rng19)
+PF_EMP = {"DiD": _p, "ci": _ci, "n": _n, "outcome": "Δlog 창평균 고용 (−12..−1 → +1..+12), 처치−대조"}
+print(f"  [추가] OWN 고용수준 DiD {_p} {_ci} (n={_n})")
+
 emit("I-19", "비-PE 지배구조 변화 대조 (최대주주 변경)", status,
-     {"panelA_samples": PA, "panelB_by_type": PB, "panelC_inertia_moderator": PC,
+     {"panelA_samples": PA, "panelB_by_type": PB, "panelF_own_employment": PF_EMP, "panelC_inertia_moderator": PC,
       "panelD_pe_minus_own": PD, "tercile_cuts": [round(float(Q1), 4), round(float(Q2), 4)],
       "own_universe": {"all_changes": int(len(CHG)), "nonPE": int(len(CHG[~CHG.bn10.isin(PE)])),
                        "after_PEpattern_filter": int(len(OWN)), "firms": int(OWN.bn10.nunique()),

@@ -40,9 +40,9 @@ a1.annotate(f"observed {PA['observed']:+.3f}", xy=(PA["observed"], ytop * .48), 
 a1.annotate(f"untreated mean {PA['null_mean']:+.3f}", xy=(PA["null_mean"], ytop * 1.06), xytext=(3, 0),
             textcoords="offset points", fontsize=7.8, color="0.3", ha="left", va="center")
 a1.annotate(f"empirical central 95%\n[{PA['pct_2_5']:+.3f}, {PA['pct_97_5']:+.3f}]",
-            xy=(PA["pct_97_5"], ytop * .72), xytext=(5, 0), textcoords="offset points",
-            fontsize=7.8, color="0.35", ha="left", va="center")
-a1.text(.02, .88, f"standardized distance = {PA['z']}\nupper-tail $p$ = {PA['RI_p_upper']:.4f}\ntwo-sided $p$ = {PA['RI_p_two_sided_2min']:.3f}",
+            xy=(PA["pct_97_5"], ytop * .55), xytext=(-5, 0), textcoords="offset points",
+            fontsize=7.8, color="0.35", ha="right", va="center")
+a1.text(.02, .88, f"standardized distance = {PA['z']}\ntwo-sided $p$ = {PA['RI_p_two_sided']:.4f}\n(upper-tail $p$ = {PA['RI_p_upper']:.4f})",
         transform=a1.transAxes, ha="left", va="top", fontsize=8.6, color="#8a1b2e")
 a1.text(.02, .60, f"{len(d):,} pseudo-sample gradients\nfrom {PA['n_pseudo']:,} untreated pseudo-events",
         transform=a1.transAxes, ha="left", va="top", fontsize=7.6, color="0.42")
@@ -50,7 +50,7 @@ a1.set_yticks([]); a1.set_xlabel("State gradient in the log hiring rate")
 a1.set_title("(b) Observed gradient relative to untreated pseudo-events", fontsize=10.5, loc="left")
 
 for a in ax: a.spines[["top", "right"]].set_visible(False)
-fig.suptitle("Figure 1. The pre-deal hiring state and post-investment hiring responses",
+fig.suptitle("Figure 1. Hiring responses across pre-deal hiring states",
              fontsize=10.6, y=1.005, x=.008, ha="left")
 fig.text(.008, -0.075,
          "Notes. Panel (a) plots the event-level treated-minus-control change in the log hiring rate against the target's pre-deal hiring state in the 286-event primary sample;\n"

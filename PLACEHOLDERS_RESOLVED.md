@@ -68,6 +68,20 @@ Source: `I04c.json:estimates.panelA_value_added.<outcome>|h<k>.{DiD,ci,n}`. Reve
 
 - `I17.json:estimates.panelB_variance`: sponsor fixed-effect share 0.2875 (manuscript 28.8%), permutation median 0.2571 (25.7%), permutation p 0.2605 (0.26).
 
+## Table B1 — design clarification required in the note (0.5650 vs Table 3's 0.7101)
+
+The two numbers come from different estimators, verified against the analysis code; neither needs recomputation, but the B1 note must say which design B1 uses.
+
+- **B1, adjusted hiring-rate slope 0.5650 [0.210, 0.968]** = `I47.json:estimates.panelA_fwl_adjusted.neg_log_rate.slope_adj_fwl` (`i47_state_final.py`, n = 301). Design: the **conventional matched sample** (state *not* in the exact-matching cell), event-level slope of the treated-minus-control change in the log hiring rate on the state, with log pre-deal employment, pre-deal employment growth, age, and one-digit industry partialled out of **both** state and outcome (Frisch–Waugh–Lovell); the outcome is **unwinsorised**; treated-firm bootstrap CI.
+- **Table 3, primary gradient 0.7101 [0.3187, 1.1254]**: the **state-balanced primary estimator** — 286 events, hiring-state tercile inside the exact-matching cell, outcome winsorised 5/95, randomization-inference placebo distribution.
+- The gap is expected and is documented by the manuscript itself: on the common 286-event sample, conventional matching gives 0.4698 vs 0.7101 state-balanced (Table 3, Panel B) — the difference comes from the control path.
+
+**Sentence to add to the Table B1 note (verified fill of the referee's template):**
+
+> These specifications compare alternative pre-deal state measures on the conventional matched sample of 301 events, using event-level slopes with the pre-deal covariates partialled out of both the state and the outcome and an unwinsorised outcome; they are not intended to reproduce the state-balanced primary estimator of Table 3, which winsorises the outcome at 5/95 and places the hiring-state tercile inside the exact-matching cell on the 286-event primary sample.
+
+Short version if space is tight: "Estimates use the conventional matched sample (301 events; state not exact-matched) with an unwinsorised outcome, and are not intended to reproduce the state-balanced primary estimator of Table 3."
+
 ## Value that must be corrected in the .docx
 
 1. **Table E4 'Covariate-adjusted response −0.2261' → −0.2496.** The covariate-adjusted leave-one-out coefficient in the artifact is `I45.json:estimates.panelE_gp_loo_robustness.loo_on_adjusted_residual` = −0.2496 (run 2026-08-25, final covariate set: pre-deal hiring state S, log size, pre-deal growth, age, one-digit industry, deal year — the same set as Table E3's 'adjusted' rows). The −0.2261 in the manuscript is the value from an earlier run with the pre-I47 covariate set, carried over from internal ledger prose; no artifact contains it. The other four E4 rows (−0.2675, −0.2659, −0.2387, −0.1751) match the artifact. The E.4 prose sentence 'computing it on the covariate-adjusted residual gives −0.2261' must change likewise. The confirmatory re-run of `i45_power_invariance.py` is recorded in `artifacts/I45_rerun_check.json`.

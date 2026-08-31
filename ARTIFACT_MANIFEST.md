@@ -12,7 +12,7 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I04c.json` | `3da40abb54aabe7a` | 14,694 | `i04c_valueadded.py` | Main Table 1, OA Table F1, OA Table F2 |
 | `I05.json` | `d2fefac444fa5209` | 3,918 | `i05_exit_reversal.py` | OA Table G1 |
 | `I05a.json` | `55fced24357fb7c3` | 1,500 | `i05a_exit_refine.py` | — |
-| `I06.json` | `27038f2628daacaa` | 6,699 | `i06_notyet_anatomy.py` | OA Table G2 |
+| `I06.json` | `e3ab9d85608cd420` | 6,699 | `i06_notyet_anatomy.py` | OA Table G2 |
 | `I11.json` | `93e2d0fb8ebfb26c` | 3,999 | `i11_honestdid.py` | OA Table D4 |
 | `I14.json` | `6b8f8f3cba88c4ac` | 7,095 | `i14_shareholder_dose.py` | OA Table D2 |
 | `I15.json` | `0d9f102eb6cafa73` | 3,862 | `i15_fund_pressure.py` | — |
@@ -31,7 +31,7 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I35.json` | `c9f1c40df4def371` | 4,747 | `i35_canonical.py` | Main Table 1, Main Table 2, OA Table A2 |
 | `I36.json` | `9d23770592a7a7de` | 6,579 | `i36_regression_table.py` | Main Table 1, OA Table D2, OA Table H1 |
 | `I37.json` | `951d1151ed939593` | 2,685 | `i37_balance.py` | Main Table 1 |
-| `I38.json` | `424a138113200850` | 4,321 | `i38_excess_zeros.py` | Main Table 6, OA Table A1 |
+| `I38.json` | `a686510cf9a628b3` | 4,902 | `i38_excess_zeros.py` | Main Table 6, OA Table A1 |
 | `I39.json` | `23d61216468e66e1` | 4,206 | `i39_spell_benchmark.py` | OA Table A1, OA Table G3 |
 | `I40.json` | `cf1157fa0119ef38` | 4,085 | `i40_salvage.py` | Main Table 1, OA Table A1 |
 | `I41.json` | `b06cc9df9d81cea7` | 3,307 | `i41_moderator_defense.py` | OA Table B2 |
@@ -72,5 +72,6 @@ Aggregate result files in `artifacts/`; `Feeds` lists the submitted-manuscript t
 | `I70.json` | `076f13d9cdd89fea` | 72,159 | `i70_fig_balance.py` | — |
 | `I71.json` | `87b7c4243d38e410` | 3,337 | `i71_gp_prior.py` | — |
 | `I72.json` | `92a98304ef2c0539` | 2,338 | `i72_fin_het.py` | — |
-| `I73.json` | `5130e3209ece8556` | 2,285 | `i73_decomp_e2.py` | — |
+| `I73.json` | `f1df12f8836a7482` | 2,437 | `i73_decomp_e2.py` | — |
+| `I74.json` | `fec834f83cb7c4de` | 2,507 | `i74_g18_gap.py` | — |
 | `h41_causal_gap.json` | `31b201a9dd5b8680` | 13,913 | `` | — |

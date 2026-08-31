@@ -56,7 +56,12 @@
         "n_eq2": 29,
         "n_ge3": 33,
         "max_deals": 14,
-        "share_events_gp_ge2": 0.618
+        "share_events_gp_ge2": 0.618,
+        "loo_universe": {
+          "n_gp_301sample": 164,
+          "n_repeat_gp_301sample": 54,
+          "n_events_repeat_301sample": 189
+        }
       },
       "slope_log1p_adj": {
         "slope": 0.0622,
@@ -87,9 +92,9 @@
   "verdict": "Δlog q +0.1044 + Δlog i_E +0.0586, 노출비중 기여 0.640 [0.4454, 0.9525] · E2 조정기울기 +0.0622 [-0.0665, 0.182]",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i73_decomp_e2.py",
-  "sha256_16": "96b6c84df8885782",
+  "sha256_16": "f34963a0a37f2162",
   "seed": 42,
-  "runtime_s": 46.5,
+  "runtime_s": 61.2,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-31",
   "comment_ref": "Paper+Appendix(w.placeholder).md §A.3·§E.2"

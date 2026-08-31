@@ -119,6 +119,21 @@ d1 = np.array([e["t"]["exc_u"] - e["c"]["exc_u"] for e in EV
                if e["pb"] == 0 and "exc_u" in e["t"] and "exc_u" in e["c"]], float)
 d3 = np.array([e["t"]["exc_u"] - e["c"]["exc_u"] for e in EV
                if e["pb"] == 2 and "exc_u" in e["t"] and "exc_u" in e["c"]], float)
+# 0831 추가: 고용가중 벤치마크 기준 상태별 초과분 (기존 exc_u 결과·rng 순서 보존을 위해 뒤에 붙인다)
+PCW = {}
+for b, bl in ((0, "T1 저관성"), (2, "T3 고관성")):
+    sub = [e for e in EV if e["pb"] == b]
+    PCW[bl] = {"excess": D(sub, "exc_w", f"{bl} ★초과(가중)")}
+dw1 = np.array([e["t"]["exc_w"] - e["c"]["exc_w"] for e in EV
+                if e["pb"] == 0 and "exc_w" in e["t"] and "exc_w" in e["c"]], float)
+dw3 = np.array([e["t"]["exc_w"] - e["c"]["exc_w"] for e in EV
+                if e["pb"] == 2 and "exc_w" in e["t"] and "exc_w" in e["c"]], float)
+_rngw = np.random.default_rng(SEED + 13)
+_bw = np.array([dw3[_rngw.integers(0, len(dw3), len(dw3))].mean()
+                - dw1[_rngw.integers(0, len(dw1), len(dw1))].mean() for _ in range(NB)])
+PCW["T3_T1_excess"] = {"diff": round(float(dw3.mean() - dw1.mean()), 4), "ci": qci(_bw),
+                       "sig": bool(qci(_bw)[0] > 0 or qci(_bw)[1] < 0)}
+print(f"  [가중] T3−T1 초과 {PCW['T3_T1_excess']['diff']:+.4f} {PCW['T3_T1_excess']['ci']}")
 d1, d3 = d1[np.isfinite(d1)], d3[np.isfinite(d3)]
 bs = np.array([d3[rng.integers(0, len(d3), len(d3))].mean()
                - d1[rng.integers(0, len(d1), len(d1))].mean() for _ in range(NB)])
@@ -145,7 +160,7 @@ verdict = (f"실제 {PA['actual']['DiD']} vs 기대(균등) {PA['expected_unifor
            f"최장spell {PB['maxspell']['DiD']}{'✓' if PB['maxspell']['sig'] else '✗'} | "
            f"총채용 {PA['total_hires']['DiD']} | {concl}")
 emit("I-38", "빈도의 기계성 검정 (리뷰 Major Comment 1)", status,
-     {"panelA_excess": PA, "panelB_spell_concentration": PB, "panelC_by_inertia": PC,
+     {"panelA_excess": PA, "panelB_spell_concentration": PB, "panelC_by_inertia": PC, "panelC_by_inertia_wgt": PCW,
       "benchmark": "E[zero months] = 12·(11/12)^N (균등) 또는 Σ(1−w_j)^N (고용가중). "
                    "총채용 N 을 고정하므로 초과분은 시간적 집중도만 측정한다."},
      "총채용을 고정한 무작위배분 벤치마크 대비 초과 무채용이 줄면 빈도 효과는 기계적이지 않다",

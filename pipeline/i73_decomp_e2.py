@@ -126,7 +126,16 @@ from collections import Counter
 cnt_gp = Counter(g2 for g2, _ in evgp)
 ge2 = {g2 for g2, c2 in cnt_gp.items() if c2 >= 2}
 PB2_extra = {"n_gp_total": len(cnt_gp), "n_gp_ge2": len(ge2),
+             "n_eq1": sum(1 for c2 in cnt_gp.values() if c2 == 1),
+             "n_eq2": sum(1 for c2 in cnt_gp.values() if c2 == 2),
+             "n_ge3": sum(1 for c2 in cnt_gp.values() if c2 >= 3),
+             "max_deals": max(cnt_gp.values()),
              "share_events_gp_ge2": round(sum(1 for g2, _ in evgp if g2 in ge2) / len(evgp), 4)}
+cnt_U = Counter(e["gp"] for e in U if e.get("gp"))
+geU = {g2 for g2, c2 in cnt_U.items() if c2 >= 2}
+PB2_extra["loo_universe"] = {"n_gp_301sample": len(cnt_U),
+                             "n_repeat_gp_301sample": len(geU),
+                             "n_events_repeat_301sample": int(sum(c2 for g2, c2 in cnt_U.items() if g2 in geU))}
 PB2 = {"sponsor_concentration": PB2_extra, "slope_log1p_adj": {"slope": round(b0, 4), "ci": qci(np.array(bo)), "n": len(idxm)},
        "tercile_cuts": cuts,
        "hi_lo_adj": {"diff": round(d0, 4), "ci": qci(bo2), "n_hi": int(hi_m.sum()),

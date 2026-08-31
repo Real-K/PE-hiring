@@ -299,7 +299,7 @@
   "code": "P014_upgrade_package/harness30/i06_notyet_anatomy.py",
   "sha256_16": "bc5afc71a85d3d8f",
   "seed": 42,
-  "runtime_s": 23.5,
+  "runtime_s": 21.5,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-08-24",
   "conclusion": "붕괴는 통계적으로 확립되지 않음 — '유의성 상실'과 '효과 변화'를 구별해 서술"

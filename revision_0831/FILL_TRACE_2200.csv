@@ -1,0 +1,102 @@
+tag,old,new
+M.link,"[placeholder: report the number of direct business-registration-number links, manually reviewed name","Of the 379 matched events, 283 link directly by business registration number and 96 enter through th"
+M.dist,[placeholder: state the exact distance scaling and any growth clipping used in the final estimation ,"The neighbour distance is $((\Delta\log\text{employment})/0.9)^2+((\Delta\text{growth})/0.35)^2$, wi"
+M.den,let $E_i^{state}$ denote [placeholder: exact employment denominator used in the estimation code],let $E_i^{state}$ denote mean insured employment over the same twelve state-window months
+M.logn,The log-hiring restriction removes [placeholder: retain exact count only if final code confirms the ,The log-hiring restriction removes three events that record zero worker entries in one of the outcom
+M.rule,"[placeholder: state the exact finite-simulation centred two-sided tail rule used in the final code, ","The reported probability equals $(1+\#\{b:|g_b-\bar g|\ge|g^{obs}-\bar g|\})/(B+1)$ over the $B=2{,}"
+M.fig1a,[placeholder: insert the exact binning or display rule used for Panel (a).],Events are displayed in added-variable form: the primary covariates are partialled out of both axes 
+M.pool,"Panel (b) plots the empirical distribution of 2,000 gradients drawn from the pool of 1,246 untreated","Panel (b) plots the empirical distribution of 2,000 gradients drawn from the pool of 1,205 untreated"
+A.sim,we simulate the corresponding multinomial allocation 60 times for each firm-window. [placeholder: re,we simulate the corresponding multinomial allocation 100 times for each firm-window under a fixed se
+A.wj,the allocation probabilities follow [placeholder: confirm the final code uses employment-exposure we,the allocation probabilities follow the employment-exposure weights $w_j$
+A.rule2,the reported benchmark uses [placeholder: confirm final allocation rule in the code],the reported benchmark uses the employment-exposure-weighted allocation
+A.split,"Under the original state-specific volume allocation, the corresponding excess changes are 0.0058 [-0","Under the equal-month allocation, the corresponding excess changes are 0.0058 [−0.0249, 0.0350] and "
+A2.dq,"| Change in active-month employment-exposure share, $\Delta q$ | [placeholder] | [placeholder] |","| Change in active-month employment-exposure share, $\Delta q$ | +0.0457 | [0.0263, 0.0665] ($n=346$"
+A2.diE,"| Change in active-month worker-entry intensity, $\Delta i_E$ | [placeholder] | [placeholder] |","| Change in active-month worker-entry intensity, $\Delta i_E$ | +0.0028 | [−0.0004, 0.0064] ($n=342$"
+A2.dlq,"| Change in log active-month employment-exposure share, $\Delta\log q$ | [placeholder] | [placeholde","| Change in log active-month employment-exposure share, $\Delta\log q$ | +0.1044 | [0.0536, 0.1515] "
+A2.dliE,"| Change in log active-month worker-entry intensity, $\Delta\log i_E$ | [placeholder] | [placeholder","| Change in log active-month worker-entry intensity, $\Delta\log i_E$ | +0.0586 | [0.0080, 0.1146] ("
+A2.pre,The pre-deal means are $q=[placeholder]$ and $i_E=[placeholder]$.,The pre-deal means are $q=0.7409$ and $i_E=0.0539$.
+A2.report,[placeholder: report the exposure-based decomposition after recomputation.],"Both components increase: $\Delta\log q$ is +0.1044 [0.0536, 0.1515] and $\Delta\log i_E$ is +0.0586"
+B2.r1,"| Hiring state, controlling for pre-deal employment growth | 0.410 | [0.078, 0.753] | [placeholder] ","| Hiring state, controlling for pre-deal employment growth | 0.4099 | [0.0778, 0.7534] | 256 |"
+B2.r2,"| Historical share of no-entry months | 0.559 | [0.241, 0.885] | [placeholder] |","| Historical share of no-entry months | 0.5590 | [0.2408, 0.8853] | 301 |"
+B2.r3,"| Length of hiring pause in progress at closing | 0.040 | [-0.016, 0.107] | [placeholder] |","| Length of hiring pause in progress at closing | 0.0403 | [−0.0156, 0.1073] | 301 |"
+B2.r4,"| Residualised hiring state | 0.243 | [-0.221, 0.723] | [placeholder] |","| Residualised hiring state | 0.2433 | [−0.2213, 0.7226] | 301 |"
+B2.r5,"| Earlier hiring state, months $-36$ to $-25$ | 0.268 | [placeholder: 95% CI] | [placeholder] |","| Earlier hiring state, months $-36$ to $-25$ | 0.2675 | [−0.0819, 0.6127] | 238 |"
+B2.r6,| Joint specification: historical no-entry share | 0.536 | [placeholder: 95% CI] | [placeholder] |,"| Joint specification: historical no-entry share | 0.5363 | [0.2123, 0.8815] | 301 |"
+B2.r7,| Joint specification: pause duration | 0.032 | [placeholder: 95% CI] | [placeholder] |,"| Joint specification: pause duration | 0.0317 | [−0.0228, 0.0895] | 301 |"
+B2.p,giving an excess of 0.127 and a standardized distance of 0.92. [placeholder: report the two-sided em,giving an excess of 0.127 and a standardized distance of 0.92; the two-sided empirical probability f
+B3.hdr,| Specification | Gradient | Untreated reference mean (SD) | Standardized distance | Empirical two-s,| Specification | Gradient | Untreated reference mean (SD) | Standardized distance | Empirical two-s
+B3.Unwinsorised,| Unwinsorised | 0.837 | 0.122 (0.181) | 3.96 | [placeholder] |,| Unwinsorised | 0.8370 | 0.1216 (0.1808) | 3.96 | 0.0005 | 286 |
+B3.Winsorised 1,| Winsorised 1/99 | 0.816 | 0.114 (0.171) | 4.10 | [placeholder] |,| Winsorised 1/99 | 0.8157 | 0.1141 (0.1712) | 4.10 | 0.0010 | 286 |
+B3.Winsorised 1,| Winsorised 10/90 | 0.634 | 0.096 (0.136) | 3.96 | [placeholder] |,| Winsorised 10/90 | 0.6339 | 0.0959 (0.1359) | 3.96 | 0.0005 | 286 |
+B3.Inverse hype,| Inverse hyperbolic sine of hiring rate | 0.206 | 0.026 (0.059) | 3.08 | [placeholder] |,| Inverse hyperbolic sine of hiring rate | 0.2062 | 0.0259 (0.0586) | 3.08 | 0.0015 | 289 |
+B3.$\log(1+\tex,| $\log(1+\text{hiring rate})$ | 0.162 | 0.017 (0.045) | 3.24 | [placeholder] |,| $\log(1+\text{hiring rate})$ | 0.1623 | 0.0167 (0.0449) | 3.24 | 0.0020 | 289 |
+B3.ppml.row,"| PPML worker-entry count with log employment offset | 0.104 | [-0.319, 0.526] |","| PPML worker-entry count with log employment offset | 0.1038 | [−0.3185, 0.5261] |"
+B3.ppml.note,[placeholder: populate the revised two-sided probabilities for the non-primary rows.] The PPML speci,The PPML specification is estimated at the firm-window level on the pooled treated and matched-contr
+B3.prose1,"The unwinsorised estimate is 0.837, compared with 0.710 under the 5/95 specification. Winsorising at","The unwinsorised estimate is 0.8370, compared with 0.7101 under the 5/95 specification. Winsorising "
+B3.prose2,"The inverse-hyperbolic-sine specification gives 0.206, while $\log(1+\text{hiring rate})$ gives 0.16","The inverse-hyperbolic-sine specification gives 0.2062, while $\log(1+\text{hiring rate})$ gives 0.1"
+B3.prose3,"The PPML coefficient is 0.104 [-0.319, 0.526].","The PPML coefficient is 0.1038 [−0.3185, 0.5261]."
+B4.Primary: exa,"| Primary: exact state tercile, 5 controls | 286 | 0.710 | 3.96 | 0.0005 |","| Primary: exact state tercile, 5 controls | 286 | 0.7101 | 3.96 | 0.0005 |"
+B4.Exact state ,"| Exact state tercile, 20 controls | 286 | 0.678 | 4.12 | [placeholder] |","| Exact state tercile, 20 controls | 286 | 0.6778 | 4.12 | 0.0010 |"
+B4.State includ,"| State included in neighbour distance, 5 controls | 299 | 0.640 | 3.54 | [placeholder] |","| State included in neighbour distance, 5 controls | 299 | 0.6400 | 3.54 | 0.0015 |"
+B4.At least 6 o,| At least 6 of 12 state months observed | 310 | 0.655 | 4.57 | [placeholder] |,| At least 6 of 12 state months observed | 310 | 0.6545 | 4.57 | 0.0005 |
+B4.Two state bi,| Two state bins rather than three | 292 | 0.610 | 3.65 | [placeholder] |,| Two state bins rather than three | 292 | 0.6101 | 3.65 | 0.0005 |
+B4.One-digit ra,| One-digit rather than two-digit industry cell | 299 | 0.636 | 3.69 | [placeholder] |,| One-digit rather than two-digit industry cell | 299 | 0.6361 | 3.69 | 0.0010 |
+B4.State measur,| State measured over months $-36$ to $-13$ | 244 | 0.388 | 2.33 | [placeholder] |,| State measured over months $-36$ to $-13$ | 244 | 0.3883 | 2.33 | 0.0185 |
+B4.Inverse-vari,| Inverse-variance weighting | 286 | 0.346 | 2.28 | [placeholder] |,| Inverse-variance weighting | 286 | 0.3458 | 2.28 | 0.0185 |
+B4.Add deal-yea,| Add deal-year fixed effects | 286 | 0.678 | 3.50 | [placeholder] |,| Add deal-year fixed effects | 286 | 0.6779 | 3.50 | 0.0010 |
+B4.note,The inverse-variance weights are defined as [placeholder: exact variance estimator] and normalised [,The inverse-variance weights are defined as the inverse of the event-level sampling-variance proxy $
+C1.arise,discrepancies can arise because [placeholder: exact NPS stock and flow reporting convention and timi,discrepancies can arise because the stock is the month-end count of insured workers while entries an
+C1.rden,{[\text{placeholder: exact employment denominator used in the code}]},"{E_{i,t-1}}"
+C1.note,Relative discrepancies divide $|d_{it}|$ by [placeholder: exact denominator]. Employment is measured,"Relative discrepancies divide $|d_{it}|$ by the prior-month insured-employment stock $E_{i,t-1}$ (mo"
+C2.formula,"[\text{placeholder: exact code definition}],","\max\{0,\,(E_{it}-E_{i,t-1})+Exit_{it}\},"
+C2.rules,"with negative implied flows treated as [placeholder], missing or non-consecutive months treated as [","with negative implied flows set to zero, missing or non-consecutive months invalidating the window, "
+C2.r2,| Exclude relative discrepancy $>10\%$ | [placeholder] | 0.312 | [placeholder] | [placeholder] |,"| Exclude relative discrepancy $>10\%$ | 288 | 0.3118 | [−0.0784, 0.7155] | - |"
+C2.r3,| Exclude relative discrepancy $>5\%$ | [placeholder] | 0.544 | [placeholder] | [placeholder] |,"| Exclude relative discrepancy $>5\%$ | 231 | 0.5441 | [−0.1059, 1.1829] | - |"
+C2.r4,"| Exclude total turnover $>50\%$ of employment | [placeholder] | 0.488 | [0.102, 0.850] | [placehold","| Exclude total turnover $>50\%$ of employment | 300 | 0.4883 | [0.1017, 0.8502] | - |"
+C2.r5,"| Exclude treated firms with workplace-count changes | [placeholder] | 0.557 | [0.160, 0.930] | [pla","| Exclude treated firms with workplace-count changes | 299 | 0.5571 | [0.1596, 0.9299] | - |"
+C2.r6,| Reconstructed worker inflows | [placeholder] | 0.365 | [placeholder] | [placeholder] |,| Reconstructed worker inflows | 288 | 0.3650 | - | 0.0230 |
+C2.notes,exceed 50 percent of [placeholder: exact denominator]. The workplace-count specification removes tre,exceed 50 percent of the same month's insured-employment stock. The workplace-count specification re
+C2.note2,Event counts and intervals for the discrepancy and reconstructed-flow specifications should be popul,The discrepancy and workplace rows use the conventional matched sample with regression adjustment an
+C2.prose,The reconstructed-flow gradient is 0.365 [placeholder: 95% CI].,The reconstructed-flow gradient is 0.365 (two-sided empirical $p$ = 0.0230 against its own untreated
+C4.row,| Worker-entry gradient - separation gradient | 0.5746 | 0.043 | [placeholder] |,| Worker-entry gradient - separation gradient | 0.5746 | 0.0415 | 279 |
+C4.note,which uses [placeholder: exact primary baseline and post-period construction],which uses the change in the log of window-mean insured employment between months $-12$ through $-1$
+D2.impl,we map [placeholder: exact coefficient sequence] into the relative-magnitude restriction. The pre-pe,we map the pre- and post-investment state gradients estimated on the same 283 events into the relati
+D2.note,[placeholder: provide the exact event-time coefficient sequence and implementation details for each ,"Twelve-month row: pre-period maximum 0.1068, post-period estimate 0.7250 (SE 0.1995). Quarterly row:"
+D3.vintage,"when an exact close month is unavailable, [placeholder: confirm the rule assigning timing within the","when an exact close month is unavailable, the mid-year of the fund's vintage year is used as the clo"
+D3.one,| Each control assigned to at most one event | 0.7036 | [placeholder] |,| Each control assigned to at most one event | 0.7036 | - (deterministic reassignment; interval not 
+D3.note,The primary bootstrap resamples [placeholder: exact treated-event and matched-set implementation]. T,"The primary bootstrap resamples the 286 matched target-control sets with replacement, so each treate"
+D6.seq,the event-time outcome sequence is [placeholder: exact construction]. We implement the Rambachan-Rot,the event-time outcome sequence is the quarterly treated-minus-control hiring-rate path (pre-period 
+E2.perm,The permutation probabilities in Panel A are based on [placeholder: exact number and implementation ,"The permutation probabilities in Panel A are based on 2,000 random permutations of the transaction-c"
+E3.rep,The baseline leave-one-out coefficient is -0.2675 across 189 event observations. [placeholder: repor,"The baseline leave-one-out coefficient is -0.2675 across 189 event observations, which represent 54 "
+E3.rep2,[placeholder: report the number of distinct sponsor identifiers represented in this repeat-deal subs,The repeat-deal subset spans 54 distinct sponsor identifiers.
+E3.panelB,Panel B is estimated on [placeholder: exact event and sponsor sample used for the fixed-effect varia,Panel B is estimated on the 213 events with an attached sponsor identifier and at least one same-spo
+F1.formula,[\text{placeholder: exact formula used in the estimation code}].,\frac{(A_i^{post}-A_i^{pre})/\Delta E_i}{A_i^{pre}/E_i^{pre}}.
+F1.windows,"The construction uses [placeholder: exact payroll window], [placeholder: exact employment-change win",The construction uses total reported NPS contribution-base payroll summed over months $-12$ through 
+F1.note,The payroll-based added-employment measure is defined as [placeholder: exact formula].,The payroll-based added-employment measure is the change in window-total payroll divided by the chan
+F3.h1,| +12 months | [placeholder] | [placeholder] | [placeholder] | [placeholder] |,"| +12 months | −0.0072 | [−0.0598, 0.0468] | 0.9972 | 224 |"
+F3.h2,| +24 months | [placeholder] | [placeholder] | [placeholder] | [placeholder] |,"| +24 months | −0.0480 | [−0.1275, 0.0292] | 0.6069 | 194 |"
+F3.h3,| +36 months | [placeholder] | [placeholder] | [placeholder] | [placeholder] |,"| +36 months | −0.0505 | [−0.1391, 0.0358] | 0.6805 | 167 |"
+F3.h4,"| +48 months | -0.1360 | [-0.2563, -0.0289] | **0.0394** | [placeholder] |","| +48 months | −0.1360 | [−0.2563, −0.0289] | **0.0394** | 133 |"
+F3.orient,The state is oriented so that [placeholder: state the exact scaling or group contrast used in this p,The contrast compares top-tercile (lowest pre-deal hiring) with bottom-tercile targets in their trea
+F3.mult,account for the four horizon comparisons using [placeholder: exact multiplicity-adjustment procedure,account for the four horizon comparisons using the Šidák correction applied to two-sided bootstrap p
+F3.earlier,"The earlier-horizon contrasts are [placeholder: report the +12-, +24-, and +36-month estimates, conf","The earlier-horizon contrasts are −0.0072 [−0.0598, 0.0468] (adjusted $p$ = 0.997, $n=224$) at +12 m"
+G2.panelA,"| Original treated sample and future-treated controls | [placeholder] | [placeholder] | 186 |
+| Expa","| Original treated sample and future-treated controls | +0.0411 | [−0.0113, 0.0921] | 186 |
+| Expand"
+G2.panelB,| Original treated sample and future-treated controls | [placeholder] | [placeholder] | [placeholder,"| Original treated sample and future-treated controls | +0.0453 | [−0.0062, 0.0946] | 186 |
+| Expand"
+G2.rule,The original and expanded samples differ according to [placeholder: exact expansion rule].,The original sample uses treated events linked to the NPS register by business registration number; 
+G2.gaps,"[placeholder: report the 18-, 24-, and 36-month minimum-future-treatment-gap sensitivity analyses if","Gap sensitivity ($P1$, expanded sample): −0.0631 [−0.1254, −0.0003] with an 18-month gap ($n=272$), "
+G2.prose,"the corresponding comparison is [placeholder: estimate, confidence interval, and interpretation]. Fo","the corresponding comparison is positive but not detected in the expanded sample, at +0.0342 [−0.007"
+G3.row,| Slope with transferred ownership stake | -0.000008 per percentage point | [placeholder] |,"| Slope with transferred ownership stake | −0.000008 per percentage point | [−0.0006, 0.0006] |"
+G3.def,The transferred-stake slope uses [placeholder: exact transferred-ownership definition and eligible s,The transferred-stake slope uses the transferred common-share percentage recorded in the shareholder
+G3.prose,close to zero at $-0.000008$ per percentage point [placeholder: 95% CI],"close to zero at $-0.000008$ per percentage point [−0.0006, 0.0006] ($n=798$)"
+G3.sub,subgroup ph,supplementary panel
+G4.n1,"| +1 year | 0.0215 | [-0.0024, 0.0483] | [placeholder] |","| +1 year | 0.0215 | [−0.0024, 0.0483] | 154 |"
+G4.n2,"| +2 years | 0.0179 | [-0.0108, 0.0494] | [placeholder] |","| +2 years | 0.0179 | [−0.0108, 0.0494] | 122 |"
+G4.terc,Cash-change terciles use [placeholder: exact post-deal horizon and construction].,Cash-change terciles use the treated-minus-control change in cash over assets between the fiscal yea
+H1.dur,The duration categories are [placeholder: exact duration-bucket cutoffs]. A positive-entry month res,"The duration categories are $d=1$, $2$, $3$, $4\text{-}5$, $6\text{-}11$, and $\ge 12$ months, with "
+H1.cat,enters through fixed effects for [placeholder: exact duration categories],"enters through fixed effects for the categories $d=1$, $2$, $3$, $4\text{-}5$, $6\text{-}11$, and $\"
+H2.assign,The state variable used in the hazard analysis is [placeholder: state whether the target’s state is ,"The state variable used in the hazard analysis is the treated target's continuous pre-deal state, as"
+H2.meta,"The state-balanced continuous specification uses 1,199 grouped cells. [placeholder: report its event","The state-balanced continuous specification uses 308 events, 1,199 grouped cells, and 38,652 firm-mo"
+H2.def,The state variable used in the continuous interaction is [placeholder: exact definition and scaling],The state variable used in the continuous interaction is the treated target's pre-deal state $S_i=-\

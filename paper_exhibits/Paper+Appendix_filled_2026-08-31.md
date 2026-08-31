@@ -1233,7 +1233,7 @@ We separately examine whether responses in different observed transactions by th
 
 This is a leave-one-out within-sponsor association rather than a temporal forecasting exercise. The comparison set can include sponsor transactions that occur after the focal event, so the statistic should not be interpreted as information that would have been available at the focal transaction date.
 
-The baseline leave-one-out coefficient is -0.2675 across 189 event observations. The relevant transaction universe contains 164 sponsor identifiers, with repeat-deal information concentrated among a relatively small subset. Of the 206 sponsors, 144 appear with exactly one transaction, 29 with two, and 33 with three or more; the most active sponsor contributes 14 transactions.
+The baseline leave-one-out coefficient is -0.2675 across 189 event observations. The relevant transaction universe contains 164 sponsor identifiers, with repeat-deal information concentrated among a relatively small subset. Across the full treated universe, 206 sponsor identifiers appear: 144 with exactly one transaction, 29 with two, and 33 with three or more, with the most active sponsor contributing 14 transactions; the 164 identifiers referenced above are those present in the 301-event analysis sample used for the leave-one-out exercise.
 
 ### Table E3. Repeat-deal associations within sponsors
 

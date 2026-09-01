@@ -1,0 +1,205 @@
+{
+  "id": "I-75",
+  "title": "stacked matched panel DiD / event-study (comment did.md)",
+  "status": "GO",
+  "n": 286,
+  "estimates": {
+    "panelA_did": {
+      "treat_post": {
+        "coef": 0.005422,
+        "se": 0.001362,
+        "ci": [
+          0.002752,
+          0.008092
+        ],
+        "t": 3.98,
+        "label": "β1 Treat×Post (월별 채용률)"
+      },
+      "treat_post_S": {
+        "coef": 0.017935,
+        "se": 0.00735,
+        "ci": [
+          0.003529,
+          0.032341
+        ],
+        "t": 2.44,
+        "label": "β2 Treat×Post×S (관심계수)"
+      },
+      "treat_post_in_S_model": {
+        "coef": 0.011815,
+        "se": 0.002454,
+        "ci": [
+          0.007005,
+          0.016625
+        ],
+        "t": 4.81,
+        "label": "β1 (S 모형 내)"
+      }
+    },
+    "panelB_es_level": {
+      "q-4": {
+        "coef": 0.000452,
+        "se": 0.002279,
+        "ci": [
+          -0.004015,
+          0.004919
+        ],
+        "t": 0.2,
+        "label": "Treat×q-4"
+      },
+      "q-3": {
+        "coef": -0.000363,
+        "se": 0.002129,
+        "ci": [
+          -0.004535,
+          0.003809
+        ],
+        "t": -0.17,
+        "label": "Treat×q-3"
+      },
+      "q-2": {
+        "coef": -0.001194,
+        "se": 0.002015,
+        "ci": [
+          -0.005143,
+          0.002755
+        ],
+        "t": -0.59,
+        "label": "Treat×q-2"
+      },
+      "q1": {
+        "coef": 0.006757,
+        "se": 0.002254,
+        "ci": [
+          0.002339,
+          0.011174
+        ],
+        "t": 3.0,
+        "label": "Treat×q1"
+      },
+      "q2": {
+        "coef": 0.003297,
+        "se": 0.002225,
+        "ci": [
+          -0.001064,
+          0.007657
+        ],
+        "t": 1.48,
+        "label": "Treat×q2"
+      },
+      "q3": {
+        "coef": 0.006638,
+        "se": 0.002308,
+        "ci": [
+          0.002116,
+          0.011161
+        ],
+        "t": 2.88,
+        "label": "Treat×q3"
+      },
+      "q4": {
+        "coef": 0.003881,
+        "se": 0.002162,
+        "ci": [
+          -0.000357,
+          0.008119
+        ],
+        "t": 1.79,
+        "label": "Treat×q4"
+      }
+    },
+    "panelC_es_state": {
+      "q-4": {
+        "coef": -0.001799,
+        "se": 0.014518,
+        "ci": [
+          -0.030254,
+          0.026655
+        ],
+        "t": -0.12,
+        "label": "Treat×q-4×S"
+      },
+      "q-3": {
+        "coef": -0.003787,
+        "se": 0.011463,
+        "ci": [
+          -0.026254,
+          0.018681
+        ],
+        "t": -0.33,
+        "label": "Treat×q-3×S"
+      },
+      "q-2": {
+        "coef": -0.001861,
+        "se": 0.013417,
+        "ci": [
+          -0.028159,
+          0.024436
+        ],
+        "t": -0.14,
+        "label": "Treat×q-2×S"
+      },
+      "q1": {
+        "coef": 0.003781,
+        "se": 0.012398,
+        "ci": [
+          -0.02052,
+          0.028082
+        ],
+        "t": 0.3,
+        "label": "Treat×q1×S"
+      },
+      "q2": {
+        "coef": 0.01022,
+        "se": 0.010527,
+        "ci": [
+          -0.010412,
+          0.030852
+        ],
+        "t": 0.97,
+        "label": "Treat×q2×S"
+      },
+      "q3": {
+        "coef": 0.026004,
+        "se": 0.01151,
+        "ci": [
+          0.003444,
+          0.048564
+        ],
+        "t": 2.26,
+        "label": "Treat×q3×S"
+      },
+      "q4": {
+        "coef": 0.024537,
+        "se": 0.0102,
+        "ci": [
+          0.004544,
+          0.04453
+        ],
+        "t": 2.41,
+        "label": "Treat×q4×S"
+      }
+    },
+    "design": {
+      "outcome": "월별 채용률 H/E (비변환)",
+      "fe": "unit(event×firm) + calendar month (교대투영)",
+      "S": "처치 target 의 연속 상태를 매칭 세트 전체에 부여",
+      "cluster": "event",
+      "ref": "q−1 기준",
+      "n_rows": 36913,
+      "n_units": 1545,
+      "n_events": 286,
+      "n_cal_months": 115
+    }
+  },
+  "prediction": "동일 매칭 구조의 패널 DiD/event-study 에서도 상태 이질성(β2>0)과 무사전추세가 보이는가",
+  "verdict": "β1 +0.00542 (t 3.98) · β2 +0.01793 (t 2.44) · 사전 분기 |t|<1.96: level True · state True",
+  "kill_met": false,
+  "code": "P014_upgrade_package/harness30/i75_stacked_did.py",
+  "sha256_16": "fe4b16beaa5db010",
+  "seed": 42,
+  "runtime_s": 55.7,
+  "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
+  "date": "2026-09-02",
+  "comment_ref": "paper_v4/submission/comment/did.md"
+}

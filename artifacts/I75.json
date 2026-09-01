@@ -26,13 +26,13 @@
         "label": "β2 Treat×Post×S (관심계수)"
       },
       "treat_post_in_S_model": {
-        "coef": 0.011815,
-        "se": 0.002454,
+        "coef": 0.005506,
+        "se": 0.001341,
         "ci": [
-          0.007005,
-          0.016625
+          0.002878,
+          0.008134
         ],
-        "t": 4.81,
+        "t": 4.11,
         "label": "β1 (S 모형 내)"
       }
     },
@@ -180,7 +180,422 @@
         "label": "Treat×q4×S"
       }
     },
+    "panelD_outcomes": {
+      "rate": {
+        "beta1": {
+          "coef": 0.005506,
+          "se": 0.001341,
+          "ci": [
+            0.002878,
+            0.008134
+          ],
+          "t": 4.11,
+          "label": "Treat×Post"
+        },
+        "beta2": {
+          "coef": 0.017935,
+          "se": 0.00735,
+          "ci": [
+            0.003529,
+            0.032341
+          ],
+          "t": 2.44,
+          "label": "Treat×Post×S"
+        },
+        "n_rows": 36913
+      },
+      "log1p_rate": {
+        "beta1": {
+          "coef": 0.005194,
+          "se": 0.001224,
+          "ci": [
+            0.002795,
+            0.007592
+          ],
+          "t": 4.24,
+          "label": "Treat×Post"
+        },
+        "beta2": {
+          "coef": 0.016084,
+          "se": 0.006561,
+          "ci": [
+            0.003225,
+            0.028944
+          ],
+          "t": 2.45,
+          "label": "Treat×Post×S"
+        },
+        "n_rows": 36913
+      },
+      "any_entry": {
+        "beta1": {
+          "coef": 0.070176,
+          "se": 0.011482,
+          "ci": [
+            0.047671,
+            0.092682
+          ],
+          "t": 6.11,
+          "label": "Treat×Post"
+        },
+        "beta2": {
+          "coef": 0.123293,
+          "se": 0.052813,
+          "ci": [
+            0.019779,
+            0.226806
+          ],
+          "t": 2.33,
+          "label": "Treat×Post×S"
+        },
+        "n_rows": 36913
+      },
+      "sep_rate": {
+        "beta1": {
+          "coef": -6e-06,
+          "se": 0.001412,
+          "ci": [
+            -0.002772,
+            0.002761
+          ],
+          "t": -0.0,
+          "label": "Treat×Post"
+        },
+        "beta2": {
+          "coef": 0.002291,
+          "se": 0.008928,
+          "ci": [
+            -0.015209,
+            0.019791
+          ],
+          "t": 0.26,
+          "label": "Treat×Post×S"
+        },
+        "n_rows": 36913
+      },
+      "churn_rate": {
+        "beta1": {
+          "coef": 0.005501,
+          "se": 0.00219,
+          "ci": [
+            0.001209,
+            0.009792
+          ],
+          "t": 2.51,
+          "label": "Treat×Post"
+        },
+        "beta2": {
+          "coef": 0.020226,
+          "se": 0.012502,
+          "ci": [
+            -0.004278,
+            0.044731
+          ],
+          "t": 1.62,
+          "label": "Treat×Post×S"
+        },
+        "n_rows": 36913
+      }
+    },
+    "panelE_state_forms": {
+      "continuous": {
+        "coef": 0.017935,
+        "se": 0.00735,
+        "ci": [
+          0.003529,
+          0.032341
+        ],
+        "t": 2.44,
+        "label": "β2 Treat×Post×S (관심계수)"
+      },
+      "per_sd": {
+        "coef": 0.003905,
+        "se": 0.0016,
+        "ci": [
+          0.000768,
+          0.007041
+        ],
+        "t": 2.44,
+        "label": "β2×SD(S)"
+      },
+      "per_iqr": {
+        "coef": -0.005064,
+        "se": -0.002075,
+        "ci": [
+          -0.000996,
+          -0.009131
+        ],
+        "t": 2.44,
+        "label": "β2×IQR(S)"
+      },
+      "S_sd": 0.2177,
+      "S_iqr": -0.2823,
+      "tercile_T3_vs_rest": {
+        "coef": -0.000623,
+        "se": 0.002456,
+        "ci": [
+          -0.005436,
+          0.00419
+        ],
+        "t": -0.25,
+        "label": "Treat×Post×1(T3)"
+      },
+      "median_split": {
+        "coef": 0.00252,
+        "se": 0.00271,
+        "ci": [
+          -0.002791,
+          0.007831
+        ],
+        "t": 0.93,
+        "label": "Treat×Post×1(S>med)"
+      }
+    },
+    "panelF_design_compare": {
+      "conventional_301": {
+        "beta1": {
+          "coef": 0.00536,
+          "se": 0.001299,
+          "ci": [
+            0.002815,
+            0.007905
+          ],
+          "t": 4.13,
+          "label": "β1"
+        },
+        "beta2": {
+          "coef": 0.016142,
+          "se": 0.006749,
+          "ci": [
+            0.002914,
+            0.029369
+          ],
+          "t": 2.39,
+          "label": "β2"
+        },
+        "n_rows": 40510,
+        "n_events": 301
+      },
+      "balanced_286": {
+        "beta1": {
+          "coef": 0.005506,
+          "se": 0.001341,
+          "ci": [
+            0.002878,
+            0.008134
+          ],
+          "t": 4.11,
+          "label": "β1 (S 모형 내)"
+        },
+        "beta2": {
+          "coef": 0.017935,
+          "se": 0.00735,
+          "ci": [
+            0.003529,
+            0.032341
+          ],
+          "t": 2.44,
+          "label": "β2 Treat×Post×S (관심계수)"
+        }
+      }
+    },
+    "panelG_variants": {
+      "fe_unit_eventtime": {
+        "coef": 0.017744,
+        "se": 0.00731,
+        "ci": [
+          0.003417,
+          0.032072
+        ],
+        "t": 2.43,
+        "label": "unit+event-time FE"
+      },
+      "cluster_unit": {
+        "coef": 0.017935,
+        "se": 0.008161,
+        "ci": [
+          0.001939,
+          0.033931
+        ],
+        "t": 2.2,
+        "label": "unit 클러스터"
+      },
+      "event_equal_weight": {
+        "coef": 0.022785,
+        "se": 0.009347,
+        "ci": [
+          0.004465,
+          0.041105
+        ],
+        "t": 2.44,
+        "label": "이벤트 동일가중(사후 FE 가중)"
+      }
+    },
+    "panelH_magnitudes": {
+      "pre_mean_treated_rate": 0.03557,
+      "annualised_beta1": 0.0651,
+      "beta1_pct_of_pre_mean": 15.2,
+      "beta2_iqr_annualised": -0.0608,
+      "beta2_iqr_pct_of_pre_mean": -14.2,
+      "pretrend_wald_level": {
+        "chi2_3": 0.55,
+        "p": 0.9078
+      },
+      "pretrend_wald_state": {
+        "chi2_3": 0.112,
+        "p": 0.9904
+      }
+    },
+    "panelI_es_bystate": {
+      "T3_low_hiring": {
+        "q-4": {
+          "coef": 0.000953,
+          "se": 0.003178,
+          "ci": [
+            -0.005276,
+            0.007183
+          ],
+          "t": 0.3,
+          "label": "T3_low_hiring q-4"
+        },
+        "q-3": {
+          "coef": 0.001261,
+          "se": 0.003665,
+          "ci": [
+            -0.005923,
+            0.008445
+          ],
+          "t": 0.34,
+          "label": "T3_low_hiring q-3"
+        },
+        "q-2": {
+          "coef": -0.0002,
+          "se": 0.002744,
+          "ci": [
+            -0.005579,
+            0.005179
+          ],
+          "t": -0.07,
+          "label": "T3_low_hiring q-2"
+        },
+        "q1": {
+          "coef": 0.008494,
+          "se": 0.00336,
+          "ci": [
+            0.001909,
+            0.015079
+          ],
+          "t": 2.53,
+          "label": "T3_low_hiring q1"
+        },
+        "q2": {
+          "coef": 0.003704,
+          "se": 0.003229,
+          "ci": [
+            -0.002625,
+            0.010033
+          ],
+          "t": 1.15,
+          "label": "T3_low_hiring q2"
+        },
+        "q3": {
+          "coef": 0.006003,
+          "se": 0.002911,
+          "ci": [
+            0.000297,
+            0.011709
+          ],
+          "t": 2.06,
+          "label": "T3_low_hiring q3"
+        },
+        "q4": {
+          "coef": 0.004115,
+          "se": 0.003342,
+          "ci": [
+            -0.002436,
+            0.010666
+          ],
+          "t": 1.23,
+          "label": "T3_low_hiring q4"
+        },
+        "n_events": 95
+      },
+      "T1_high_hiring": {
+        "q-4": {
+          "coef": -3.9e-05,
+          "se": 0.005222,
+          "ci": [
+            -0.010275,
+            0.010197
+          ],
+          "t": -0.01,
+          "label": "T1_high_hiring q-4"
+        },
+        "q-3": {
+          "coef": 8e-05,
+          "se": 0.004627,
+          "ci": [
+            -0.00899,
+            0.00915
+          ],
+          "t": 0.02,
+          "label": "T1_high_hiring q-3"
+        },
+        "q-2": {
+          "coef": -0.001405,
+          "se": 0.004704,
+          "ci": [
+            -0.010625,
+            0.007814
+          ],
+          "t": -0.3,
+          "label": "T1_high_hiring q-2"
+        },
+        "q1": {
+          "coef": 0.004826,
+          "se": 0.004889,
+          "ci": [
+            -0.004756,
+            0.014409
+          ],
+          "t": 0.99,
+          "label": "T1_high_hiring q1"
+        },
+        "q2": {
+          "coef": -7.8e-05,
+          "se": 0.004702,
+          "ci": [
+            -0.009294,
+            0.009138
+          ],
+          "t": -0.02,
+          "label": "T1_high_hiring q2"
+        },
+        "q3": {
+          "coef": 7.3e-05,
+          "se": 0.00493,
+          "ci": [
+            -0.00959,
+            0.009735
+          ],
+          "t": 0.01,
+          "label": "T1_high_hiring q3"
+        },
+        "q4": {
+          "coef": -0.002205,
+          "se": 0.004337,
+          "ci": [
+            -0.010705,
+            0.006296
+          ],
+          "t": -0.51,
+          "label": "T1_high_hiring q4"
+        },
+        "n_events": 95
+      }
+    },
     "design": {
+      "S_centering": -0.3517,
       "outcome": "월별 채용률 H/E (비변환)",
       "fe": "unit(event×firm) + calendar month (교대투영)",
       "S": "처치 target 의 연속 상태를 매칭 세트 전체에 부여",
@@ -196,9 +611,9 @@
   "verdict": "β1 +0.00542 (t 3.98) · β2 +0.01793 (t 2.44) · 사전 분기 |t|<1.96: level True · state True",
   "kill_met": false,
   "code": "P014_upgrade_package/harness30/i75_stacked_did.py",
-  "sha256_16": "fe4b16beaa5db010",
+  "sha256_16": "fd882b59d1182d42",
   "seed": 42,
-  "runtime_s": 55.7,
+  "runtime_s": 96.0,
   "treated_sample": "p014_treated_sample_v2_expanded.csv (752/379)",
   "date": "2026-09-02",
   "comment_ref": "paper_v4/submission/comment/did.md"
